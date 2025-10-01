@@ -27,11 +27,11 @@ bot.start((ctx) => {
 // Opción 1
 bot.hears(/^(1|1️⃣|Planilla)/i, async (ctx) => {
   await ctx.reply('1.1 Localiza tu carrera:', listaCarrerasInline);
-  if (content.links?.propuestas) {
-    await ctx.reply('1.1.2 Conoce las propuestas:', Markup.inlineKeyboard([
-      [Markup.button.url('Ver propuestas', content.links.propuestas)]
-    ]));
-  }
+  // if (content.links?.propuestas) {
+  //   await ctx.reply('1.1.2 Conoce las propuestas:', Markup.inlineKeyboard([
+  //     [Markup.button.url('Ver propuestas', content.links.propuestas)]
+  //   ]));
+  // }
 });
 
 // Opción 2
