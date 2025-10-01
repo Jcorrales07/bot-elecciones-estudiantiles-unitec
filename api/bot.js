@@ -5,7 +5,7 @@ import fs from 'fs';
 const BOT_TOKEN = process.env.BOT_TOKEN;
 if (!BOT_TOKEN) console.error('Falta BOT_TOKEN');
 
-const content = JSON.parse(fs.readFileSync('./content.json', 'utf8'));
+const content = JSON.parse(fs.readFileSync('../content.json', 'utf8'));
 const bot = new Telegraf(BOT_TOKEN);
 
 const MENU_PRINCIPAL = Markup.keyboard([
