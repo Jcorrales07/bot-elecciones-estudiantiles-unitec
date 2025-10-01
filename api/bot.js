@@ -1,6 +1,8 @@
 // api/bot.js
 import { Telegraf, Markup } from 'telegraf';
-import content from '../content.json' assert { type: 'json' }; // ← IMPORTA JSON
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);           // ✅ permite require en ESM
+const content = require('./content.json');                // ✅ carga JSON sin assert
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 if (!BOT_TOKEN) console.error('Falta BOT_TOKEN');
@@ -37,7 +39,7 @@ bot.hears(/^(2|2️⃣|Información de candidatos)/i, async (ctx) => {
   await ctx.reply('2.1 Localiza tu carrera:', listaCarrerasInline);
 });
 
-// Opción 3 (fechas)
+// Opción 3
 bot.hears(/^(3|3️⃣|Fechas)/i, async (ctx) => {
   if (content.fechas_img) {
     await ctx.replyWithPhoto({ url: content.fechas_img }, { caption: 'Fechas clave del proceso electoral' });
@@ -46,13 +48,13 @@ bot.hears(/^(3|3️⃣|Fechas)/i, async (ctx) => {
   }
 });
 
-// Opción 4 (reglas)
+// Opción 4
 bot.hears(/^(4|4️⃣|Reglas)/i, async (ctx) => {
   const reglas = (content.reglas || []).map((r, i) => `${i + 1}. ${r}`).join('\n');
   await ctx.reply(`Reglas para ejercer tu voto:\n\n${reglas || 'Aún no hay reglas cargadas.'}`);
 });
 
-// Opción 5 (link consultas)
+// Opción 5
 bot.hears(/^(5|5️⃣|Link de consultas)/i, async (ctx) => {
   if (content.links?.consultas) {
     await ctx.reply(
@@ -75,7 +77,6 @@ bot.action(/carrera:(.+)/, async (ctx) => {
     [Markup.button.callback('👤 Ver candidatos', `candidatos:${id}`)],
     [Markup.button.url('🔗 Ver propuestas', carrera.propuestas_url || content.links?.propuestas || 'https://google.com')]
   ]);
-
   await ctx.editMessageText(`Carrera: ${carrera.nombre}\nElige una opción:`, keyboard);
 });
 
@@ -123,16 +124,14 @@ bot.action(/candidatos:(.+)/, async (ctx) => {
   await ctx.answerCbQuery('Candidatos mostrados');
 });
 
-// Handler Serverless Vercel
+// Webhook handler
+const telegrafCallback = bot.webhookCallback('/api/bot');
 export default async function handler(req, res) {
-  if (req.method === 'POST') {
-    try {
-      await bot.handleUpdate(req.body);
-      return res.status(200).end();
-    } catch (e) {
-      console.error(e);
-      return res.status(200).end();
-    }
+  try {
+    if (req.method === 'POST') return telegrafCallback(req, res);
+    res.status(200).send('Bot OK');
+  } catch (e) {
+    console.error(e);
+    res.status(200).end();
   }
-  res.status(200).send('Bot OK');
 }
