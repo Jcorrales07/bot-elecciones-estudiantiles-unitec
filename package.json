@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node api/webhook.js"
   },
   "dependencies": {
     "telegraf": "^4.16.3"
