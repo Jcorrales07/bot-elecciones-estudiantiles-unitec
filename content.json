@@ -1,63 +1,53 @@
 {
+  "links": {
+    "propuestas": "https://vida-estudiantil.ejemplo/propuestas",
+    "consultas": "https://vida-estudiantil.ejemplo/consultas"
+  },
+  "reglas": [
+    "Lleva tu carné estudiantil vigente.",
+    "Respeta el horario asignado por tu facultad.",
+    "Un voto por estudiante.",
+    "Prohibido hacer propaganda dentro del centro de votación."
+  ],
+  "fechas_img": "https://res.cloudinary.com/demo/image/upload/v1699999999/fechas_proceso.png",
   "carreras": [
     {
       "id": "ing_sistemas",
       "nombre": "Ingeniería en Sistemas",
-      "planillas": [
-        {
-          "nombre": "Planilla Alpha",
-          "imagen_url": "https://tu-cdn/planillas/sistemas_alpha.jpg",
-          "propuestas_url": "https://vida-estudiantil/propuestas/sistemas_alpha"
-        }
+      "planillas_img": [
+        "https://raw.githubusercontent.com/tuuser/assets/main/planillas/ing_sistemas.png"
       ],
+      "propuestas_url": "https://vida-estudiantil.ejemplo/propuestas#sistemas",
       "candidatos": [
         {
-          "nombre": "María López",
-          "anio_carrera": "3er año",
-          "intereses": "Ciencia de datos, emprendimiento",
-          "experiencias": "Asistente de investigación, hackathons"
+          "nombre": "Ana López",
+          "anio": "3er año",
+          "intereses": "Transformación digital, mentorías",
+          "experiencia": "Auxiliar de laboratorio, pasantía en DevOps"
         },
         {
-          "nombre": "Juan Pérez",
-          "anio_carrera": "4to año",
-          "intereses": "Ciberseguridad, cultura estudiantil",
-          "experiencias": "Pasantía en IT, tutorías de programación"
+          "nombre": "Carlos Pérez",
+          "anio": "2do año",
+          "intereses": "Club de programación, hackathones",
+          "experiencia": "Ayudante de cátedra, voluntariado TI"
         }
       ]
     },
-
     {
       "id": "adm_empresas",
       "nombre": "Administración de Empresas",
-      "planillas": [
-        {
-          "nombre": "Planilla Beta",
-          "imagen_url": "https://tu-cdn/planillas/admin_beta.jpg",
-          "propuestas_url": "https://vida-estudiantil/propuestas/admin_beta"
-        }
+      "planillas_img": [
+        "https://www.dropbox.com/scl/fi/abc123/adm_empresas.png?dl=1"
       ],
+      "propuestas_url": "https://vida-estudiantil.ejemplo/propuestas#admin",
       "candidatos": [
         {
-          "nombre": "Ana Díaz",
-          "anio_carrera": "2do año",
-          "intereses": "Finanzas, actividades solidarias",
-          "experiencias": "Voluntariado, organizadora de eventos"
+          "nombre": "María Gómez",
+          "anio": "4to año",
+          "intereses": "Emprendimiento, finanzas",
+          "experiencia": "Práctica en banca, liderazgo en asociación"
         }
       ]
     }
-  ],
-  "fechas_proceso": {
-    "imagen_url": "https://tu-cdn/fechas/cronograma.jpg",
-    "descripcion": "Fechas clave del proceso electoral estudiantil."
-  },
-  "reglas": {
-    "texto": [
-      "Presentar carnet vigente.",
-      "Un voto por estudiante.",
-      "Respetar horarios y centros de votación."
-    ],
-    "imagen_url": "https://tu-cdn/reglas/reglas.jpg"
-  },
-  "consultas_link": "https://vida-estudiantil/elecciones",
-  "propuestas_plataforma_url": "https://vida-estudiantil/propuestas"
+  ]
 }
