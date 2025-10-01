@@ -1,126 +1,164 @@
-// index.js
+// bot/index.js
 const { Telegraf, Markup } = require('telegraf');
 const fs = require('fs');
+if (!process.env.BOT_TOKEN) throw new Error('Falta BOT_TOKEN');
 
-const BOT_TOKEN = process.env.BOT_TOKEN; // setéalo en tu hosting
-const bot = new Telegraf(BOT_TOKEN);
-
-// Carga de contenido
-const content = JSON.parse(fs.readFileSync('./content.json', 'utf8'));
-
-const MENU_PRINCIPAL = Markup.keyboard([
-  ['1️⃣ Planilla por carrera', '2️⃣ Información de candidatos'],
-  ['3️⃣ Fechas del proceso', '4️⃣ Reglas para votar'],
-  ['5️⃣ Link de consultas']
-]).resize();
-
-bot.start((ctx) => {
-  ctx.reply(
-    '¡Bienvenido/a al Bot de Elecciones Estudiantiles! Elige una opción 👇',
-    MENU_PRINCIPAL
-  );
-});
-
-bot.hears(/^(1|1️⃣|Planilla)/i, async (ctx) => {
-  const lista = content.carreras.map(c => c.nombre);
-  await ctx.reply('1.1 Localiza tu carrera:', Markup.keyboard(
-    chunk(lista, 2).concat([['⬅️ Volver']])
-  ).resize());
-  ctx.session = ctx.session || {};
-  ctx.session.flow = 'planillas';
-});
-
-bot.hears(/^(2|2️⃣|candidato)/i, async (ctx) => {
-  const lista = content.carreras.map(c => c.nombre);
-  await ctx.reply('2.1 Localiza tu carrera:', Markup.keyboard(
-    chunk(lista, 2).concat([['⬅️ Volver']])
-  ).resize());
-  ctx.session = ctx.session || {};
-  ctx.session.flow = 'candidatos';
-});
-
-bot.hears(/^(3|3️⃣|Fecha)/i, async (ctx) => {
-  const f = content.fechas_proceso;
-  if (f.imagen_url) await ctx.replyWithPhoto(f.imagen_url, { caption: f.descripcion || 'Fechas del proceso' });
-  else await ctx.reply(f.descripcion || 'Fechas del proceso');
-});
-
-bot.hears(/^(4|4️⃣|Regla)/i, async (ctx) => {
-  const r = content.reglas;
-  if (r.imagen_url) await ctx.replyWithPhoto(r.imagen_url, { caption: 'Reglas para ejercer tu voto' });
-  if (r.texto?.length) await ctx.reply('Reglas:\n• ' + r.texto.join('\n• '));
-});
-
-bot.hears(/^(5|5️⃣|Link)/i, async (ctx) => {
-  await ctx.reply(`Más información: ${content.consultas_link}`);
-});
-
-// Manejo de selección de carrera
-bot.hears(/⬅️ Volver/i, (ctx) => ctx.reply('Menú principal:', MENU_PRINCIPAL));
-
-bot.on('text', async (ctx) => {
-  const choice = ctx.message.text?.trim();
-  const carrera = content.carreras.find(c => c.nombre.toLowerCase() === choice?.toLowerCase());
-  if (!carrera) return; // deja pasar otros textos
-
-  ctx.session = ctx.session || {};
-  if (ctx.session.flow === 'planillas') {
-    // 1.1.1 Enlistar planillas con imagen + 1.1.2 Propuestas
-    if (!carrera.planillas?.length) {
-      return ctx.reply('Esta carrera no tiene planillas registradas.');
-    }
-    for (const p of carrera.planillas) {
-      if (p.imagen_url) {
-        await ctx.replyWithPhoto(p.imagen_url, { caption: `Planilla: ${p.nombre}` });
-      } else {
-        await ctx.reply(`Planilla: ${p.nombre}`);
-      }
-      if (p.propuestas_url) {
-        await ctx.reply(`Conoce las propuestas: ${p.propuestas_url}`);
-      } else if (content.propuestas_plataforma_url) {
-        await ctx.reply(`Conoce las propuestas: ${content.propuestas_plataforma_url}`);
-      }
-    }
-    await ctx.reply('¿Necesitas ver otra carrera o regresar?', Markup.keyboard(
-      chunk(content.carreras.map(c => c.nombre), 2).concat([['⬅️ Volver']])
-    ).resize());
-  } else if (ctx.session.flow === 'candidatos') {
-    // 2.1.1 Enlistar candidatos con datos
-    if (!carrera.candidatos?.length) {
-      return ctx.reply('Esta carrera no tiene candidatos registrados.');
-    }
-    for (const cand of carrera.candidatos) {
-      const msg = [
-        `👤 *${cand.nombre}*`,
-        cand.anio_carrera ? `📚 ${cand.anio_carrera}` : null,
-        cand.intereses ? `🎯 Intereses: ${cand.intereses}` : null,
-        cand.experiencias ? `💼 Experiencias: ${cand.experiencias}` : null
-      ].filter(Boolean).join('\n');
-      await ctx.replyWithMarkdownV2(escapeMd(msg));
-    }
-    await ctx.reply('¿Ver otra carrera o regresar?', Markup.keyboard(
-      chunk(content.carreras.map(c => c.nombre), 2).concat([['⬅️ Volver']])
-    ).resize());
-  } else {
-    // Si no hay flow activo, muestra menú
-    await ctx.reply('Elige una opción:', MENU_PRINCIPAL);
+function loadContent() {
+  // Lee una sola vez y cachea en caliente
+  if (!globalThis._content) {
+    globalThis._content = JSON.parse(fs.readFileSync('./content.json', 'utf8'));
   }
-});
-
-// Utilidades
-function chunk(items, size) {
-  const out = [];
-  for (let i = 0; i < items.length; i += size) out.push(items.slice(i, i + size));
-  return out;
+  return globalThis._content;
 }
 
-function escapeMd(text) {
-  // Escapa MarkdownV2 de Telegram
+function escapeMdV2(text) {
   return String(text).replace(/[_*[\]()~`>#+\-=|{}.!]/g, '\\$&');
 }
 
-bot.launch().then(() => console.log('Bot listo.'));
-process.once('SIGINT', () => bot.stop('SIGINT'));
-process.once('SIGTERM', () => bot.stop('SIGTERM'));
+function chunk(arr, size) {
+  const out = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
 
-module.exports = bot;
+function carrerasKeyboard(prefix, carreras) {
+  const rows = chunk(
+    carreras.map(c => Markup.button.callback(c.nombre, `${prefix}:${c.id}`)),
+    2
+  );
+  rows.push([Markup.button.callback('⬅️ Menú principal', 'menu:root')]);
+  return Markup.inlineKeyboard(rows);
+}
+
+function mainMenuKeyboard() {
+  return Markup.inlineKeyboard([
+    [Markup.button.callback('1️⃣ Planilla por carrera', 'menu:planillas')],
+    [Markup.button.callback('2️⃣ Información de candidatos', 'menu:candidatos')],
+    [Markup.button.callback('3️⃣ Fechas del proceso', 'menu:fechas')],
+    [Markup.button.callback('4️⃣ Reglas para votar', 'menu:reglas')],
+    [Markup.button.callback('5️⃣ Link de consultas', 'menu:consultas')]
+  ]);
+}
+
+function getBot() {
+  if (globalThis._bot) return globalThis._bot;
+
+  const bot = new Telegraf(process.env.BOT_TOKEN, { handlerTimeout: 30_000 });
+  const content = loadContent();
+
+  // ---- /start y texto libre -> mostrar menú
+  bot.start(ctx => ctx.reply(
+    '¡Bienvenido/a al Bot de Elecciones Estudiantiles! Elige una opción 👇',
+    mainMenuKeyboard()
+  ));
+  bot.on('message', ctx => ctx.reply('Elige una opción 👇', mainMenuKeyboard()));
+
+  // ---- Menú principal
+  bot.action('menu:root', ctx => {
+    ctx.answerCbQuery().catch(()=>{});
+    return ctx.editMessageText('Menú principal 👇', mainMenuKeyboard()).catch(async () => {
+      // Si no se puede editar (mensaje antiguo), envía uno nuevo
+      await ctx.reply('Menú principal 👇', mainMenuKeyboard());
+    });
+  });
+
+  // ---- Opción 1: Planillas -> listar carreras
+  bot.action('menu:planillas', async ctx => {
+    await ctx.answerCbQuery().catch(()=>{});
+    const kb = carrerasKeyboard('planillas', content.carreras);
+    return ctx.editMessageText('1.1 Localiza tu carrera:', kb).catch(async () => {
+      await ctx.reply('1.1 Localiza tu carrera:', kb);
+    });
+  });
+
+  // ---- Opción 2: Candidatos -> listar carreras
+  bot.action('menu:candidatos', async ctx => {
+    await ctx.answerCbQuery().catch(()=>{});
+    const kb = carrerasKeyboard('candidatos', content.carreras);
+    return ctx.editMessageText('2.1 Localiza tu carrera:', kb).catch(async () => {
+      await ctx.reply('2.1 Localiza tu carrera:', kb);
+    });
+  });
+
+  // ---- Selección de carrera para planillas
+  bot.action(/^planillas:(.+)$/, async ctx => {
+    await ctx.answerCbQuery().catch(()=>{});
+    const id = ctx.match[1];
+    const carrera = content.carreras.find(c => c.id === id);
+    if (!carrera) return ctx.reply('Carrera no encontrada.');
+
+    if (!carrera.planillas?.length) {
+      await ctx.reply('Esta carrera no tiene planillas registradas.');
+    } else {
+      for (const p of carrera.planillas) {
+        if (p.imagen_url) {
+          await ctx.replyWithPhoto(p.imagen_url, { caption: `Planilla: ${p.nombre}` });
+        } else {
+          await ctx.reply(`Planilla: ${p.nombre}`);
+        }
+        const url = p.propuestas_url || content.propuestas_plataforma_url;
+        if (url) await ctx.reply(`Conoce las propuestas: ${url}`);
+      }
+    }
+    return ctx.reply('¿Ver otra carrera o volver al menú?', carrerasKeyboard('planillas', content.carreras));
+  });
+
+  // ---- Selección de carrera para candidatos
+  bot.action(/^candidatos:(.+)$/, async ctx => {
+    await ctx.answerCbQuery().catch(()=>{});
+    const id = ctx.match[1];
+    const carrera = content.carreras.find(c => c.id === id);
+    if (!carrera) return ctx.reply('Carrera no encontrada.');
+
+    if (!carrera.candidatos?.length) {
+      await ctx.reply('Esta carrera no tiene candidatos registrados.');
+    } else {
+      for (const cand of carrera.candidatos) {
+        const msg = [
+          `👤 *${escapeMdV2(cand.nombre)}*`,
+          cand.anio_carrera && `📚 ${escapeMdV2(cand.anio_carrera)}`,
+          cand.intereses && `🎯 Intereses: ${escapeMdV2(cand.intereses)}`,
+          cand.experiencias && `💼 Experiencias: ${escapeMdV2(cand.experiencias)}`
+        ].filter(Boolean).join('\n');
+        await ctx.replyWithMarkdownV2(msg);
+      }
+    }
+    return ctx.reply('¿Ver otra carrera o volver al menú?', carrerasKeyboard('candidatos', content.carreras));
+  });
+
+  // ---- Opción 3: Fechas (imagen o texto)
+  bot.action('menu:fechas', async ctx => {
+    await ctx.answerCbQuery().catch(()=>{});
+    const f = content.fechas_proceso || {};
+    if (f.imagen_url) {
+      await ctx.replyWithPhoto(f.imagen_url, { caption: f.descripcion || 'Fechas del proceso' });
+    } else {
+      await ctx.reply(f.descripcion || 'Fechas del proceso');
+    }
+    return ctx.reply('⬅️ Menú principal', mainMenuKeyboard());
+  });
+
+  // ---- Opción 4: Reglas (imagen y/o texto)
+  bot.action('menu:reglas', async ctx => {
+    await ctx.answerCbQuery().catch(()=>{});
+    const r = content.reglas || {};
+    if (r.imagen_url) await ctx.replyWithPhoto(r.imagen_url, { caption: 'Reglas para ejercer tu voto' });
+    if (Array.isArray(r.texto) && r.texto.length) {
+      await ctx.reply('Reglas:\n• ' + r.texto.join('\n• '));
+    }
+    return ctx.reply('⬅️ Menú principal', mainMenuKeyboard());
+  });
+
+  // ---- Opción 5: Link de consultas
+  bot.action('menu:consultas', async ctx => {
+    await ctx.answerCbQuery().catch(()=>{});
+    const url = content.consultas_link || 'https://vida-estudiantil/';
+    await ctx.reply(`Más información: ${url}`);
+    return ctx.reply('⬅️ Menú principal', mainMenuKeyboard());
+  });
+
+  globalThis._bot = bot;
+  return bot;
+}
+
+module.exports = getBot();
