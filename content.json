@@ -1,0 +1,63 @@
+{
+  "carreras": [
+    {
+      "id": "ing_sistemas",
+      "nombre": "Ingeniería en Sistemas",
+      "planillas": [
+        {
+          "nombre": "Planilla Alpha",
+          "imagen_url": "https://tu-cdn/planillas/sistemas_alpha.jpg",
+          "propuestas_url": "https://vida-estudiantil/propuestas/sistemas_alpha"
+        }
+      ],
+      "candidatos": [
+        {
+          "nombre": "María López",
+          "anio_carrera": "3er año",
+          "intereses": "Ciencia de datos, emprendimiento",
+          "experiencias": "Asistente de investigación, hackathons"
+        },
+        {
+          "nombre": "Juan Pérez",
+          "anio_carrera": "4to año",
+          "intereses": "Ciberseguridad, cultura estudiantil",
+          "experiencias": "Pasantía en IT, tutorías de programación"
+        }
+      ]
+    },
+
+    {
+      "id": "adm_empresas",
+      "nombre": "Administración de Empresas",
+      "planillas": [
+        {
+          "nombre": "Planilla Beta",
+          "imagen_url": "https://tu-cdn/planillas/admin_beta.jpg",
+          "propuestas_url": "https://vida-estudiantil/propuestas/admin_beta"
+        }
+      ],
+      "candidatos": [
+        {
+          "nombre": "Ana Díaz",
+          "anio_carrera": "2do año",
+          "intereses": "Finanzas, actividades solidarias",
+          "experiencias": "Voluntariado, organizadora de eventos"
+        }
+      ]
+    }
+  ],
+  "fechas_proceso": {
+    "imagen_url": "https://tu-cdn/fechas/cronograma.jpg",
+    "descripcion": "Fechas clave del proceso electoral estudiantil."
+  },
+  "reglas": {
+    "texto": [
+      "Presentar carnet vigente.",
+      "Un voto por estudiante.",
+      "Respetar horarios y centros de votación."
+    ],
+    "imagen_url": "https://tu-cdn/reglas/reglas.jpg"
+  },
+  "consultas_link": "https://vida-estudiantil/elecciones",
+  "propuestas_plataforma_url": "https://vida-estudiantil/propuestas"
+}
