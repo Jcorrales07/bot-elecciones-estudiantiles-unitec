@@ -17,19 +17,22 @@ const MENU_PRINCIPAL = Markup.keyboard([
 ]).resize();
 
 // === MENÚ DE FACULTADES (en filas de 2 para mejor vista) ===
+// === MENÚ DE FACULTADES (una por fila) ===
 const listaFacultades = () => {
   const filas = [];
   const facs = content.facultades || [];
-  for (let i = 0; i < facs.length; i += 2) {
-    const fila = [];
-    fila.push(Markup.button.callback(facs[i].nombre, `facultad:${facs[i].id}`));
-    if (facs[i + 1]) fila.push(Markup.button.callback(facs[i + 1].nombre, `facultad:${facs[i + 1].id}`));
-    filas.push(fila);
+
+  // Cada facultad en su propia fila
+  for (let i = 0; i < facs.length; i++) {
+    filas.push([Markup.button.callback(facs[i].nombre, `facultad:${facs[i].id}`)]);
   }
+
   // Botón volver al final
   filas.push([Markup.button.callback('⬅️ Volver al menú principal', 'volver:menu')]);
+
   return Markup.inlineKeyboard(filas);
 };
+
 
 // === /start ===
 bot.start((ctx) => {
