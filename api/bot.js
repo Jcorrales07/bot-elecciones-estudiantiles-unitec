@@ -16,10 +16,20 @@ const MENU_PRINCIPAL = Markup.keyboard([
   ['3️⃣ Reglas para votar']
 ]).resize();
 
-// === MENÚ DE FACULTADES ===
-const listaFacultades = () =>
-  (content.facultades || []).map((f) => [Markup.button.callback(f.nombre, `facultad:${f.id}`)]);
-const listaFacultadesInline = Markup.inlineKeyboard(listaFacultades());
+// === MENÚ DE FACULTADES (en filas de 2 para mejor vista) ===
+const listaFacultades = () => {
+  const filas = [];
+  const facs = content.facultades || [];
+  for (let i = 0; i < facs.length; i += 2) {
+    const fila = [];
+    fila.push(Markup.button.callback(facs[i].nombre, `facultad:${facs[i].id}`));
+    if (facs[i + 1]) fila.push(Markup.button.callback(facs[i + 1].nombre, `facultad:${facs[i + 1].id}`));
+    filas.push(fila);
+  }
+  // Botón volver al final
+  filas.push([Markup.button.callback('⬅️ Volver al menú principal', 'volver:menu')]);
+  return Markup.inlineKeyboard(filas);
+};
 
 // === /start ===
 bot.start((ctx) => {
@@ -31,7 +41,7 @@ bot.start((ctx) => {
 
 // === OPCIÓN 1: VER PLANILLAS POR CARRERA ===
 bot.hears(/^(1|1️⃣|Ver planillas)/i, async (ctx) => {
-  await ctx.reply('🎓 Localiza tu facultad:', listaFacultadesInline);
+  await ctx.reply('🎓 Localiza tu facultad:', listaFacultades());
 });
 
 // === OPCIÓN 2: FECHAS DEL PROCESO ===
@@ -80,8 +90,16 @@ bot.action(/facultad:(.+)/, async (ctx) => {
     return ctx.answerCbQuery();
   }
 
-  const botonesPlanillas = planillas.map((p) => [Markup.button.callback(p.nombre, `planilla:${id}:${p.nombre}`)]);
-  botonesPlanillas.push([Markup.button.callback('⬅️ Volver', 'volver:menu')]);
+  const botonesPlanillas = [];
+  for (let i = 0; i < planillas.length; i += 2) {
+    const fila = [];
+    fila.push(Markup.button.callback(planillas[i].nombre, `planilla:${id}:${planillas[i].nombre}`));
+    if (planillas[i + 1]) fila.push(Markup.button.callback(planillas[i + 1].nombre, `planilla:${id}:${planillas[i + 1].nombre}`));
+    botonesPlanillas.push(fila);
+  }
+
+  // Agregar botón para volver a la lista de facultades
+  botonesPlanillas.push([Markup.button.callback('⬅️ Volver a facultades', 'volver:facultades')]);
 
   const keyboard = Markup.inlineKeyboard(botonesPlanillas);
   await ctx.editMessageText(`📚 *${facultad.nombre}*\nSelecciona una planilla:`, {
@@ -108,9 +126,16 @@ bot.action(/planilla:(.+):(.+)/, async (ctx) => {
   await ctx.answerCbQuery(`Mostrando planilla ${nombrePlanilla}`);
 });
 
-// === VOLVER AL MENÚ ===
+// === VOLVER A FACULTADES ===
+bot.action('volver:facultades', async (ctx) => {
+  await ctx.editMessageText('🎓 Localiza tu facultad:', listaFacultades());
+  await ctx.answerCbQuery();
+});
+
+// === VOLVER AL MENÚ PRINCIPAL ===
 bot.action('volver:menu', async (ctx) => {
-  await ctx.editMessageText('👋 Volviste al menú principal.', MENU_PRINCIPAL);
+  await ctx.editMessageText('👋 Volviste al menú principal.');
+  await ctx.reply('Elige una opción:', MENU_PRINCIPAL);
   await ctx.answerCbQuery();
 });
 
