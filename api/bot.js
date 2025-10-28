@@ -125,50 +125,58 @@ bot.action(/planilla:(.+):(.+)/, async (ctx) => {
     `🗳️ *${planilla.nombre}*\n` +
     `🏫 *Carrera:* ${planilla.carrera}\n` +
     `👥 *Cantidad de candidatos:* ${planilla.candidatos?.length || 0}\n\n` +
-    `A continuación, los integrantes de la planilla:\n`;
+    `A continuación los integrantes de la planilla:\n`;
 
   await ctx.replyWithMarkdown(encabezado);
 
   // Mostrar cada candidato individualmente
-  for (const cand of planilla.candidatos) {
-    let mensaje =
-      `👤 *${cand.puesto}:* ${cand.nombre}\n` +
-      `📘 *Año académico:* ${cand.anio}\n`;
+  if (planilla.candidatos && planilla.candidatos.length > 0) {
+    for (const cand of planilla.candidatos) {
+      let mensaje = `👤 *${cand.puesto}:* ${cand.nombre}\n`;
+      mensaje += `📘 *Año académico:* ${cand.anio}\n`;
 
-    if (cand.experiencia?.length) {
-      mensaje += `\n🎓 *Experiencia académica:*\n`;
-      for (const exp of cand.experiencia) mensaje += `• ${exp}\n`;
-    }
+      if (cand.experiencia?.length) {
+        mensaje += `\n🎓 *Experiencia académica:*\n`;
+        for (const exp of cand.experiencia) mensaje += `• ${exp}\n`;
+      }
 
-    if (cand.propuestas?.length) {
-      mensaje += `\n💡 *Principales propuestas:*\n`;
-      for (const prop of cand.propuestas) mensaje += `• ${prop}\n`;
-    }
+      if (cand.propuestas?.length) {
+        mensaje += `\n💡 *Principales propuestas:*\n`;
+        for (const prop of cand.propuestas) mensaje += `• ${prop}\n`;
+      }
 
-    if (cand.hobbies?.length) {
-      mensaje += `\n🎨 *Hobbies:*\n`;
-      mensaje += cand.hobbies.join(', ') + '\n';
-    }
+      if (cand.hobbies?.length) {
+        mensaje += `\n🎨 *Hobbies:*\n${cand.hobbies.join(', ')}\n`;
+      }
 
-    // Enviar con o sin foto
-    if (cand.foto) {
-      await ctx.replyWithPhoto(
-        { url: cand.foto },
-        { caption: mensaje, parse_mode: 'Markdown' }
-      );
-    } else {
-      await ctx.replyWithMarkdown(mensaje);
+      // Enviar con o sin foto
+      try {
+        if (cand.foto) {
+          await ctx.replyWithPhoto(
+            { url: cand.foto },
+            { caption: mensaje, parse_mode: 'Markdown' }
+          );
+        } else {
+          await ctx.replyWithMarkdown(mensaje);
+        }
+      } catch (err) {
+        console.error(`❌ Error enviando candidato ${cand.nombre}:`, err);
+        await ctx.replyWithMarkdown(`⚠️ No se pudo mostrar la foto de *${cand.nombre}*`);
+      }
     }
+  } else {
+    await ctx.reply('No hay candidatos registrados para esta planilla.');
   }
 
   // Botón volver al final
   const keyboard = Markup.inlineKeyboard([
     [Markup.button.callback('⬅️ Volver a planillas', `facultad:${idFacultad}`)],
   ]);
-  await ctx.reply('Selecciona otra planilla o regresa al menú:', keyboard);
 
-  await ctx.answerCbQuery(`Mostrando planilla ${nombrePlanilla}`);
+  await ctx.reply('Selecciona otra planilla o regresa al menú:', keyboard);
+  await ctx.answerCbQuery();
 });
+
 
 
 // === VOLVER A FACULTADES ===
