@@ -1,52 +1,74 @@
 {
   "links": {
-    "propuestas": "https://vida-estudiantil.ejemplo/propuestas",
     "consultas": "https://vida-estudiantil.ejemplo/consultas"
   },
-  "reglas": [
-    "Lleva tu carné estudiantil vigente.",
-    "Respeta el horario asignado por tu facultad.",
-    "Un voto por estudiante.",
-    "Prohibido hacer propaganda dentro del centro de votación."
-  ],
-  "fechas_img": "https://res.cloudinary.com/demo/image/upload/v1699999999/fechas_proceso.png",
-  "carreras": [
+
+  "fechas": {
+    "Stand informativo": "22 de noviembre (9:00 AM – 5:00 PM)",
+    "Fecha de elecciones": "18 de noviembre (9:00 AM – 6:00 PM)"
+  },
+
+  "reglas": {
+    "Requisitos": [
+      "Ser estudiante activo, debidamente matriculado en el campus o sede donde se realizarán las votaciones.",
+      "Presentar una identificación con fotografía (Carnet estudiantil, DNI o licencia de conducir)."
+    ],
+    "Pierde derecho de votar si": [
+      "El estudiante no está matriculado en el período vigente en el campus o sede donde se realizarán las votaciones.",
+      "Se presenta en notorio estado de ebriedad o bajo la influencia de drogas o estupefacientes.",
+      "De cualquier forma, intenta coaccionar o influir a otros votantes."
+    ]
+  },
+
+  "facultades": [
     {
-      "id": "ing_sistemas",
-      "nombre": "Ingeniería en Sistemas",
-      "planillas_img": [
-        "https://raw.githubusercontent.com/tuuser/assets/main/planillas/ing_sistemas.png"
-      ],
-      "propuestas_url": "https://vida-estudiantil.ejemplo/propuestas#sistemas",
-      "candidatos": [
-        {
-          "nombre": "Ana López",
-          "anio": "3er año",
-          "intereses": "Transformación digital, mentorías",
-          "experiencia": "Auxiliar de laboratorio, pasantía en DevOps"
-        },
-        {
-          "nombre": "Carlos Pérez",
-          "anio": "2do año",
-          "intereses": "Club de programación, hackathones",
-          "experiencia": "Ayudante de cátedra, voluntariado TI"
-        }
+      "id": "facs",
+      "nombre": "Facultad de Ciencias Administrativas y Sociales",
+      "planillas": [
+        { "nombre": "NEO-MKT", "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales", "candidatos": [] },
+        { "nombre": "ACE (Acción, Creatividad, Estrategia)", "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales", "candidatos": [] },
+        { "nombre": "VIBE (Visión, Innovación, Bienestar, Estrategia)", "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales", "candidatos": [] },
+        { "nombre": "AEFINEC", "carrera": "Licenciatura en Finanzas y Economía", "candidatos": [] },
+        { "nombre": "INNOVA", "carrera": "Administración Industrial e Inteligencia de Negocios / Admon. Industrial y Emprendimiento / Admon. Industrial y Operaciones", "candidatos": [] },
+        { "nombre": "DE IURE", "carrera": "Licenciatura en Derecho", "candidatos": [] },
+        { "nombre": "ARKANA H&T 2026", "carrera": "Licenciatura en Administración de la Hospitalidad y el Turismo", "candidatos": [] },
+        { "nombre": "VIA", "carrera": "Licenciatura en Relaciones Internacionales", "candidatos": [] }
       ]
     },
     {
-      "id": "adm_empresas",
-      "nombre": "Administración de Empresas",
-      "planillas_img": [
-        "https://www.dropbox.com/scl/fi/abc123/adm_empresas.png?dl=1"
-      ],
-      "propuestas_url": "https://vida-estudiantil.ejemplo/propuestas#admin",
-      "candidatos": [
-        {
-          "nombre": "María Gómez",
-          "anio": "4to año",
-          "intereses": "Emprendimiento, finanzas",
-          "experiencia": "Práctica en banca, liderazgo en asociación"
-        }
+      "id": "artes",
+      "nombre": "Facultad de Escuela de Arte & Diseño",
+      "planillas": [
+        { "nombre": "MUSE", "carrera": "Licenciatura en Diseño Gráfico", "candidatos": [] },
+        { "nombre": "OFF THE LENS", "carrera": "Comunicación Estratégica y Audiovisual", "candidatos": [] },
+        { "nombre": "SCALA", "carrera": "Arquitectura", "candidatos": [] },
+        { "nombre": "QUADDI", "carrera": "Licenciatura en Animación Digital y Diseño Interactivo", "candidatos": [] }
+      ]
+    },
+    {
+      "id": "salud",
+      "nombre": "Facultad de Ciencias de la Salud",
+      "planillas": [
+        { "nombre": "PSYCHE", "carrera": "Licenciatura en Psicología", "candidatos": [] }
+      ]
+    },
+    {
+      "id": "ingenieria",
+      "nombre": "Facultad de Ingeniería",
+      "planillas": [
+        { "nombre": "KERNEL", "carrera": "Ingeniería en Sistemas / Ciencias de Datos e Inteligencia Artificial", "candidatos": [] },
+        { "nombre": "AEE 2026", "carrera": "Ingeniería en Energía", "candidatos": [] },
+        { "nombre": "BIONOVA", "carrera": "Ingeniería Biomédica", "candidatos": [] },
+        { "nombre": "LEAN LEADERS 2026", "carrera": "Ingeniería Industrial y de Sistemas", "candidatos": [] },
+        { "nombre": "VEF 2026", "carrera": "Ingeniería Mecatrónica", "candidatos": [] },
+        { "nombre": "AECI", "carrera": "Ingeniería Civil", "candidatos": [] }
+      ]
+    },
+    {
+      "id": "becados",
+      "nombre": "Asociación de Estudiantes Becados",
+      "planillas": [
+        { "nombre": "ASEBEC", "carrera": "Asociación de Estudiantes Becados", "candidatos": [] }
       ]
     }
   ]

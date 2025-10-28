@@ -10,9 +10,8 @@ if (!BOT_TOKEN) console.error('Falta BOT_TOKEN');
 const bot = new Telegraf(BOT_TOKEN);
 
 const MENU_PRINCIPAL = Markup.keyboard([
-  ['1️⃣ Planilla por carrera', '2️⃣ Información de candidatos'],
-  ['3️⃣ Fechas del proceso', '4️⃣ Reglas para votar'],
-  ['5️⃣ Link de consultas']
+  ['1️⃣ Planilla por facultad'],
+  ['2️⃣ Fechas del proceso', '3️⃣ Reglas para votar']
 ]).resize();
 
 const listaCarreras = () =>
@@ -21,7 +20,7 @@ const listaCarrerasInline = Markup.inlineKeyboard(listaCarreras());
 
 // Inicio
 bot.start((ctx) => {
-  ctx.reply('¡Bienvenido/a al Bot de Elecciones Estudiantiles! Elige una opción 👇', MENU_PRINCIPAL);
+  ctx.reply('¡Bienvenid@ al Bot Informativo de Elecciones Estudiantiles! Elige una opción 👇', MENU_PRINCIPAL);
 });
 
 // Opción 1
