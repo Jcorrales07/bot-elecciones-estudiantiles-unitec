@@ -123,7 +123,8 @@ bot.action(/planilla:(.+):(.+)/, async (ctx) => {
   const texto =
     `🗳️ *${planilla.nombre}*\n` +
     `🏫 *Carrera:* ${planilla.carrera}\n\n` +
-    `👥 *Candidatos:* ${planilla.candidatos?.length || 0}`;
+    `👥 *Cantidad de candidatos:* ${planilla.candidatos?.length || 0}` +
+    `👤 *Candidatos: * ${planilla.candidatos}`;
 
   await ctx.replyWithMarkdown(texto);
   await ctx.answerCbQuery(`Mostrando planilla ${nombrePlanilla}`);
