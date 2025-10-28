@@ -120,15 +120,56 @@ bot.action(/planilla:(.+):(.+)/, async (ctx) => {
   const planilla = facultad.planillas.find((p) => p.nombre === nombrePlanilla);
   if (!planilla) return ctx.answerCbQuery('Planilla no encontrada.');
 
-  const texto =
+  // Encabezado general
+  const encabezado =
     `🗳️ *${planilla.nombre}*\n` +
-    `🏫 *Carrera:* ${planilla.carrera}\n\n` +
-    `👥 *Cantidad de candidatos:* ${planilla.candidatos?.length || 0}` +
-    `👤 *Candidatos: * ${planilla.candidatos}`;
+    `🏫 *Carrera:* ${planilla.carrera}\n` +
+    `👥 *Cantidad de candidatos:* ${planilla.candidatos?.length || 0}\n\n` +
+    `A continuación, los integrantes de la planilla:\n`;
 
-  await ctx.replyWithMarkdown(texto);
+  await ctx.replyWithMarkdown(encabezado);
+
+  // Mostrar cada candidato individualmente
+  for (const cand of planilla.candidatos) {
+    let mensaje =
+      `👤 *${cand.puesto}:* ${cand.nombre}\n` +
+      `📘 *Año académico:* ${cand.anio}\n`;
+
+    if (cand.experiencia?.length) {
+      mensaje += `\n🎓 *Experiencia académica:*\n`;
+      for (const exp of cand.experiencia) mensaje += `• ${exp}\n`;
+    }
+
+    if (cand.propuestas?.length) {
+      mensaje += `\n💡 *Principales propuestas:*\n`;
+      for (const prop of cand.propuestas) mensaje += `• ${prop}\n`;
+    }
+
+    if (cand.hobbies?.length) {
+      mensaje += `\n🎨 *Hobbies:*\n`;
+      mensaje += cand.hobbies.join(', ') + '\n';
+    }
+
+    // Enviar con o sin foto
+    if (cand.foto) {
+      await ctx.replyWithPhoto(
+        { url: cand.foto },
+        { caption: mensaje, parse_mode: 'Markdown' }
+      );
+    } else {
+      await ctx.replyWithMarkdown(mensaje);
+    }
+  }
+
+  // Botón volver al final
+  const keyboard = Markup.inlineKeyboard([
+    [Markup.button.callback('⬅️ Volver a planillas', `facultad:${idFacultad}`)],
+  ]);
+  await ctx.reply('Selecciona otra planilla o regresa al menú:', keyboard);
+
   await ctx.answerCbQuery(`Mostrando planilla ${nombrePlanilla}`);
 });
+
 
 // === VOLVER A FACULTADES ===
 bot.action('volver:facultades', async (ctx) => {
