@@ -32,7 +32,73 @@
         { "nombre": "INNOVA", "carrera": "Administración Industrial e Inteligencia de Negocios / Admon. Industrial y Emprendimiento / Admon. Industrial y Operaciones", "candidatos": [] },
         { "nombre": "DE IURE", "carrera": "Licenciatura en Derecho", "candidatos": [] },
         { "nombre": "ARKANA H&T 2026", "carrera": "Licenciatura en Administración de la Hospitalidad y el Turismo", "candidatos": [] },
-        { "nombre": "VIA", "carrera": "Licenciatura en Relaciones Internacionales", "candidatos": [] }
+        { "nombre": "VIA", "carrera": "Licenciatura en Relaciones Internacionales", "candidatos": [
+          {
+              "puesto": "Presidente",
+              "nombre": "Marcela Alejandra Moreno Sánchez",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dnririxl6/image/upload/v1753794398/testimonials/logos/w9ulosa4vif4abkch6fo.jpg",
+              "experiencia": [
+                "Actual Secretaria de Logística de la Asociación Estudiantil 2025.",
+                "Pasante en Girl Up, United Nations Foundation Latinoamérica y el Caribe.",
+                "Fundadora y Directora General de Proyecto Amaité, beneficiando a más de 65 mujeres y niñas.",
+                "Editora General de Cipotes Times y encargada de comunicaciones de Tu Voto Cipote.",
+                "Exdirectora del Comité de Relaciones Internacionales en el think tank ESPACIOH."
+              ],
+              "propuestas": [
+                "Promover la diversificación de los espacios de liderazgo en la carrera.",
+                "Brindar oportunidades que fortalezcan capacidades académicas, sociales y personales.",
+                "Fomentar un entorno colaborativo y de aprendizaje continuo.",
+                "Crear actividades académicas, sociales y culturales fuera del aula."
+              ],
+              "hobbies": [
+                "Cocinar y hornear.",
+                "Preparar café.",
+                "Pasar tiempo con sus seres queridos y su mascota."
+              ]
+            },
+            {
+              "puesto": "Vicepresidente",
+              "nombre": "Kritzia Abigail Ortega Enamorado",
+              "anio": "Cuarto año",
+              "foto": "https://ruta-a-foto-kritzia.jpg",
+              "experiencia": [
+                "Secretaria de Relaciones Públicas en el MUNUH 2023, MINUH 2024 y MINUH 2025.",
+                "Gestora de Redes Sociales en la Asociación Estudiantil 2025.",
+                "Líder del proyecto Respiro de Amor.",
+                "Voluntaria en Cipotes Honduras."
+              ],
+              "propuestas": [
+                "Fortalecer la unión y participación estudiantil.",
+                "Impulsar ideas, talentos y proyectos de los estudiantes.",
+                "Crear espacios de aprendizaje práctico y proyección profesional."
+              ],
+              "hobbies": [
+                "Escuchar música y pintar con acuarelas.",
+                "Cocinar y ver series románticas.",
+                "Jugar Clash Royale (Arena 18)."
+              ]
+            },
+            {
+              "puesto": "Secretario",
+              "nombre": "José Mario Mejía Montes",
+              "anio": "Tercer año",
+              "foto": "https://ruta-a-foto-jose.jpg",
+              "experiencia": [
+                "Encargado de Procesos en Tu Voto Cipote.",
+                "Coordinador de Logística en Cipotes Honduras.",
+                "Host del pódcast La Cuarta Tribuna."
+              ],
+              "propuestas": [
+                "Crear oportunidades igualitarias de empoderamiento.",
+                "Fomentar participación activa y liderazgo compartido."
+              ],
+              "hobbies": [
+                "Ver deportes.",
+                "Pasar tiempo con familia y amigos."
+              ]
+            }
+        ] }
       ]
     },
     {
