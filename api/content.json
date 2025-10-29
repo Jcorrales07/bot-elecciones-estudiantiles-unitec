@@ -394,7 +394,181 @@
         {
           "nombre": "VIBE (Visión, Innovación, Bienestar, Estrategia)",
           "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales",
-          "candidatos": []
+          "candidatos": [
+            {
+              "puesto": "",
+              "nombre": "Hazel Sayonara Godoy Ortega",
+              "anio": "Tercer año académico.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675228/723742c1-4ea2-498a-9b59-7938397afc0e.png",
+              "experiencia": [
+                "Desempeño un rol de liderazgo dentro de la Cooperativa CACEENP de Ahorro y Crédito, donde ejerzo el cargo de Secretaria del Comité de Jóvenes. ",
+                "Desde esta posición, promuevo activamente la educación financiera, la participación juvenil y el fortalecimiento de los valores cooperativos entre los jóvenes y niños. ",
+                "Mi labor contribuye al desarrollo integral de los miembros, fomentando el trabajo en equipo, la responsabilidad social y la toma de decisiones democráticas. ",
+                "Además, soy responsable de la gestión y redacción de toda la documentación oficial del comité, incluyendo notas, memorandos, invitaciones, actas e informes ejecutivos, asegurando la transparencia y el cumplimiento de los procesos administrativos. ",
+                "Cuento con certificaciones nacionales e internacionales otorgadas por instituciones como la Confederación de Cooperativas del Caribe, Centro y Suramérica, el Comité Nacional de Afiliadas de Honduras, el CONAMUCOOPH, el Centro de Estudios y Capacitación Cooperativa (CENECOOP R.L.) de Costa Rica, y la Escuela de Economía Social de España. ",
+                "Asimismo, he recibido formación en temas de género con la certificación “Mujeres Liderando con Impacto” y en Convenciones Tripartitas para el Desarrollo Económico y Social Sostenible. ",
+                "He participado en encuentros internacionales de jóvenes líderes de la economía social y solidaria, orientados al desarrollo de liderazgos cooperativos juveniles y al fortalecimiento del empalme generacional. ",
+                "Además, estoy certificada para ejercer cargos de dirigencia dentro de instituciones cooperativas conforme a la Ley de Cooperativas de Honduras, como delegada o junta directiva y/o junta de vigilancia. "
+              ],
+              "propuestas": [
+                "Campañas Conjuntas de Educación Financiera ",
+                "Diseño de campañas digitales y presenciales sobre ahorro, consumo responsable y finanzas personales, elaboradas por los estudiantes de mercadeo con el respaldo educativo de CACEENP. "
+              ],
+              "hobbies": [
+                "me encanta viajar y disfruto aprender sobre diversos temas, ya que me apasiona adquirir nuevos conocimientos. ",
+                "También me encanta leer y ver documentales de historia, actividades que complementan mi formación y fortalecen mi visión crítica y social. "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Melissa Fernanda Madrid Rodríguez",
+              "anio": "Segundo año académico.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675250/82eb1a7e-73ee-4f57-9526-a6a90008265c.png",
+              "experiencia": [
+                "Por haber ganado el Tercer Lugar en la competencia de Modelos de Negocios con Impacto social, en el marco de los Objetivos de Desarrollo Sostenible. "
+              ],
+              "propuestas": [
+                "Participar en actividades de voluntariado visitando escuelas para motivar a los estudiantes del último año a estudiar la carrera de Mercadotecnia y Negocios Internacionales, mostrándoles la experiencia y las oportunidades que ofrece. "
+              ],
+              "hobbies": [
+                "Me apasiona vender, ya sea maquillaje u otros productos. ",
+                "Tengo mi propia tienda, M&FGlow, donde vendo maquillaje, y también me gusta vender perfumes y ayudar a mi mamá con sus ventas. ",
+                "Me encanta hacer postres y cocinar, además de ver series y pasar tiempo de calidad con mi mamá y las personas que considero como familia. ",
+                "Disfruto salir, apreciar los momentos como un atardecer, e ir a la iglesia. ",
+                "Me gusta orar y hablar con Dios. ",
+                "También me gusta ayudar a las personas, especialmente a quienes más lo necesitan. ",
+                "Tengo habilidades de liderazgo y me gusta tomar el mando cuando es necesario. ",
+                "Disfruto viajar, tomar café, conocer nuevos lugares y vivir nuevas experiencias "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Marcela Suyapa Guerra Bautista",
+              "anio": "Primer año académico.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675256/dc0724f1-fe04-42da-b474-2a4fafe25e1b.png",
+              "experiencia": [
+                "Participó en voluntariados en recolección de víveres o apoyo en mi comunidad cuando se necesita. ",
+                "Además, tengo experiencia en emprendimientos personales donde he manejado tanto la parte creativa como la organización. ",
+                "Eso me ha permitido desarrollar habilidades de liderazgo y responsabilidad. "
+              ],
+              "propuestas": [
+                "Brindar orientación clara y cercana a los estudiantes de nuevo ingreso para facilitar su adaptación. ",
+                "Crear espacios de confianza donde puedan expresar sus dudas y recibir acompañamiento. ",
+                "Facilitar el acceso a información clave sobre clases, trámites, horarios y actividades. ",
+                "Estar disponible para dar seguimiento a cualquier situación que afecte su experiencia universitaria. "
+              ],
+              "hobbies": [
+                "Me gusta editar contenido visual ",
+                "descubrir nuevos emprendimientos ",
+                "compartir tiempo con amigas ",
+                "la fotografía y practicar actividades diferentes. "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "María Elena Mejía Lara",
+              "anio": "Segundo año académico",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675267/dc0a2719-d377-4a3e-a8bf-3bd4038bcc6f.png",
+              "experiencia": [
+                "Mi actividad extracurricular es un emprendimiento llamado Valenne Makeup una tienda de maquillaje que comparto junto a una amiga, Karla Cruz. ",
+                "Nos dedicamos a la venta de productos de belleza y maquillaje en tendencia, ofreciendo opciones de alta calidad y a precios accesibles. ",
+                "Este proyecto nos ha permitido desarrollar habilidades en áreas como marketing digital, atención al cliente, gestión de inventario y ventas online. ",
+                "Además, nos motiva el poder acercar a más personas al mundo del maquillaje, transmitiendo la idea de que maquillarse no solo resalta la belleza, sino que también fortalece la confianza y la seguridad personal. "
+              ],
+              "propuestas": [
+                "“Patrocinios estudiantiles” ",
+                "Gestión de convenios con marcas para apoyar actividades de la carrera (stands, eventos, materiales promocionales) a cambio de exposición de marca y contenido en redes. "
+              ],
+              "hobbies": [
+                "Mis hobbies giran alrededor del maquillaje: me encanta maquillarme, maquillar a otras personas y vender productos. ",
+                "Siento que el maquillaje nos ayuda a expresar quiénes somos y a sentirnos más seguras y confiadas. "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Angela Esther Reyes Cruz",
+              "anio": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675272/3d711190-ea9d-42a4-8e5c-f9c0da57d424.png",
+              "experiencia": [
+                "Mi formación se orienta hacia la comprensión de los mercados globales, la innovación estratégica y la gestión empresarial con visión sostenible. ",
+                "Poseo habilidades en planificación estratégica, análisis de mercado, comunicación efectiva y liderazgo colaborativo, las cuales he desarrollado tanto en el ámbito académico como en experiencias extracurriculares. ",
+                "Disfruto trabajar en entornos dinámicos, donde pueda aportar ideas creativas y soluciones orientadas a resultados. "
+              ],
+              "propuestas": [
+                "Creación del Programa “MercaLab: Ideas que conectan” ",
+                "Un espacio donde los estudiantes desarrollen proyectos reales de mercadeo y negocios internacionales, en alianza con empresas locales o emprendimientos universitarios. ",
+                "Este programa permitirá aplicar los conocimientos adquiridos en clase a escenarios reales, fomentando la creatividad y el pensamiento estratégico. "
+              ],
+              "hobbies": [
+                "En mi tiempo libre disfruto jugar tenis, ver series y compartir tiempo con mi perro, actividades que me ayudan a mantener un equilibrio entre la vida académica y personal, fomentando la disciplina, la concentración y la empatía. "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Marvin Jesús Caballero López",
+              "anio": "Segundo año académico.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675310/22aecf65-9b82-41ba-8636-1ddcc2904bfe.png",
+              "experiencia": [
+                "Soy un joven apasionado por el fútbol, la estrategia y el trabajo en equipo, valores que aplico tanto dentro como fuera del campo. ",
+                "Como estudiante de Mercadotecnia y Negocios Internacionales, busco integrar la disciplina deportiva con la planificación, la competitividad sana y la gestión eficiente de proyectos. ",
+                "Me considero una persona proactiva, comprometida y con liderazgo colaborativo, siempre dispuesto a asumir nuevos retos y aportar soluciones innovadoras. ",
+                "El deporte me ha enseñado que la constancia, la comunicación y la unión de grupo son claves para alcanzar cualquier meta, cualidades que aplico también en el ámbito académico y profesional. "
+              ],
+              "propuestas": [
+                "Programa “MercaDeporte: Estrategia y Liderazgo en Movimiento” ",
+                "Un espacio donde los estudiantes puedan desarrollar habilidades de trabajo en equipo y liderazgo a través de actividades deportivas, torneos y dinámicas inspiradas en estrategias de juego. ",
+                "El objetivo es demostrar que los mismos valores que hacen exitoso a un equipo deportivo —coordinación, análisis, disciplina y compromiso— también son esenciales en el mundo empresarial. "
+              ],
+              "hobbies": [
+                "En mi tiempo libre disfruto jugar fútbol, analizar partidos y aprender sobre estrategias deportivas y de gestión de talento, ya que me inspiran a mejorar mis habilidades de liderazgo y toma de decisiones. "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Sofia Irene Pérez Sabillon",
+              "anio": "3 año académico.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675323/58a3e5e8-e918-4030-b696-d14646944f01.png",
+              "experiencia": [
+                "Como estudiante de Mercadotecnia y Negocios Internacionales, mantengo un firme compromiso con el desarrollo académico, la participación estudiantil y la mejora continua del entorno universitario. ",
+                "Considero que la universidad debe ser un espacio donde los estudiantes no solo se formen profesionalmente, sino también donde puedan expresarse, proponer y generar cambios positivos en beneficio de toda la comunidad. ",
+                "Mi propósito es contribuir a una universidad más dinámica, participativa y cercana a las necesidades reales del estudiantado, promoviendo acciones que fortalezcan la comunicación, el sentido de pertenencia y el bienestar integral. "
+              ],
+              "propuestas": [
+                "Mejorar la comunicación estudiantil: Implementar espacios informativos digitales (como grupos oficiales o boletines semanales) para mantener a los estudiantes al tanto de eventos, becas, convocatorias y actividades académicas. ",
+                "Talleres prácticos y charlas formativas: Organizar actividades enfocadas en temas como emprendimiento, liderazgo, manejo del tiempo, herramientas digitales y preparación para la vida laboral. ",
+                "Programa de apoyo entre estudiantes: Crear una red de tutorías o acompañamiento entre alumnos de distintos años académicos para fortalecer el aprendizaje y la integración universitaria. ",
+                "Promoción del bienestar y la salud: Desarrollar jornadas deportivas, pausas activas y campañas sobre salud mental y equilibrio académico-personal. ",
+                "Cultura y compromiso social: Fomentar la participación en proyectos de voluntariado y actividades culturales que fortalezcan la empatía, la cooperación y el orgullo universitario. "
+              ],
+              "hobbies": [
+                "Disfruto hornear, jugar fútbol y asistir al gimnasio, actividades que me permiten mantener un equilibrio entre el estudio y la vida personal. ",
+                "La cocina me ayuda a relajarme y expresar mi creatividad, mientras que el fútbol y el ejercicio fortalecen mi disciplina, trabajo en equipo y constancia. ",
+                "Considero que dedicar tiempo a estas actividades contribuye a mi bienestar integral y me permite desarrollar hábitos que también aplico en mi formación académica y profesional. "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Karla Valeria Cruz Varela",
+              "anio": "2 año académico.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675336/4c2e5515-1217-4b08-ba0a-e67f9768a2c6.png",
+              "experiencia": [
+                "Soy una joven emprendedora, creativa y apasionada por la innovación. ",
+                "Me caracterizo por mi entusiasmo, mi visión estratégica y mi capacidad para transformar ideas en proyectos reales. ",
+                "Junto a mi compañera Elena Mejía, dirijo un emprendimiento de maquillaje enfocado en resaltar la belleza natural, ofrecer productos de calidad y promover la confianza personal. ",
+                "Este proyecto me ha permitido aplicar los conocimientos adquiridos en la carrera, especialmente en áreas como marketing digital, atención al cliente y desarrollo de marca. ",
+                "Disfruto aprender sobre tendencias de belleza, branding y redes sociales, además de participar en actividades que fomenten el crecimiento personal y profesional. ",
+                "Me considero una persona perseverante, con iniciativa y un fuerte deseo de seguir impulsando mi negocio hacia nuevos niveles de éxito. "
+              ],
+              "propuestas": [
+                "Feria de Emprendedores Universitarios ",
+                "Organizar una feria semestral para exponer productos y servicios creados por estudiantes. ",
+                "Este evento permitiría a los participantes aplicar estrategias reales de mercadeo, fortalecer su imagen de marca y establecer redes de colaboración. "
+              ],
+              "hobbies": [
+                ""
+              ]
+            }
+          ]
         },
         {
           "nombre": "AEFINEC",
@@ -1168,68 +1342,175 @@
           "carrera": "Licenciatura en Relaciones Internacionales",
           "candidatos": [
             {
-              "puesto": "Presidente",
-              "nombre": "Marcela Alejandra Moreno Sánchez",
-              "anio": "Tercer año",
-              "foto": "https://res.cloudinary.com/dnririxl6/image/upload/v1753794398/testimonials/logos/w9ulosa4vif4abkch6fo.jpg",
+              "puesto": "Presidente ",
+              "nombre": "Marcela Alejandra Moreno Sánchez ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674281/7b045bda-d5f4-4d89-a071-930814d9041c.png",
               "experiencia": [
-                "Actual Secretaria de Logística de la Asociación Estudiantil 2025.",
-                "Pasante en Girl Up, United Nations Foundation Latinoamérica y el Caribe.",
-                "Fundadora y Directora General de Proyecto Amaité, beneficiando a más de 65 mujeres y niñas.",
-                "Editora General de Cipotes Times y encargada de comunicaciones de Tu Voto Cipote.",
-                "Exdirectora del Comité de Relaciones Internacionales en el think tank ESPACIOH."
+                "Actual Secretaria de Logística de la Asociación Estudiantil 2025. ",
+                "Actual Pasante en Girl Up, United Nations Foundation Latinoamérica y el Caribe, donde colaboro en el desarrollo de un programa de formación educativa para más de 200 niñas y jóvenes. ",
+                "Fundadora y Directora General de la iniciativa social Proyecto Amaité, una iniciativa que ha beneficiado a mas de 65 mujeres y ninas provenientes de contextos vulnerables en San Pedro Sula. ",
+                "• Editora General de Cipotes Times, el periódico digital de Cipotes Honduras, y encargada de comunicaciones del proyecto Tu Voto Cipote, Bot, además de voluntaria activa de la organización. ",
+                "Exdirectora del Comité de Relaciones Internacionales en el think tank ESPACIOH. ",
+                "Reconocida por méritos en redacción e investigación, oratoria, liderazgo, gestión de proyectos de impacto y publicaciones en plataformas juveniles. ",
+                "• He organizado eventos con organizaciones internacionales, colaborado en la  recepción/visita de funcionarios diplomáticos y creado espacios de reunión de jóvenes. "
               ],
               "propuestas": [
-                "Promover la diversificación de los espacios de liderazgo en la carrera.",
-                "Brindar oportunidades que fortalezcan capacidades académicas, sociales y personales.",
-                "Fomentar un entorno colaborativo y de aprendizaje continuo.",
-                "Crear actividades académicas, sociales y culturales fuera del aula."
+                "Como presidente, mi objetivo es promover la diversificación de los espacios de liderazgo en la carrera de Relaciones Internacionales, impulsando su crecimiento y fortaleciendo cada uno de sus ámbitos. ",
+                "Buscamos ser un apoyo constante e inclusivo para toda la comunidad, brindando oportunidades y experiencias que desarrollen las capacidades académicas, sociales y personales de los estudiantes, fomentando un entorno colaborativo y de aprendizaje continuo. ",
+                "Nuestra visión es convertirnos en agentes de cambio positivo que generen un impacto multiplicador dentro de la comunidad estudiantil, acompañando la formación integral de los futuros internacionalistas desde lo académico hasta lo cultural y recreativo. ",
+                "Para 2026, proponemos iniciativas que incluyan experiencias educativas, sociales y culturales fuera del aula ; fortalecimiento en modelos internacionales ; espacios de formación en comunicación y negociación ; creación de oportunidades con universidades extranjeras ; actividades de análisis regional ; integración de lo académico con lo creativo ; y actividades con sistemas de reconocimiento. "
               ],
               "hobbies": [
-                "Cocinar y hornear.",
-                "Preparar café.",
-                "Pasar tiempo con sus seres queridos y su mascota."
+                "Fuera de mis responsabilidades académicas y profesionales, disfruto cocinar, hornear, preparar café y pasar tiempo con mis seres queridos y mi mascota. "
               ]
             },
             {
-              "puesto": "Vicepresidente",
-              "nombre": "Kritzia Abigail Ortega Enamorado",
-              "anio": "Cuarto año",
-              "foto": "https://res.cloudinary.com/dnririxl6/image/upload/v1753794398/testimonials/logos/w9ulosa4vif4abkch6fo.jpg",
+              "puesto": "Vicepresidente ",
+              "nombre": "Kritzia Abigail Ortega Enamorado ",
+              "anio": "Cuarto año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674292/bee63af2-ae37-41e7-a9b5-578b3a0d4d73.png",
               "experiencia": [
-                "Secretaria de Relaciones Públicas en el MUNUH 2023, MINUH 2024 y MINUH 2025.",
-                "Gestora de Redes Sociales en la Asociación Estudiantil 2025.",
-                "Líder del proyecto Respiro de Amor.",
-                "Voluntaria en Cipotes Honduras."
+                "Secretaria Adjunta de Relaciones Públicas en el MUNUH 2023. ",
+                "Secretaria Titular de Relaciones Públicas en el MINUH 2024. ",
+                "Secretaria Titular de Relaciones Públicas en el MINUH 2025. ",
+                "• Gestora de Redes Sociales en la Asociación Estudiantil de Relaciones Internacionales 2025. ",
+                "Líder del proyecto \"Respiro de Amor\", orientado a habilitar una sala de nebulizaciones adecuada y equipada para brindar una atención digna y oportuna. ",
+                "• Voluntaria en Cipotes. "
               ],
               "propuestas": [
-                "Fortalecer la unión y participación estudiantil.",
-                "Impulsar ideas, talentos y proyectos de los estudiantes.",
-                "Crear espacios de aprendizaje práctico y proyección profesional."
+                "Como vicepresidenta, quiero ser un apoyo real para cada estudiante, impulsando sus ideas, talentos y proyectos dentro de nuestra carrera. ",
+                "Mi meta es fortalecer la unión y la participación estudiantil, creando espacios que promuevan el aprendizaje práctico, la proyección profesional y las oportunidades internacionales. ",
+                "Además, deseo que la asociación se consolide como un punto de encuentro activo, donde cada estudiante se sienta escuchado, representado y motivado a involucrarse en el crecimiento de Relaciones Internacionales. "
               ],
               "hobbies": [
-                "Escuchar música y pintar con acuarelas.",
-                "Cocinar y ver series románticas.",
-                "Jugar Clash Royale (Arena 18)."
+                "Disfruto escuchar música, pintar con acuarelas en mi tiempo libre, completar sopas de letras, cocinar, cantar y ver series y películas, especialmente las comedias románticas. ",
+                "También me gusta jugar Clash Royale (soy arena 18) "
               ]
             },
             {
-              "puesto": "Secretario",
-              "nombre": "José Mario Mejía Montes",
-              "anio": "Tercer año",
-              "foto": "https://res.cloudinary.com/dnririxl6/image/upload/v1753794398/testimonials/logos/w9ulosa4vif4abkch6fo.jpg",
+              "puesto": "Secretario ",
+              "nombre": "José Mario Mejía Montes ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674303/55f32c3d-bea5-4b04-9a71-0c756d6e97d7.png",
               "experiencia": [
-                "Encargado de Procesos en Tu Voto Cipote.",
-                "Coordinador de Logística en Cipotes Honduras.",
-                "Host del pódcast La Cuarta Tribuna."
+                "Encargado de Procesos en Tu Voto, Cipote. ",
+                "Coordinador de Logística en Cipotes Honduras. ",
+                "Host del pódcast La Cuarta Tribuna. "
               ],
               "propuestas": [
-                "Crear oportunidades igualitarias de empoderamiento.",
-                "Fomentar participación activa y liderazgo compartido."
+                "Mi objetivo es crear oportunidades igualitarias de empoderamiento para toda la comunidad estudiantil de Relaciones Internacionales, fomentando la participación activa, el liderazgo compartido y el sentido de pertenencia dentro de la carrera. "
               ],
               "hobbies": [
-                "Ver deportes.",
-                "Pasar tiempo con familia y amigos."
+                "Disfruto ver deportes, servir y pasar tiempo con mi familia y amigos, actividades que me inspiran y fortalecen mi compromiso con el trabajo en equipo y la comunidad. "
+              ]
+            },
+            {
+              "puesto": "Tesorero ",
+              "nombre": "Owen David Bueso Cruz ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674315/61451f53-a233-48d8-8ab7-8982d8ecd9c7.png",
+              "experiencia": [
+                "Miembro del equipo de Cipotes Honduras, encargado del Área Operativa de las BCU (Beach Clean Up). ",
+                "Fiscal de la Asociacion Estudiantil de Relaciones Internacionales 2025. "
+              ],
+              "propuestas": [
+                "Mi propósito es fortalecer la unión dentro de la comunidad estudiantil de Relaciones Internacionales, estableciendo objetivos claros e impulsando iniciativas que beneficien a cada uno de los alumnos, promoviendo la colaboración, la participación y el sentido de pertenencia. "
+              ],
+              "hobbies": [
+                "Disfruto jugar baloncesto, soy parte del equipo representativo de UNITEC, y jugar videojuegos en mi tiempo libre. "
+              ]
+            },
+            {
+              "puesto": "Gestor de Redes Sociales ",
+              "nombre": "Saily Guadalupe Pacheco Hernández ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674333/a772ed80-5e63-4616-a81e-9993145fc489.png",
+              "experiencia": [
+                "Participación en el MINUH en la Secretaría Académica y en la Secretaría de Protocolo. "
+              ],
+              "propuestas": [
+                "Deseo transformar nuestras redes en un espacio vivo, donde cada publicación refleje lo que somos como estudiantes de Relaciones Internacionales: auténticos, críticos y con visión global. ",
+                "Mi objetivo es crear contenido que conecte con la comunidad, combinando creatividad, diseño y mensajes que inspiren la participación activa. ",
+                "Asimismo, quiero dar visibilidad a las actividades, logros y proyectos de nuestros compañeros, fortaleciendo el sentido de comunidad y pertenencia. ",
+                "Me interesa mantener una comunicación abierta y cercana, escuchando ideas que impulsen el crecimiento de nuestra carrera también en el mundo digital. "
+              ],
+              "hobbies": [
+                "Disfruto explorar el diseño digital y la fotografia creativa, además de escuchar música, ver películas, compartir tiempo con mis amigos, dibujar y pintar. "
+              ]
+            },
+            {
+              "puesto": "Coordinadora de primer ingreso ",
+              "nombre": "Mariajose Maradiaga Jiménez ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674350/7f1ebbf3-0c69-4c6f-9e05-4faefd36041e.png",
+              "experiencia": [
+                "Participación en el Diálogo Juvenil rumbo al VII Foro de Jóvenes en el marco de la X Cumbre de las Américas. ",
+                "Experiencia como edecán en actividades académicas y en empresas nacionales. ",
+                "Integrante en Modelos de Naciones Unidas. ",
+                "Certificaciones en gestión de datos con Excel, relaciones comerciales, liderazgo, ética y estrategias para la política real, entre otros. "
+              ],
+              "propuestas": [
+                "Como coordinadora de primer ingreso, mi plan de trabajo se enfocará en acompañar y orientar a los nuevos estudiantes, ayudándoles a adaptarse con facilidad a la carrera. ",
+                "Promoveré actividades de integración que fortalezcan el compañerismo y la participación, además de mantener una comunicación constante para atender dudas académicas o administrativas. ",
+                "Mi objetivo es crear un ambiente de confianza y apoyo, donde cada estudiante se sienta motivado y parte de la comunidad de Relaciones Internacionales. "
+              ],
+              "hobbies": [
+                "Disfruto leer sobre historia, pasar tiempo de calidad con mi familia y amigos, y participar en actividades que me permitan aprender cosas nuevas y desarrollar mi creatividad "
+              ]
+            },
+            {
+              "puesto": "Fiscal ",
+              "nombre": "Gissela María Nolasco Laínez ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674360/bc4fb52b-7780-4ffc-84e0-9cbc322040fd.png",
+              "experiencia": [
+                "Coordinadora en diversas ocasiones de la iniciativa “Beach Clean Up de Cipotes”, enfocada en la limpieza y concientización ambiental. ",
+                "Integrante del proyecto “Tu Voto Cipote”. ",
+                "Reconocimiento al mejor Position Paper en el Comité de Asamblea General del MINUH 2024. "
+              ],
+              "propuestas": [
+                "Mi plan de trabajo se centra en promover la transparencia y la rendición de cuentas mediante informes financieros claros y accesibles. ",
+                "Además, busco impulsar la ética estudiantil, fomentar la participación equitativa en proyectos académicos y fortalecer la comunicación entre la asociación y el estudiantado a través de espacios de diálogo constructivo. "
+              ],
+              "hobbies": [
+                "Disfruto escuchar música y participar en actividades orientadas al apoyo y la enseñanza. ",
+                "También valoro compartir tiempo de calidad con mi familia y amigos, encontrando en ello motivación y equilibrio personal. "
+              ]
+            },
+            {
+              "puesto": "Secretaria de Logística ",
+              "nombre": "Esther Abigail Flores Rodríguez ",
+              "anio": "Segundo año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674372/b44018c0-b9ae-4e36-93bf-660b0511330c.png",
+              "experiencia": [
+                "Secretaria Adjunta de Relaciones Públicas del MINUH 2025. "
+              ],
+              "propuestas": [
+                "Mi objetivo es organizar, apoyar y conectar con todos los miembros en cada actividad, colaborando en la organización, el montaje y la coordinación para asegurar que cada evento se desarrolle con éxito y en un ambiente de trabajo en equipo. "
+              ],
+              "hobbies": [
+                "Disfruto dibujar y escuchar música. "
+              ]
+            },
+            {
+              "puesto": "Coordinadora de Relaciones Públicas ",
+              "nombre": "Andrea Carolina Brizuela Reyes ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674381/6f1d03d9-2528-4b52-8a6b-c7a2127cac79.png",
+              "experiencia": [
+                "En conjunto con mi grupo, realicé el proyecto “Respiro de Amor”, con el objetivo de habilitar y equipar una sala de nebulizaciones para brindar una atención digna a los pacientes del Policlínico Paz Barahona. ",
+                "Soy parte del proyecto “Tu Voto, Cipote”, una herramienta educativa creada para ayudar a los jóvenes votantes en Honduras a comprender mejor los temas políticos, los procesos electorales y la participación ciudadana. ",
+                "Participé en la iniciativa “Mentorizate Up”, donde, con la guía de un mentor, logré planificar un proyecto que estoy próxima a realizar y que me emociona profundamente, ya que aborda un tema poco común. "
+              ],
+              "propuestas": [
+                "Como encargada de Relaciones Públicas, mi objetivo es crear espacios que fortalezcan el vínculo entre la comunidad estudiantil y nuestras actividades. ",
+                "Planeo organizar eventos y talleres que ayuden a desarrollar habilidades personales y profesionales, al mismo tiempo que fomenten la participación en proyectos de voluntariado y vinculación social. ",
+                "También quiero impulsar espacios de diálogo, escucha y colaboración, donde todas las voces sean tomadas en cuenta y cada estudiante se sienta parte activa del crecimiento de nuestra carrera. "
+              ],
+              "hobbies": [
+                "Me gusta mantenerme ocupada participando en distintos voluntariados. ",
+                "Disfruto pasar tiempo con mis amigos, salir a conocer nuevos lugares, ver series y leer. "
               ]
             }
           ]
@@ -1243,12 +1524,400 @@
         {
           "nombre": "MUSE",
           "carrera": "Licenciatura en Diseño Gráfico",
-          "candidatos": []
+          "candidatos": [
+            {
+              "puesto": "PRESIDENTA ",
+              "nombre": "Katherine Nicole Fernandez Orellana ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674212/5a0081b6-c789-432f-bc8c-d4654982b691.png",
+              "experiencia": [
+                "Reconocimiento por participación destacada en la muestra enfocus año 2025. "
+              ],
+              "propuestas": [
+                "Trabajar con empatía, organización y visión para que cada estudiante se sienta escuchado, representado y motivado a alcanzar su máximo potencial dentro de la carrera. ",
+                "Líneas de Acción: ",
+                "Liderazgo y Representación: Ejercer un liderazgo cercano, responsable y transparente, siendo la voz de los estudiantes ante las autoridades académicas y fomentando la participación de todos los miembros de la carrera. ",
+                "Crecimiento y Formación: Brindar herramientas, talleres y espacios de aprendizaje que fortalezcan las habilidades técnicas, creativas y humanas de los estudiantes, contribuyendo a su desarrollo profesional. ",
+                "Convivencia y Comunidad: Promover actividades que fortalezcan la unión, el respeto y la colaboración entre los estudiantes, creando un ambiente universitario positivo e inclusivo. ",
+                "Apoyo Estudiantil: Ser un punto de apoyo y orientación para los estudiantes, resolviendo dudas, canalizando sus necesidades y ofreciendo acompañamiento, especialmente a los de nuevo ingreso. "
+              ],
+              "hobbies": [
+                "Me apasiona el arte en todas sus formas, especialmente la pintura y la fotografía, que me permiten expresar emociones y capturar momentos únicos, me encanta escuchar música, viajar, ir a la playa y disfrutar de los atardeceres, ya que encuentro en la naturaleza una fuente constante de inspiración. ",
+                "Valoro mucho las actividades al aire libre y el voluntariado, participando en visitas a asilos y en clases dominicales con niños en mi iglesia, donde siento que puedo aportar y compartir con los demás desde el servicio y la empatía. "
+              ]
+            },
+            {
+              "puesto": "VICEPRESIDENTA ",
+              "nombre": "Nyah Theresa Solano Lozano ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674220/c8d9f985-1da9-42ee-a3e7-d233d9e191d7.png",
+              "experiencia": [
+                "He estado involucrada activamente en la carrera desarrollando proyectos de branding, diseño audiovisual y propuestas publicitarias. ",
+                "He colaborado en trabajos grupales donde se crean identidades visuales y presentaciones para distintos proyectos universitarios, lo que me ha permitido fortalecer mi creatividad, mi capacidad de organización y el trabajo en equipo dentro del entorno académico. "
+              ],
+              "propuestas": [
+                "Fomentar la participación creativa de los estudiantes mediante actividades, retos de diseño y espacios de exposición para mostrar su talento, y generar inspiración para los demás que puedan llegar a sentirse que están en un bloque artístico. "
+              ],
+              "hobbies": [
+                "Dibujar, Fotografía, Jugar Volleyball, Gaming, Leer. "
+              ]
+            },
+            {
+              "puesto": "SECRETARIA ",
+              "nombre": "Ana Leticia Cabrera Mejía ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674233/854917e7-af54-439e-8d68-7ff9981f0061.png",
+              "experiencia": [
+                "He ejercido roles de liderazgo académico en varios proyectos de diseño y varias actividades de grupo, priorizando la planificación, la comunicación efectiva y el trabajo colaborativo. ",
+                "Entre ellos destacan logros como  Fruza , mi proyecto final de Creatividad Publicitaria, el cual fue seleccionado y reconocido en  Enfocus 2025  y ganar el reconocimiento al mejor dibujo en un concurso interno realizado en la clase de Dibujo. "
+              ],
+              "propuestas": [
+                "Como secretaria, quiero que la organización también sea parte del diseño. ",
+                "Planeo desarrollar sistemas visuales de seguimiento (agendas, plantillas y registros) que mantengan el orden sin perder la estética que caracteriza a MUSE. ",
+                "Además, impulsaré una comunicación fluida y accesible dentro del equipo. "
+              ],
+              "hobbies": [
+                "En mi tiempo libre disfruto ver series, dibujar y escuchar pódcast. También me gusta cuidar mi cabello y maquillarme; ",
+                "son espacios donde puedo relajarme, expresar mi estilo y dedicar tiempo a mí misma. "
+              ]
+            },
+            {
+              "puesto": "TESORERA ",
+              "nombre": "Genesis Alexandra Cálix Espinal ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674245/5ddc12e9-ee1d-4acf-9ec2-e0ea1f907e05.png",
+              "experiencia": [
+                ""
+              ],
+              "propuestas": [
+                "Gestión Financiera Transparente: Administrar los fondos de la asociación con responsabilidad, manteniendo un registro claro de ingresos y egresos, y presentando informes periódicos para garantizar la confianza de los estudiantes y la directiva. ",
+                "Apoyo a Proyectos y Actividades: Colaborar en la planificación y financiación de talleres, exposiciones y eventos, asegurando que cada proyecto cuente con los recursos necesarios para su realización. ",
+                "Fomento de Participación y Recaudación: Organizar actividades de recaudación de fondos de manera creativa y participativa, involucrando a los estudiantes en la obtención de recursos para el desarrollo de la asociación. "
+              ],
+              "hobbies": [
+                "Me gusta pintar porque me permite expresar mi creatividad y relajarme después de un día ocupado. ",
+                "También disfruto escuchar música, ya que me ayuda a concentrarme o simplemente a disfrutar de mis momentos libres. ",
+                "Además, me encanta pasar tiempo al aire libre, porque me hace sentir tranquila y me permite disfrutar de la naturaleza. "
+              ]
+            },
+            {
+              "puesto": "COORD. REDES SOCIALES ",
+              "nombre": "Valeria Alejandra Avilez García ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674250/2d605df0-e118-4b58-86da-3997975606e4.png",
+              "experiencia": [
+                "He participado como fotógrafa de eventos y freelancer en proyectos de diseño y comunicación visual. ",
+                "Estas experiencias me han permitido desarrollar habilidades en organización, dirección creativa y trabajo en equipo, además de fortalecer mi compromiso con la representación y expresión artística dentro del ámbito estudiantil. "
+              ],
+              "propuestas": [
+                "Como gestora de redes, mi enfoque estará en mejorar la comunicación y la imagen digital de la comunidad estudiantil. ",
+                "Quiero crear contenido visual que refleje la creatividad, el talento y la identidad de nuestros estudiantes, fomentando la participación, la difusión de actividades y el sentido de pertenencia dentro de la facultad. "
+              ],
+              "hobbies": [
+                "Disfruto del arte en todas sus formas, especialmente la fotografía. ",
+                "También me interesa la pintura, el maquillaje artístico y el crochet. ",
+                "Me inspira la moda y la forma en que puede fusionarse con el arte para expresar autenticidad, emociones e identidad. "
+              ]
+            },
+            {
+              "puesto": "COORD. PRIMER INGRESO ",
+              "nombre": "Ivana Sofía García Tovar ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674259/c2537937-9395-4c8b-b67c-344bc1e09895.png",
+              "experiencia": [
+                "Por el momento no he desempeñado cargos de liderazgo, sin embargo, he participado en la coordinación de un proyecto de vinculación con una organización sin fines de lucro, enfocado en aplicar los conocimientos de diseño para contribuir al bienestar social. "
+              ],
+              "propuestas": [
+                "Brindar acompañamiento y orientación a los estudiantes de primer ingreso para facilitar su adaptación al entorno universitario. ",
+                "Organizar actividades de integración y talleres introductorios sobre herramientas básicas de diseño. ",
+                "Fomentar la comunicación entre los estudiantes de primer ingreso y los docentes o coordinadores de la carrera. ",
+                "Promover un ambiente colaborativo y de apoyo entre los compañeros. "
+              ],
+              "hobbies": [
+                "Leer, escuchar música y dibujar. "
+              ]
+            },
+            {
+              "puesto": "COORD. PRIMER INGRESO ",
+              "nombre": "Dulce María Nuñez Rubio ",
+              "anio": "Tercer año ",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674262/d05e23c7-9616-4694-8ac0-f26db60679fd.png",
+              "experiencia": [
+                ""
+              ],
+              "propuestas": [
+                "Impulsar la identidad de la carrera de Diseño Gráfico ",
+                "Promover la participación de los estudiantes en eventos académicos, culturales y creativos dentro y fuera de la universidad. ",
+                "Fomentar el compañerismo y la participación estudiantil ",
+                "Organizar actividades de integración, como convivios, talleres o jornadas creativas que fortalezcan los lazos entre estudiantes. ",
+                "Motivar la participación en votaciones y proyectos conjuntos. ",
+                "Promover la transparencia y el diálogo ",
+                "Garantizar que la información sobre decisiones o gestiones de la planilla sea clara y accesible para todos. ",
+                "Implementar espacios de opinión o encuestas para conocer el sentir de los estudiantes. "
+              ],
+              "hobbies": [
+                "Me gusta realizar actividades creativas como el dibujo y las manualidades, así como proyectos que requieren concentración y detalle, entre ellos armar piezas de Lego y elaborar pinturas con diamantes. "
+              ]
+            }
+          ]
         },
         {
           "nombre": "OFF THE LENS",
           "carrera": "Comunicación Estratégica y Audiovisual",
-          "candidatos": []
+          "candidatos": [
+            {
+              "puesto": "presidente",
+              "nombre": "Emmanuel Discua",
+              "anio": "tercer académico",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674101/4a82defa-e025-49bd-9f8e-34394363cdcb.png",
+              "experiencia": [
+                "Fotógrafo en Evento de Agro mercados, fotógrafo del CAM, Encargado de la transmisión de Graduaciones, Parte del equipo de iluminación de Cuervo Estudio."
+              ],
+              "propuestas": [
+                "Espacio de Proactividad y Expresión Creativa",
+                "Crear un espacio para los estudiantes de la carrera que represente la proactividad innata de la carrera y que exacerbe la percepción del potencial creativo de los estudiantes de comunicación estratégica y audiovisual.",
+                "Formación con Enfoque en el Mundo Real",
+                "Fomentar que los estudiantes perciban su carrera como una preparación auténtica y funcional para el entorno profesional, integrando experiencias, proyectos y dinámicas que conecten directamente con las exigencias del mercado laboral actual.",
+                "Talleres Dinámicos de Producción Audiovisual",
+                "Propuesta de realizar talleres prácticos y participativos donde los estudiantes puedan aplicar los conocimientos adquiridos en clase.",
+                "Estos talleres podrían abarcar distintas áreas como:",
+                "• Producción de audio",
+                "• Realización cinematográfica",
+                "Escritura creativa",
+                "Fotografia",
+                "Cada taller estaría enfocado en poner en práctica habilidades reales y fomentar la colaboración entre participantes.",
+                "Concursos creativos:",
+                "se propone organizar sesiones donde se entregue un \"prompt\" o tema base, y cada participante cree su propia interpretación.",
+                "Además, se podrían realizar concursos de cortometrajes, podcasts o videos cortos,",
+                "recaudando fondos para los premios mediante pequeñas actividades internas.",
+                "La idea es promover la creatividad, la sana competencia y la participación activa de los estudiantes.",
+                "Exhibición de trabajos estudiantiles",
+                "Organizar eventos periódicos para mostrar fotografías, videos y otros proyectos realizados por los estudiantes de la carrera.",
+                "Esto serviría como un espacio de exposición, reconocimiento y retroalimentación, fortaleciendo la comunidad creativa dentro del grupo.",
+                "Movie Nights",
+                "Retomar las noches de cine estudiantiles (Movie Nights) fomentando la exploración del cine en sus amplias ramas además de permitir espacios de relajación para los estudiantes e incluso docentes.",
+                "Talleres y Masterclasses de Especialización",
+                "Implementar talleres breves o \"masterclasses\" enfocados en herramientas y conocimientos técnicos esenciales, como:",
+                "• Iluminación y manejo de cámaras PTZ",
+                "• Color grading y teoría del color aplicada al video",
+                "• Uso práctico de software para freelance (por ejemplo, edición, diseño o gestión de proyectos)",
+                "Estas actividades estarían dirigidas tanto a estudiantes nuevos como avanzados, con el objetivo de reforzar habilidades técnicas y prepararlos para el trabajo profesional independiente."
+              ],
+              "hobbies": [
+                "Ir al gimnasio, Dibujar, ver películas; series, leer comics y creerse spider-man."
+              ]
+            },
+            {
+              "puesto": "vicepresidente",
+              "nombre": "Elier Valladares",
+              "anio": "segundo año académico.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674113/5f32a273-10da-4759-a503-780fb4743847.png",
+              "experiencia": [
+                "Colaboración en canal 6 durante elecciones primarias de 2025: apoyo en recopilación de información y transmisión de programa al aire."
+              ],
+              "propuestas": [
+                "Espacio de Proactividad y Expresión Creativa",
+                "Crear un espacio para los estudiantes de la carrera que represente la proactividad innata de la carrera y que exacerbe la percepción del potencial creativo de los estudiantes de comunicación estratégica y audiovisual.",
+                "Formación con Enfoque en el Mundo Real",
+                "Fomentar que los estudiantes perciban su carrera como una preparación auténtica y funcional para el entorno profesional, integrando experiencias, proyectos y dinámicas que conecten directamente con las exigencias del mercado laboral actual.",
+                "Talleres Dinámicos de Producción Audiovisual",
+                "Propuesta de realizar talleres prácticos y participativos donde los estudiantes puedan aplicar los conocimientos adquiridos en clase.",
+                "Estos talleres podrían abarcar distintas áreas como:",
+                "• Producción de audio",
+                "• Realización cinematográfica",
+                "Escritura creativa",
+                "Fotografia",
+                "Cada taller estaría enfocado en poner en práctica habilidades reales y fomentar la colaboración entre participantes.",
+                "Concursos creativos:",
+                "se propone organizar sesiones donde se entregue un \"prompt\" o tema base, y cada participante cree su propia interpretación.",
+                "Además, se podrían realizar concursos de cortometrajes, podcasts o videos cortos,",
+                "recaudando fondos para los premios mediante pequeñas actividades internas.",
+                "La idea es promover la creatividad, la sana competencia y la participación activa de los estudiantes.",
+                "Exhibición de trabajos estudiantiles",
+                "Organizar eventos periódicos para mostrar fotografías, videos y otros proyectos realizados por los estudiantes de la carrera.",
+                "Esto serviría como un espacio de exposición, reconocimiento y retroalimentación, fortaleciendo la comunidad creativa dentro del grupo.",
+                "Movie Nights",
+                "Retomar las noches de cine estudiantiles (Movie Nights) fomentando la exploración del cine en sus amplias ramas además de permitir espacios de relajación para los estudiantes e incluso docentes.",
+                "Talleres y Masterclasses de Especialización",
+                "Implementar talleres breves o \"masterclasses\" enfocados en herramientas y conocimientos técnicos esenciales, como:",
+                "• Iluminación y manejo de cámaras PTZ",
+                "• Color grading y teoría del color aplicada al video",
+                "• Uso práctico de software para freelance (por ejemplo, edición, diseño o gestión de proyectos)",
+                "Estas actividades estarían dirigidas tanto a estudiantes nuevos como avanzados, con el objetivo de reforzar habilidades técnicas y prepararlos para el trabajo profesional independiente."
+              ],
+              "hobbies": [
+                "Jugar video juegos y escuchar, analizar y profundizar en proyectos musicales."
+              ]
+            },
+            {
+              "puesto": "secretario",
+              "nombre": "Luis Valladares",
+              "anio": "tercer año académico.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674133/22267239-457d-46fe-8cfe-0e0067b5723b.png",
+              "experiencia": [
+                "Creador de arte gráfico en redes"
+              ],
+              "propuestas": [
+                "Espacio de Proactividad y Expresión Creativa",
+                "Crear un espacio para los estudiantes de la carrera que represente la proactividad innata de la carrera y que exacerbe la percepción del potencial creativo de los estudiantes de comunicación estratégica y audiovisual.",
+                "Formación con Enfoque en el Mundo Real",
+                "Fomentar que los estudiantes perciban su carrera como una preparación auténtica y funcional para el entorno profesional, integrando experiencias, proyectos y dinámicas que conecten directamente con las exigencias del mercado laboral actual.",
+                "Talleres Dinámicos de Producción Audiovisual",
+                "Propuesta de realizar talleres prácticos y participativos donde los estudiantes puedan aplicar los conocimientos adquiridos en clase.",
+                "Estos talleres podrían abarcar distintas áreas como:",
+                "• Producción de audio",
+                "• Realización cinematográfica",
+                "Escritura creativa",
+                "Fotografia",
+                "Cada taller estaría enfocado en poner en práctica habilidades reales y fomentar la colaboración entre participantes.",
+                "Concursos creativos:",
+                "se propone organizar sesiones donde se entregue un \"prompt\" o tema base, y cada participante cree su propia interpretación.",
+                "Además, se podrían realizar concursos de cortometrajes, podcasts o videos cortos,",
+                "recaudando fondos para los premios mediante pequeñas actividades internas.",
+                "La idea es promover la creatividad, la sana competencia y la participación activa de los estudiantes.",
+                "Exhibición de trabajos estudiantiles",
+                "Organizar eventos periódicos para mostrar fotografías, videos y otros proyectos realizados por los estudiantes de la carrera.",
+                "Esto serviría como un espacio de exposición, reconocimiento y retroalimentación, fortaleciendo la comunidad creativa dentro del grupo.",
+                "Movie Nights",
+                "Retomar las noches de cine estudiantiles (Movie Nights) fomentando la exploración del cine en sus amplias ramas además de permitir espacios de relajación para los estudiantes e incluso docentes.",
+                "Talleres y Masterclasses de Especialización",
+                "Implementar talleres breves o \"masterclasses\" enfocados en herramientas y conocimientos técnicos esenciales, como:",
+                "• Iluminación y manejo de cámaras PTZ",
+                "• Color grading y teoría del color aplicada al video",
+                "• Uso práctico de software para freelance (por ejemplo, edición, diseño o gestión de proyectos)",
+                "Estas actividades estarían dirigidas tanto a estudiantes nuevos como avanzados, con el objetivo de reforzar habilidades técnicas y prepararlos para el trabajo profesional independiente."
+              ],
+              "hobbies": [
+                "La lectura, la fotografía y el análisis profundo de películas"
+              ]
+            },
+            {
+              "puesto": "Tesorero",
+              "nombre": "Joseph Torres",
+              "anio": "segundo académico",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674148/d9d62616-6a84-4e4f-8ca4-5e8afcfe5502.png",
+              "experiencia": [
+                "Colaboración en canal 6 durante elecciones primarias de 2025: apoyo en recopilación de información y transmisión de programa al aire. Miembro debatiente de la Sociedad de Debates de Unitec"
+              ],
+              "propuestas": [
+                "Espacio de Proactividad y Expresión Creativa",
+                "Crear un espacio para los estudiantes de la carrera que represente la proactividad innata de la carrera y que exacerbe la percepción del potencial creativo de los estudiantes de comunicación estratégica y audiovisual.",
+                "Formación con Enfoque en el Mundo Real",
+                "Fomentar que los estudiantes perciban su carrera como una preparación auténtica y funcional para el entorno profesional, integrando experiencias, proyectos y dinámicas que conecten directamente con las exigencias del mercado laboral actual.",
+                "Talleres Dinámicos de Producción Audiovisual",
+                "Propuesta de realizar talleres prácticos y participativos donde los estudiantes puedan aplicar los conocimientos adquiridos en clase.",
+                "Estos talleres podrían abarcar distintas áreas como:",
+                "• Producción de audio",
+                "• Realización cinematográfica",
+                "Escritura creativa",
+                "Fotografia",
+                "Cada taller estaría enfocado en poner en práctica habilidades reales y fomentar la colaboración entre participantes.",
+                "Concursos creativos:",
+                "se propone organizar sesiones donde se entregue un \"prompt\" o tema base, y cada participante cree su propia interpretación.",
+                "Además, se podrían realizar concursos de cortometrajes, podcasts o videos cortos,",
+                "recaudando fondos para los premios mediante pequeñas actividades internas.",
+                "La idea es promover la creatividad, la sana competencia y la participación activa de los estudiantes.",
+                "Exhibición de trabajos estudiantiles",
+                "Organizar eventos periódicos para mostrar fotografías, videos y otros proyectos realizados por los estudiantes de la carrera.",
+                "Esto serviría como un espacio de exposición, reconocimiento y retroalimentación, fortaleciendo la comunidad creativa dentro del grupo.",
+                "Movie Nights",
+                "Retomar las noches de cine estudiantiles (Movie Nights) fomentando la exploración del cine en sus amplias ramas además de permitir espacios de relajación para los estudiantes e incluso docentes.",
+                "Talleres y Masterclasses de Especialización",
+                "Implementar talleres breves o \"masterclasses\" enfocados en herramientas y conocimientos técnicos esenciales, como:",
+                "• Iluminación y manejo de cámaras PTZ",
+                "• Color grading y teoría del color aplicada al video",
+                "• Uso práctico de software para freelance (por ejemplo, edición, diseño o gestión de proyectos)",
+                "Estas actividades estarían dirigidas tanto a estudiantes nuevos como avanzados, con el objetivo de reforzar habilidades técnicas y prepararlos para el trabajo profesional independiente."
+              ],
+              "hobbies": [
+                "Tocar la guitarra, ver películas, lectura de divulgación científica y novelas."
+              ]
+            },
+            {
+              "puesto": "Coord. de redes sociales",
+              "nombre": "Joyce Mariel Bardales Hernández",
+              "anio": "Finalizando primer año académico",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674159/4e00d705-8150-46be-8e6b-23753b44d25f.png",
+              "experiencia": [
+                "Creadora de contenido para iglesia Ebenezer y los Delfines sampedranos. Co- creadora de \"Capturao\" - Servicio independiente de fotografia."
+              ],
+              "propuestas": [
+                "Espacio de Proactividad y Expresión Creativa",
+                "Crear un espacio para los estudiantes de la carrera que represente la proactividad innata de la carrera y que exacerbe la percepción del potencial creativo de los estudiantes de comunicación estratégica y audiovisual.",
+                "Formación con Enfoque en el Mundo Real",
+                "Fomentar que los estudiantes perciban su carrera como una preparación auténtica y funcional para el entorno profesional, integrando experiencias, proyectos y dinámicas que conecten directamente con las exigencias del mercado laboral actual.",
+                "Talleres Dinámicos de Producción Audiovisual",
+                "Propuesta de realizar talleres prácticos y participativos donde los estudiantes puedan aplicar los conocimientos adquiridos en clase.",
+                "Estos talleres podrían abarcar distintas áreas como:",
+                "• Producción de audio",
+                "• Realización cinematográfica",
+                "Escritura creativa",
+                "Fotografia",
+                "Cada taller estaría enfocado en poner en práctica habilidades reales y fomentar la colaboración entre participantes.",
+                "Concursos creativos:",
+                "se propone organizar sesiones donde se entregue un \"prompt\" o tema base, y cada participante cree su propia interpretación.",
+                "Además, se podrían realizar concursos de cortometrajes, podcasts o videos cortos,",
+                "recaudando fondos para los premios mediante pequeñas actividades internas.",
+                "La idea es promover la creatividad, la sana competencia y la participación activa de los estudiantes.",
+                "Exhibición de trabajos estudiantiles",
+                "Organizar eventos periódicos para mostrar fotografías, videos y otros proyectos realizados por los estudiantes de la carrera.",
+                "Esto serviría como un espacio de exposición, reconocimiento y retroalimentación, fortaleciendo la comunidad creativa dentro del grupo.",
+                "Movie Nights",
+                "Retomar las noches de cine estudiantiles (Movie Nights) fomentando la exploración del cine en sus amplias ramas además de permitir espacios de relajación para los estudiantes e incluso docentes.",
+                "Talleres y Masterclasses de Especialización",
+                "Implementar talleres breves o \"masterclasses\" enfocados en herramientas y conocimientos técnicos esenciales, como:",
+                "• Iluminación y manejo de cámaras PTZ",
+                "• Color grading y teoría del color aplicada al video",
+                "• Uso práctico de software para freelance (por ejemplo, edición, diseño o gestión de proyectos)",
+                "Estas actividades estarían dirigidas tanto a estudiantes nuevos como avanzados, con el objetivo de reforzar habilidades técnicas y prepararlos para el trabajo profesional independiente."
+              ],
+              "hobbies": [
+                "Natación, fotografía, ver películas y series."
+              ]
+            },
+            {
+              "puesto": "Coord. de primer ingreso",
+              "nombre": "Letizia Haydee Acosta Dunaway",
+              "anio": "Iniciando segunda año académico",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674174/53236892-8652-4044-8b5f-cbf2ed5505ad.png",
+              "experiencia": [
+                "Graphic design y edición de video para \"María mírame\". Además, realizo un curso intensivo en fashion styling Instituto Marangoni.."
+              ],
+              "propuestas": [
+                "Espacio de Proactividad y Expresión Creativa",
+                "Crear un espacio para los estudiantes de la carrera que represente la proactividad innata de la carrera y que exacerbe la percepción del potencial creativo de los estudiantes de comunicación estratégica y audiovisual.",
+                "Formación con Enfoque en el Mundo Real",
+                "Fomentar que los estudiantes perciban su carrera como una preparación auténtica y funcional para el entorno profesional, integrando experiencias, proyectos y dinámicas que conecten directamente con las exigencias del mercado laboral actual.",
+                "Talleres Dinámicos de Producción Audiovisual",
+                "Propuesta de realizar talleres prácticos y participativos donde los estudiantes puedan aplicar los conocimientos adquiridos en clase.",
+                "Estos talleres podrían abarcar distintas áreas como:",
+                "• Producción de audio",
+                "• Realización cinematográfica",
+                "Escritura creativa",
+                "Fotografia",
+                "Cada taller estaría enfocado en poner en práctica habilidades reales y fomentar la colaboración entre participantes.",
+                "Concursos creativos:",
+                "se propone organizar sesiones donde se entregue un \"prompt\" o tema base, y cada participante cree su propia interpretación.",
+                "Además, se podrían realizar concursos de cortometrajes, podcasts o videos cortos,",
+                "recaudando fondos para los premios mediante pequeñas actividades internas.",
+                "La idea es promover la creatividad, la sana competencia y la participación activa de los estudiantes.",
+                "Exhibición de trabajos estudiantiles",
+                "Organizar eventos periódicos para mostrar fotografías, videos y otros proyectos realizados por los estudiantes de la carrera.",
+                "Esto serviría como un espacio de exposición, reconocimiento y retroalimentación, fortaleciendo la comunidad creativa dentro del grupo.",
+                "Movie Nights",
+                "Retomar las noches de cine estudiantiles (Movie Nights) fomentando la exploración del cine en sus amplias ramas además de permitir espacios de relajación para los estudiantes e incluso docentes.",
+                "Talleres y Masterclasses de Especialización",
+                "Implementar talleres breves o \"masterclasses\" enfocados en herramientas y conocimientos técnicos esenciales, como:",
+                "• Iluminación y manejo de cámaras PTZ",
+                "• Color grading y teoría del color aplicada al video",
+                "• Uso práctico de software para freelance (por ejemplo, edición, diseño o gestión de proyectos)",
+                "Estas actividades estarían dirigidas tanto a estudiantes nuevos como avanzados, con el objetivo de reforzar habilidades técnicas y prepararlos para el trabajo profesional independiente."
+              ],
+              "hobbies": [
+                "ver películas, practicar yoga y jugar tenis."
+              ]
+            }
+          ]
         },
         {
           "nombre": "SCALA",
@@ -1580,7 +2249,224 @@
         {
           "nombre": "KERNEL",
           "carrera": "Ingeniería en Sistemas / Ciencias de Datos e Inteligencia Artificial",
-          "candidatos": []
+          "candidatos": [
+            {
+              "puesto": "",
+              "nombre": "Andrea Nicole Altamirano Tomé",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673876/2a8a45b1-5324-4a2c-9cfb-41c7e59c5890.png",
+              "experiencia": [
+                "Presidente de la asociación NEXUS 2025 conformada por ing. en sistemas computacionales, ing. ",
+                "en ciencia de datos e inteligencia artificial e ing. en telecomunicaciones y electrónica. ",
+                "Fiscal de la junta directiva del club de danza de UNITEC llamado “Jaguares de Sula” ",
+                "Presidente de undécimo grado en mi colegio ",
+                "Presidente estudiantil de la junta directiva general de mi colegio ",
+                "Representante de TES en undécimo grado. ",
+                "Instructora de laboratorios de física ",
+                "Coordinadora de redes sociales en la junta directiva de la rama IEEE UNITEC SPS 2025 ",
+                "Miembro activo del club de negocios “Emprende+” "
+              ],
+              "propuestas": [
+                "Fomentar el crecimiento profesional y personal de la comunidad estudiantil mediante iniciativas que promuevan el aprendizaje continuo, el trabajo en equipo y el desarrollo de habilidades blandas y técnicas. ",
+                "Organizar talleres, conferencias y charlas con expertos de distintas áreas para reforzar los conocimientos adquiridos en clase y ofrecer nuevas perspectivas sobre temas de actualidad en el campo. ",
+                "Implementar actividades recreativas que permitan a los estudiantes disfrutar de espacios de ocio, socialización y relajación, fortaleciendo el sentido de comunidad. ",
+                "Ejercer un liderazgo responsable y eficiente, gestionando un equipo comprometido y competente para alcanzar los objetivos propuestos con transparencia, colaboración y organización. ",
+                "Impulsar la promoción de las carreras, motivando a nuevos estudiantes a unirse mediante actividades de difusión, mentorías y experiencias que reflejen el valor y potencial de cada disciplina. ",
+                "Diseñar y ofrecer merchandising representativo de la carrera (camisas, hoodies, llaveros, stickers, entre otros) para fortalecer la identidad y el sentido de pertenencia estudiantil. ",
+                "Realizar visitas técnicas a empresas y organizaciones del sector, con el objetivo de acercar a los estudiantes al entorno laboral y brindar una visión más práctica de su futuro profesional. "
+              ],
+              "hobbies": [
+                "Danza folclórica ",
+                "Leer ",
+                "Nadar ",
+                "Bailar ",
+                "Hacer sopas de letras y rompecabezas ",
+                "Pasar tiempo con mis seres queridos ",
+                "Cantar "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Chung Un Yum Hernández",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673883/362e30e1-39e2-4f6e-8492-490538b3e084.png",
+              "experiencia": [
+                "No cuento con experiencia de liderazgo en la universidad, sin embargo las personas a mi alrededor saben que soy una persona responsable, elocuente y altamente capaz. "
+              ],
+              "propuestas": [
+                "Colaborar con el resto de mis compañeros en Kernel para brindar la mejor experiencia académica a todos los estudiantes de Ingeniería en Sistemas Computacionales e Ingeniería en Ciencia de Datos e Inteligencia Artificial. ",
+                "Facilitar la comunicación de los estudiantes con las autoridades académicas (docentes, jefe de carrera, etc). ",
+                "Ayudar a brindar cambios basados en la retroalimentación dada por los estudiantes acerca de asuntos académicos ",
+                "Abogar siempre por el éxito formativo de los estudiantes de ambas carreras. "
+              ],
+              "hobbies": [
+                "La música ",
+                "Convivir con mis amigos ",
+                "La moda ",
+                "Ver series y películas ",
+                "Bordar "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Aaron Sebastian Cerrato Chinchilla",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673894/1c051302-2a87-489a-93e2-679908cd0efa.png",
+              "experiencia": [
+                "No tengo experiencia académica o de liderazgo previa, pero actualmente formo parte de una planilla estudiantil como aspirante al cargo de coordinador de deportes. ",
+                "Me interesa desarrollar mis habilidades de organización, liderazgo y trabajo en equipo, aprendiendo a través de la experiencia y del compromiso con mis compañeros. "
+              ],
+              "propuestas": [
+                "Mi propuesta se centra en fomentar el compañerismo y la integración estudiantil mediante actividades deportivas que promuevan valores como el respeto, la disciplina y la cooperación. ",
+                "Además, quiero dar a conocer la importancia del deporte en la vida universitaria "
+              ],
+              "hobbies": [
+                "Me apasionan los deportes, especialmente el ciclismo, el voleibol y baloncesto. ",
+                "Me llaman la atención actividades que me ayudan a mantenerme activo, disciplinado y enfocado en el trabajo en equipo.Además, me gusta la creación de videojuegos, porque me permite desarrollar mi creatividad y combinar el arte con la tecnología. "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Ema Paola Castellanos Galeas",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673897/1832e983-3399-43ea-b3d9-90f5968c5906.png",
+              "experiencia": [
+                "Miembro activo del equipo universitario de baloncesto. Anteriormente formé parte de equipos de voleibol y fútbol, y fui atleta en la asociación Karate Do Shitō Ryu, afiliada a la FEHKADO. ",
+                "Señorita Independencia Académica (Villanueva, 2022) ",
+                "Participación activa como miembro de mesa electoral en procesos estudiantiles durante todos los años de mi formación en media y parte de básica. ",
+                "Proyectos como pasante en IEDD. ",
+                "A lo largo de mi carrera universitaria, he ejercido liderazgo en diversos proyectos académicos, (como el proyecto de vinculación con COPECO), organizando equipos de trabajo, distribuyendo tareas y fomentando una dinámica colaborativa y eficiente. ",
+                "Me interesa seguir creciendo en espacios de representación estudiantil, aportando ideas y energía para fortalecer nuestra comunidad académica. "
+              ],
+              "propuestas": [
+                "Fortalecer el sentido de comunidad entre los estudiantes de nuestras carreras, promoviendo la colaboración y generando nuevas oportunidades que impulsen el desarrollo académico y profesional de nuestros compañeros, mediante talleres, charlas, actividades de vinculación, competencias y espacios de crecimiento conjunto. "
+              ],
+              "hobbies": [
+                "Me gusta practicar deportes, ver series y seguir aprendiendo constantemente en mi área profesional para seguir creciendo. ",
+                "Además, disfruto apoyar a quienes lo necesiten, especialmente en temas de matemáticas o física (aunque suene extraño, me entusiasma enseñar). "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Daniel Lorenzo Flores Bricio",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673903/ce9aae43-76eb-4f08-8408-1768563c23ea.png",
+              "experiencia": [
+                "Aunque no cuento con experiencia formal en liderazgo o coordinación, me considero una persona con facilidad para adaptarme y asumir responsabilidades cuando el equipo lo necesita. ",
+                "Ayudo a proponer soluciones y generar respuestas. En el ámbito académico, participé en las Olimpiadas Matemáticas de 2019, donde estuve dentro del top 15 de San Pedro Sula. "
+              ],
+              "propuestas": [
+                "Asegurar una organización eficiente y estructurada en cada evento o actividad, cuidando los detalles para que todo se desarrolle según lo planeado. ",
+                "Coordinar adecuadamente los recursos, garantizando que cada evento pueda desarrollarse según los planes.. ",
+                "Fomentar el trabajo en equipo y la comunicación constante entre mis compañeros de la planilla, promoviendo un ambiente colaborativo y productivo. ",
+                "Anticipar posibles imprevistos logísticos para poder generar soluciones rápidas que eviten retrasos o inconvenientes. "
+              ],
+              "hobbies": [
+                "Jugar videojuegos ",
+                "Escuchar música ",
+                "Ver películas ",
+                "Programar ",
+                "Pasar tiempo con mis amigos "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Ana Gabriela Valle Monges",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673924/b26a1482-8a3a-41a9-a7ef-6ec2a565fd81.png",
+              "experiencia": [
+                "Presidente en ultimo de bachiller en mi colegio "
+              ],
+              "propuestas": [
+                "Diseñar un plan integral de redes sociales alineado con los objetivos institucionales de la universidad. ",
+                "Crear un calendario de publicaciones mensual con contenido académico, cultural y de vida estudiantil. ",
+                "Promover una comunicación visual coherente con la identidad institucional en todas las plataformas. "
+              ],
+              "hobbies": [
+                "Salir a correr ",
+                "Pasar tiempo con mis amigos ",
+                "Conocer nuevos lugares ",
+                "meditación ",
+                "escuchar musica "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Katherine Nohemi Carvallo Sinclair",
+              "anio": "Segundo año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673934/b785921c-55a9-4521-af4f-6007172c719b.png",
+              "experiencia": [
+                "Actualmente no cuento con experiencia formal en cargos de liderazgo o coordinación, pero estoy motivado a asumir responsabilidades y aportar con compromiso y entusiasmo. "
+              ],
+              "propuestas": [
+                "Crear espacios de bienvenida y orientación para los estudiantes de primer ingreso. ",
+                "Organizar talleres de integración, motivación o apoyo académico. ",
+                "Proponer actividades que ayuden a los nuevos estudiantes a conocer la universidad, sus servicios y a sus compañeros. "
+              ],
+              "hobbies": [
+                "Costurar ",
+                "Sudoku ",
+                "Crochet ",
+                "Bisuteria ",
+                "Pintar ",
+                "Rompecabezas "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Johnny Josue Melgar Machorro",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673938/c61902c5-1f04-4820-81c8-64aa3b2f6c20.png",
+              "experiencia": [
+                "Como tal no poseo una experiencia académica o de liderazgo, sin embargo estoy en el apoyando como desarrollador al Ingeniero Winder Matamoros en la creación de páginas web para la universidad, aunque sea el único desarrollador y no maneje programadores, estoy en una posición que requiere de mi tiempo. "
+              ],
+              "propuestas": [
+                "Organizar talleres de Docker, Node, React, etc. ",
+                "Crear un estándar del flujo de ingresos ",
+                "Crear una comunidad en donde todos nos podamos ver como iguales, conocer las destrezas y debilidades de los demás y apoyarlos en donde ellos no sean buenos. ",
+                "Porque las ingenierías son de todo un poco "
+              ],
+              "hobbies": [
+                "Programar ",
+                "Jugar videojuegos ",
+                "Hacer Ejercicio ",
+                "Jugar juegos de mesa ",
+                "Dibujar "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Nadiesda Yailin Fuentes Hernandez",
+              "anio": "2do o 3ero",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673949/0ebbae79-4c11-4a5a-a738-be5ba78b665c.png",
+              "experiencia": [
+                "Participación en el Babson Worldwide students challenge con el proyecto Safe Drive "
+              ],
+              "propuestas": [
+                "Visitas tecnicas ",
+                "Charlas que refuercen o expandan el conocimiento de la comunidad estudiantil "
+              ],
+              "hobbies": [
+                "Bailar, dibujar, música "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Leonardo David López Velásquez",
+              "anio": "1ro",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673954/86d2c8ae-ed80-47f9-86e0-89087e02c96b.png",
+              "experiencia": [
+                "Participación en el Hackaton 2025 Q1 UNITEC "
+              ],
+              "propuestas": [
+                "Talleres de información informática ",
+                "Reforzar la disciplina y entusiasmo por la carrera. "
+              ],
+              "hobbies": [
+                "Hacer deporte, jugar, programar "
+              ]
+            }
+          ]
         },
         {
           "nombre": "AEE 2026",
@@ -1765,7 +2651,103 @@
         {
           "nombre": "VEF 2026",
           "carrera": "Ingeniería Mecatrónica",
-          "candidatos": []
+          "candidatos": [
+            {
+              "puesto": "Presidente",
+              "nombre": "Carlos Alfredo Rubi Reyes",
+              "anio": "Finalizando 3er año de la carrera",
+              "foto": "",
+              "experiencia": [
+                "En mis experiencias de liderazgo se encuentran: 4 años como presidente de grado en el colegio, 1 año como presidente de gobierno de estudiantil en el colegio, 1 año como coordinador de redes sociales en la asociación de ingeniería en mecatrónica (actual).",
+                "En mis experiencias académicas: Mejor graduado de la promoción del BTP en Mecatrónica y el segundo mejor graduado del colegio."
+              ],
+              "propuestas": [
+                "1. Crear un ambiente de aprendizaje con talleres, charlas y visitas técnicas;",
+                "2. Fomentar la unión estudiantil con actividades recreativas."
+              ],
+              "hobbies": [
+                "Tocar el piano",
+                "jugar Brawl Stars",
+                "ver series y escuchar música."
+              ]
+            },
+            {
+              "puesto": "Vicepresidente",
+              "nombre": "Carlos Marcelo Alvarado Rivas",
+              "anio": "3er año de la carrera",
+              "foto": "",
+              "experiencia": [
+                "En mi experiencia académica es el segundo mejor promedio de mi generación en Bachillerato en Humanidades y actualmente ser becado por excelencia académica en UNITEC,",
+                "en mis experiencias de Liderazgo: Diversos cargos en gobiernos estudiantiles desde la primaria hasta secundaria, un curso sobre liderazgo Juvenil en DALE Carnegie, 1 año como coordinador de logística en la actual asociación de ingeniera en mecatrónica."
+              ],
+              "propuestas": [
+                "1. Fomentar el apoyo estudiantil en la carrera de mecatrónica,",
+                "2. Generar más oportunidades de aprendizaje y liderazgo para la comunidad estudiantil."
+              ],
+              "hobbies": [
+                "Jugar fútbol",
+                "Jugar videojuegos",
+                "Ver series",
+                "Escuchar música."
+              ]
+            },
+            {
+              "puesto": "Tesorero",
+              "nombre": "David Josue Melara García",
+              "anio": "2do año",
+              "foto": "",
+              "experiencia": [
+                "Participación de juez en una feria de ciencias en una escuela aquí en SPS,",
+                "participación en varios proyectos de universidad y buen trabajo en equipo."
+              ],
+              "propuestas": [
+                "Mejorar la coordinación del mecatón cada trimestre y tener más comunicación a la hora de organizarlo."
+              ],
+              "hobbies": [
+                "Jugar videojuegos",
+                "tocar batería",
+                "escuchar música."
+              ]
+            },
+            {
+              "puesto": "Coord. Académico",
+              "nombre": "Dennis Hernán Valladares Sánchez",
+              "anio": "3er año",
+              "foto": "",
+              "experiencia": [
+                "Participación en varios proyectos y trabajo en equipo."
+              ],
+              "propuestas": [
+                "Mejorar la comunicación entre estudiantes, apoyar el aprendizaje con tecnología y promover actividades que nos unan más como grupo."
+              ],
+              "hobbies": [
+                "Me gusta la tecnología",
+                "los carros y visitar lugares nuevos tal como pueblitos, países o culturas."
+              ]
+            },
+            {
+              "puesto": "Coord. De Relaciones Publicas",
+              "nombre": "Adi Maricela Oyuela Ramirez",
+              "anio": "3er año",
+              "foto": "",
+              "experiencia": [
+                "Primer lugar BeginnersA mecaton Q1-2023",
+                "miembro activo del club guias jaguares desde el año 2023",
+                "miembro activo de organización de jóvenes",
+                "representante en olimpiadas de matemáticas 2018-2019",
+                "miembro de VEF2025."
+              ],
+              "propuestas": [
+                "Mejorar la comunicación y convivencia entre otros programas educativos",
+                "incentivar a la participación en actividades académicas",
+                "trabajo en equipo."
+              ],
+              "hobbies": [
+                "Me gusta leer, cocinar, ver series, escuchar música, platicar y conocer personas (aunque al inicio no soy muy extrovertida).",
+                "También me gusta escribir y aprender un poco de todo."
+              ]
+            }
+          ]
         },
         {
           "nombre": "AECI",
