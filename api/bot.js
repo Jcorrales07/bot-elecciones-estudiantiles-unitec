@@ -9,6 +9,11 @@ if (!BOT_TOKEN) console.error('⚠️ Falta BOT_TOKEN');
 
 const bot = new Telegraf(BOT_TOKEN);
 
+function escapeMarkdownV2(text) {
+  return text
+    .replace(/[_*[\]()~`>#+\-=|{}.!]/g, '\\$&'); // escapado de caracteres especiales
+}
+
 // === MENÚ PRINCIPAL ===
 const MENU_PRINCIPAL = Markup.keyboard([
   ['1️⃣ Ver planillas por carrera'],
@@ -149,12 +154,14 @@ bot.action(/planilla:(.+):(.+)/, async (ctx) => {
         mensaje += `\n🎨 *Hobbies:*\n${cand.hobbies.join(', ')}\n`;
       }
 
+      const safeCaption = escapeMarkdownV2(mensaje);
+
       // Enviar con o sin foto
       try {
         if (cand.foto) {
           await ctx.replyWithPhoto(
             { url: cand.foto },
-            { caption: mensaje }
+            { caption: safeCaption, parse_mode: 'MarkdownV2' }
           );
         } else {
           await ctx.replyWithMarkdown(mensaje);
