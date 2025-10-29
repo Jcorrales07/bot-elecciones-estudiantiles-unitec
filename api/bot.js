@@ -154,7 +154,7 @@ bot.action(/planilla:(.+):(.+)/, async (ctx) => {
         if (cand.foto) {
           await ctx.replyWithPhoto(
             { url: cand.foto },
-            { caption: mensaje, parse_mode: 'Markdown' }
+            { caption: mensaje }
           );
         } else {
           await ctx.replyWithMarkdown(mensaje);
