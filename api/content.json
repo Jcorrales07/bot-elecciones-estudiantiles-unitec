@@ -817,7 +817,229 @@
         {
           "nombre": "DE IURE",
           "carrera": "Licenciatura en Derecho",
-          "candidatos": []
+          "candidatos": [
+            {
+              "puesto": "",
+              "nombre": "Samuel Sheni Mejia Castro",
+              "anio": "3",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674512/9f4c225d-643e-470c-b1e0-4fe53d4d8eb7.png",
+              "experiencia": [
+                "Secretario asociación Derecho 2025",
+                "Secretario Logistica COMS 2025",
+                "Líder de CLUB MJU",
+                "Fundador de LUVGIFT, SUGARTWIST.",
+                "Encargado de la Obra Social en ONG HC",
+                "Miembro de Fundación Sampedrana del Niño"
+              ],
+              "propuestas": [
+                "Mi meta en este nuevo período es fortalecer la interacción y unidad dentro de la carrera de Derecho.",
+                "Junto al apoyo de mi planilla, queremos traerles actividades que no solo les ayuden a obtener horas de vinculación, sino que también fomenten el sentido de pertenencia, compañerismo y orgullo por nuestra carrera.",
+                "Buscamos que cada experiencia universitaria sea memorable, combinando el aprendizaje con espacios que nos motiven a crecer juntos.",
+                "Además, aspiramos a fortalecer los lazos con nuestros compañeros del campus Tegucigalpa y participar en actividades interuniversitarias donde podamos poner en práctica todo lo que aprendemos en las aulas."
+              ],
+              "hobbies": [
+                "realizar obra social, ya que me apasiona servir y generar un impacto positivo en la comunidad.",
+                "Participo activamente en actividades de ayuda comunitaria y voluntariado.",
+                "Disfruto la planificación y ejecución de eventos, porque me permite combinar la organización, la creatividad y el trabajo en equipo.",
+                "me gusta cocinar, viajar, hacer actividades al aire libre y conocer nuevas culturas.",
+                "Me encanta aprender cosas nuevas, desde idiomas hasta temas de liderazgo y desarrollo personal.",
+                "En mi tiempo libre disfruto leer libros inspiradores, escuchar podcasts de crecimiento personal, y crear contenido visual o proyectos creativos que reflejen mis ideas.",
+                "Soy una persona que siempre busca mantenerse activa, aprender y aportar, disfrutando cada experiencia como una oportunidad para crecer."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Gabriela Valle",
+              "anio": "4",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674524/e8d749e0-ae12-4fa2-bc53-bdc226418e4a.png",
+              "experiencia": [
+                "Miembro de grupo juvenil católico (Emproitas Parroquia San José, Ocotepeque, Honduras)"
+              ],
+              "propuestas": [
+                "Mi meta para este periodo se centra en el fortalecimiento de la formación académica y el sentido de pertenencia de los estudiantes de la facultad de Derecho a través de iniciativas innovadoras y participativas que trascienden del salón clases.",
+                "Llevando a cabo, junto con los miembros de nuestra planilla, actividades que permitan el desarrollo del análisis crítico y la oportunidad de los estudiantes de poder expresar sus ideas y contribuir a generar cambios.",
+                "Asimismo, dar mayor proyección a la comunidad estudiantil de derecho a nivel nacional.",
+                "Finalmente, busco que la facultad pueda posicionarse como un referente en la difusión de conocimiento, reflejando un compromiso con la excelencia académica, la creatividad y la integración.",
+                "Buscando paralelamente, abrir nuevos caminos para que la comunidad estudiantil se sientan parte activa de la vida universitaria y proyecten su voz en el ámbito legal del país."
+              ],
+              "hobbies": [
+                "leer, disfruto mucho leer libros de diversos géneros como fantasía, romance, misterio y de crecimiento personal, debido que puedo darle rienda suelta a mi imaginación y ampliar mi vocabulario.",
+                "Recientemente me he interesado muchísimo por leer e investigar sobre mitología griega, razón por la cual se ha vuelto una afición escuchar podcasts sobre el tema.",
+                "En la misma línea, en tiempo libre me encanta ver películas de terror, reseñas y resúmenes de estas, aunque posteriormente no las termine viendo.",
+                "También hornear forma parte de mis hobbies, me gusta seguir recetas y experimentar nuevos sabores y texturas, asimismo, es una actividad que me relaja mucho.",
+                "Finalmente, me gusta mucho ejercitarme desde salir a caminar hasta levantar pesas pues me es de mucha ayuda para desestresarme y contribuye a que pueda tener una vida sana en el futuro, así cuando me vuelva mayor no pierda movilidad."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Christopher Hans Davila Ebanks",
+              "anio": "2",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674530/9235614b-38e9-4e61-9e70-8628868d34a1.png",
+              "experiencia": [
+                "Presidente Consejo Estudiantil Instituto San José 2023",
+                "Miembro Juventud a la Orden",
+                "Miembro Grupo Juvenil Parroquia las mercedes",
+                "Anterior miembro de sociedad de debates."
+              ],
+              "propuestas": [
+                "Integrando la planilla he llegado a buscar un ideal de socializar la carrera para dar a conocer a la población estudiantil general y a las nuevas generaciones de graduandos de secundaria que puedan desarrollar interés en la carrera en nuestro campus de San Pedro Sula.",
+                "Busco añadir representación de estudiantes de la carrera para promocionar la misma con los grupos de inducción a modo de publicitarla y ampliar nuestra matricula.",
+                "Continuar con actividades académicas de aprendizaje jurídico continuo al que nos hemos acostumbrado con asociaciones anteriores como juicios simulados"
+              ],
+              "hobbies": [
+                "Me apasiona la lectura, la narración, la música y la interpretación teatral, toda interacción humana entendida como costumbre social me es bienvenida;",
+                "charlas con amigos, foros interactivos, mítines, concentraciones, actividades religiosas y grupos de trabajo.",
+                "Mantengo un interés particular en las ciencias sociales de nuestra nación resaltando la política y desarrollo social y urbano.",
+                "Disfruto de las discusiones y debates que salen de temáticas de interés público, el estudio de nuestra historia y las decisiones que llevan nuestro futuro.",
+                "Otras actividades más juveniles en las que invierto mi tiempo son los videojuegos y el futbol, soy apasionado del club deportivo Honduras Progreso."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Lilian Lopez",
+              "anio": "2",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674666/6843de56-ca3d-4664-a531-debf426e5ec9.png",
+              "experiencia": [
+                "Gerente (y pionero) del Comité de Inglés en Students for Students (2020).",
+                "Directora de Imagen Pública del Club Interact San Pedro Sula 2022-2023",
+                "Vice-presidente del Club Interact San Pedro Sula 2023-2024",
+                "Social Media Ambassador del Distrito 4250 de Interact. 2024",
+                "Directora de Proyectos en el Distrito 4250 de Interact(2024-2025)",
+                "Presidente del Club Interact San Pedro Sula 2024-2025"
+              ],
+              "propuestas": [
+                "Mi objetivo en este nuevo comienzo, es innovar en la asociación y la carrera de derecho.",
+                "Mi meta es realizar actividades interactivas que fomenten el interés continuo de los estudiantes hacia la carrera, así mismo buscar que nuestras actividades se acomoden al horario de los estudiantes de la carrera de derecho.",
+                "Espero realizar actividades de recaudación de fondos que innoven y evolucionen constantemente para fomentar el apoyo de los estudiantes.",
+                "Espero ser apoyo y escuchar a los estudiantes, para mejorar la convivencia en nuestra carrera y así ser más unidos.",
+                "En este nuevo periodo espero que como asociación podamos escuchar a los estudiantes, desde primer ingreso hasta los que están por culminar su carrera, y con esperanzas que el interés sea reciproco y beneficioso para todos."
+              ],
+              "hobbies": [
+                "Recientemente una de mis mayores fascinaciones es grabar/editar o realizar contenido para redes sociales, así mismo me gusta mucho aprender de la información que esta nos brinda.",
+                "Me gusta escuchar podcasts de casos criminales, y el análisis detrás de las personas que los cometen.",
+                "Me gusta leer (libros físicos) porque es una oportunidad de sumergirme en algo fuera de pantallas.",
+                "También disfruto emprender y hacer negocios, más allá del dinero es una oportunidad para conocer y conectar con distintas personas.",
+                "Y mi pasatiempo más importante es el servicio social, me gusta dedicar parte de mi tiempo si se me da la oportunidad para ayudar a los más vulnerables."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Dulce Murcia",
+              "anio": "2 años",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674670/17fcf054-2575-488d-b1a7-7aa5e0df068d.png",
+              "experiencia": [
+                "Colaboracion en foros, colaboracion en debates y voluntariados."
+              ],
+              "propuestas": [
+                "Legal hackathon, un mini evento donde equipos de estudiantes presentan en pocas horas soluciones creativas a un problema jurídico actual (ej. uso de IA en juicios, reformas a leyes).",
+                "Escape room legal, un juego interactivo en el campus donde resuelvan pistas jurídicas (ej. artículos de la Constitución, casos ficticios) para “escapar”.",
+                "Tipo los participantes deben resolver pistas y acertijos legales en un tiempo limitado (ej. 20-30 minutos).",
+                "La idea es recrear un “caso” o “misterio jurídico” que los alumnos deben resolver trabajando en equipo.",
+                "Ej: crimen en la facultad: deben resolver quién fue el responsable a partir de artículos del código penal y pistas escondidas.",
+                "De campaña ,cartas a la justicia, una dinámica donde los estudiantes escriben mensajes dirigidos a la Justicia (ya sean deseos, críticas o propuestas).",
+                "Se coloca un buzón decorado en la u (o una versión digital con código QR o formulario) para depositar las cartas.",
+                "Al final, los mensajes más inspiradores se exhiben en un mural o en las redes de la asociación.",
+                "Lex-Photo challenge, un stand sencillo con props de Derecho (martillo, toga, Constitución, balanza de la justicia).",
+                "Se lanza un hashtag y los que suban su foto participan en un giveaway."
+              ],
+              "hobbies": [
+                "participar en actividades de voluntariado y ayuda comunitaria, ya que me apasiona contribuir al bienestar de los demás y generar un impacto positivo en mi entorno.",
+                "Disfruto involucrarme en proyectos solidarios, trabajar en equipo y conocer nuevas personas, porque creo que cada experiencia es una oportunidad para aprender y crecer.",
+                "me gusta salir, socializar y participar en eventos que fomenten la convivencia y la colaboración, pues valoro mucho las relaciones humanas y el poder de la empatía."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Rebeca Zuniga",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674690/5fbc6f1b-a360-439d-890e-96d5dd4f6941.png",
+              "experiencia": [
+                "Voluntaria de Organización Granitos Azules",
+                "Colaboradora en actividades académicas de UNITEC",
+                "Participación en actividades como MUNUH",
+                "Participación en Foros de Derecho"
+              ],
+              "propuestas": [
+                "Mi idea es que la asociación sea algo dinámico y que realmente una a los estudiantes de Derecho.",
+                "Quiero hacer un JURIS Fest, con juegos como toro mecánico, photo booth y trivias legales.",
+                "Podría hacerse para el Día del Abogado, y los estudiantes de Derecho puedan disfrutar de la actividad",
+                "También me gustaría organizar moot courts con otras universidades, como la USAP, y promover viajes académicos o cursos con el INECIP."
+              ],
+              "hobbies": [
+                "participar en organizaciones y fundaciones que apoyan a niños de casas hogar y a personas en situación vulnerable.",
+                "También disfruto hacer ejercicio y asistir al gimnasio, ya que se ha convertido en parte de mi rutina y un hábito que me hace sentir bien."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Oscar Moran",
+              "anio": "1",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674695/3aa8a62b-3b96-4ca4-a978-b246087dfcc3.png",
+              "experiencia": [
+                "Presidente de Consejo Estudiantil Saint Peter´s Academy 2020",
+                "Miembro de Consejo estudiantil Escolar 2023"
+              ],
+              "propuestas": [
+                "Fortalecer tanto la formación académica como la unión entre los estudiantes de Derecho, impulsando iniciativas que nos permitan crecer dentro y fuera de las aulas de clase.",
+                "Propongo espacios académicos como foros y talleres jurídicos para desarrollar el pensamiento crítico de cada alumno de la Carrera en Unitec, para fomentar distintas maneras de estudio en los Alumnos;",
+                "un convivio general entre estudiantes de nuestra Carrera para fomentar la integración, el compañerismo y el sentido de pertenencia en cada uno de Nosotros;",
+                "y la proyección de nuestra facultad en actividades y encuentros nacionales, para que la voz de los estudiantes tenga presencia y reconocimiento en el País.",
+                "Siento que estas propuestas podrían hacer que cada estudiante se sienta parte activa de una comunidad comprometida con la excelencia, la participación y el futuro del Derecho en Honduras, Muchas gracias."
+              ],
+              "hobbies": [
+                "me gusta mucho los deportes, en especial el Baloncesto y como deporte secundario el Futbol, disfruto mucho socializar con todos y tratar de hacer un amigo nuevo cada dia, ya que los contactos son importantes para nuestro futuro;",
+                "Disfruto también viajar y estar al tanto de que pasa en el mundo, y principalmente en nuestro hermoso país Honduras."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Stacy Torres",
+              "anio": "2",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674700/1ddc12e3-6a94-4c21-9dfe-89654fd39d53.png",
+              "experiencia": [
+                "Participante en proyectos de voluntariado universitario",
+                "Presidenta del gobierno estudiantil en mi colegio durante el último año",
+                "Encargada de coordinar actividades académicas y recreativas en mi promoción",
+                "Participante en foros y debates escolares sobre temas sociales y educativos"
+              ],
+              "propuestas": [
+                "Foro Abierto UNITEC Derecho, donde nosotros como estudiantes podamos reunirnos a conversar y debatir sobre temas jurídicos que nos parezcan importantes, en un espacio donde todos podamos opinar y aprender unos de otros.",
+                "Una actividad tipo juego de Clue en la que resolvamos un caso legal siguiendo pistas y pruebas que iremos descubriendo, puede ser tipo en grupos de varios “abogados” y así nos ayudamos y puede ser con contra parte tipo si es en el área penal (la parte defensora y acusadora)",
+                "Mural de la Justicia, donde escribamos palabras o frases que representen lo que significa para nosotros el Derecho, algo que refleje lo que pensamos y sentimos como futuros abogados.",
+                "Reto Jurídico Express, una dinámica con preguntas o desafíos rápidos sobre temas legales, para aprender de forma más entretenida, compartir entre todos y dar a conocer lo que hace la asociación."
+              ],
+              "hobbies": [
+                "participar en actividades de voluntariado y proyectos sociales, ya que disfruto ayudar a las personas y aportar algo positivo a la comunidad.",
+                "También me gusta ir al cine, escuchar música, leer sobre temas de desarrollo personal, pasar tiempo con mis amigos y conocer lugares nuevos.",
+                "Además, disfruto organizar actividades o eventos, ya que me permiten trabajar en equipo y aprender de los demás."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Nicolle Sarres",
+              "anio": "2",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674707/8d2434f8-4d05-431c-8410-fddcf3e63482.png",
+              "experiencia": [
+                "Participación en foros y conferencias estudiantiles.",
+                "Presidenta del gobierno estudiantil en la escuela.",
+                "Participación en actividades de voluntariado y proyectos sociales.",
+                "Representación en congresos infantiles y olimpiadas académicas.",
+                "Participación en proyectos de liderazgo juvenil."
+              ],
+              "propuestas": [
+                "Entre mis propuestas destaca la creación de una cuenta oficial de TikTok administrada por estudiantes, donde se combine contenido educativo con videos dinámicos y de entretenimiento jurídico, fomentando la participación y creatividad del alumnado.",
+                "Además, impulsaré el programa “Derecho y Bienestar”, que busca abordar temas de salud mental y equilibrio académico mediante charlas breves con especialistas y egresados.",
+                "Finalmente, propongo la implementación de un “Taller Permanente de Redacción Jurídica”, con sesiones mensuales orientadas al desarrollo de habilidades prácticas en la elaboración de documentos legales.",
+                "Estas iniciativas reflejan mi compromiso con la innovación, la formación integral y el fortalecimiento de nuestra comunidad universitaria."
+              ],
+              "hobbies": [
+                "hacer deporte, especialmente correr, nadar, bailar y senderismo.",
+                "Soy una persona apasionada por lo que hace y disfruto compartir buenos momentos con los demás, ya sea con una buena charla, un café o pasando tiempo con mi familia y amigos.",
+                "Me encanta la playa, viajar, leer libros de crecimiento personal, escuchar música y podcasts.",
+                "También disfruto crear, decorar y realizar trabajos de bisutería, así como participar en proyectos de voluntariado y ayudar a los demás en mi día a día, pues me motiva poder servir y aportar algo positivo a quienes me rodean."
+              ]
+            }
+          ]
         },
         {
           "nombre": "ARKANA H&T 2026",
