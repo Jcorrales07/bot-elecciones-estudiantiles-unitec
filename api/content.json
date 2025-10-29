@@ -2,12 +2,10 @@
   "links": {
     "consultas": "https://vida-estudiantil.ejemplo/consultas"
   },
-
   "fechas": {
     "Stand informativo": "22 de noviembre (9:00 AM – 5:00 PM)",
     "Fecha de elecciones": "18 de noviembre (9:00 AM – 6:00 PM)"
   },
-
   "reglas": {
     "Requisitos": [
       "Ser estudiante activo, debidamente matriculado en el campus o sede donde se realizarán las votaciones.",
@@ -19,21 +17,935 @@
       "De cualquier forma, intenta coaccionar o influir a otros votantes."
     ]
   },
-
   "facultades": [
     {
       "id": "facs",
       "nombre": "Facultad de Ciencias Administrativas y Sociales",
       "planillas": [
-        { "nombre": "NEO-MKT", "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales", "candidatos": [] },
-        { "nombre": "ACE (Acción, Creatividad, Estrategia)", "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales", "candidatos": [] },
-        { "nombre": "VIBE (Visión, Innovación, Bienestar, Estrategia)", "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales", "candidatos": [] },
-        { "nombre": "AEFINEC", "carrera": "Licenciatura en Finanzas y Economía", "candidatos": [] },
-        { "nombre": "INNOVA", "carrera": "Administración Industrial e Inteligencia de Negocios / Admon. Industrial y Emprendimiento / Admon. Industrial y Operaciones", "candidatos": [] },
-        { "nombre": "DE IURE", "carrera": "Licenciatura en Derecho", "candidatos": [] },
-        { "nombre": "ARKANA H&T 2026", "carrera": "Licenciatura en Administración de la Hospitalidad y el Turismo", "candidatos": [] },
-        { "nombre": "VIA", "carrera": "Licenciatura en Relaciones Internacionales", "candidatos": [
-          {
+        {
+          "nombre": "NEO-MKT",
+          "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales",
+          "candidatos": [
+            {
+              "puesto": "Presidenta",
+              "nombre": "Ana Valeria Amaya Martinez",
+              "anio": "2do",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675421/159c2bfd-a80e-4e81-9c35-1b177f30c824.png",
+              "experiencia": [
+                "Primer lugar de concurso de ortografía - 2023",
+                "Ganadora de concurso de cuentos para niños (Organizado por McDonald’s) 2020",
+                "Certificación B1 Alemán",
+                "Certificación A1 Frances",
+                "Certificado de Photoshop Básico",
+                "Certificado de Marketing Digital Básico",
+                "Asistente en logística para Oktoberfest del laboratorio Alemán Denk Pharma"
+              ],
+              "propuestas": [
+                "Impulsar el desarrollo de la marca personal de los estudiantes",
+                "Fomentar oportunidades de networking entre estudiantes",
+                "Facilitar la realización de horas de vinculación",
+                "Promover el desarrollo personal de los estudiantes",
+                "Potenciar las competencias blandas y duras de los estudiantes",
+                "Organizar actividades recreativas para mejorar el ambiente estudiantil",
+                "Incentivar la colaboración y el trabajo conjunto entre distintas carreras"
+              ],
+              "hobbies": [
+                "Jugar Volleyball",
+                "Jugar Basketball",
+                "Maquillar",
+                "Videojuegos",
+                "Salir con amigos",
+                "Viajar"
+              ]
+            },
+            {
+              "puesto": "Vice Presidente",
+              "nombre": "Linda Cristina Colindres Orellana",
+              "anio": "2do",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675432/cb659c6c-c4d6-4d37-bb9f-fa697842d0f1.png",
+              "experiencia": [
+                "Ganadora de un lugar en el calendario de Banco Atlántida dos años consecutivos 2023 y 2024 (Concurso Art Challenge).",
+                "Creación de logo, identidad de marca, banners y uniformes para multitienda “Tienda Nueva” (Freelancer).",
+                "Creación de logo, identidad de marca y contenido para redes sociales para emprendimiento de joyería “Jireh Beauty Supplies” (Freelancer).",
+                "Creación de logo, identidad de marca y etiqueta para empaque de café para emprendimiento “Café Don Gumer” (Freelancer).",
+                "Certificado de Dirección de Marketing Online",
+                "Voluntariado como traductora para organización “Brazos de Jesús”."
+              ],
+              "propuestas": [
+                "Impulsar el desarrollo de la marca personal de los estudiantes",
+                "Fomentar oportunidades de networking entre estudiantes",
+                "Facilitar la realización de horas de vinculación",
+                "Promover el desarrollo personal de los estudiantes",
+                "Potenciar las competencias blandas y duras de los estudiantes",
+                "Organizar actividades recreativas para mejorar el ambiente estudiantil",
+                "Incentivar la colaboración y el trabajo conjunto entre distintas carreras"
+              ],
+              "hobbies": [
+                "Dibujar",
+                "Hornear",
+                "Diseño gráfico",
+                "Manualidades",
+                "Encuadernación",
+                "Jugar Minecraft"
+              ]
+            },
+            {
+              "puesto": "Secretario",
+              "nombre": "Diego Armando Diaz Portillo",
+              "anio": "2do",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675445/4531ac39-6db3-4d86-a74e-b764082cfd29.png",
+              "experiencia": [
+                "Organización de documentos y apoyo administrativo para Taquería La Mordida.",
+                "Coordinación y liderazgo en la organización de bazares de comida dentro de Expo centro.",
+                "Dirección y organización de grupos de trabajo en proyectos universitarios, asegurando comunicación y cumplimiento de objetivos.",
+                "Experiencia en administración, logística y manejo de documentos en Inversiones KADI.",
+                "Participación como voluntario en actividades para escuelas de bajos recursos, brindando apoyo en organización y recolección de materiales.",
+                "Colaboración en proyectos de ayuda social para asilos de ancianos, apoyando en la planificación y logística de las actividades.",
+                "Certificación en reparación de celulares y computadoras, con conocimientos en mantenimiento, diagnóstico y solución de fallas técnicas."
+              ],
+              "propuestas": [
+                "Impulsar el desarrollo de la marca personal de los estudiantes",
+                "Fomentar oportunidades de networking entre estudiantes",
+                "Facilitar la realización de horas de vinculación",
+                "Promover el desarrollo personal de los estudiantes",
+                "Potenciar las competencias blandas y duras de los estudiantes",
+                "Organizar actividades recreativas para mejorar el ambiente estudiantil",
+                "Incentivar la colaboración y el trabajo conjunto entre distintas   carreras"
+              ],
+              "hobbies": [
+                "Apasionado por la tecnología",
+                "MotorSport Fan",
+                "Deportes",
+                "Innovo Negocios",
+                "Cocinar",
+                "Leer"
+              ]
+            },
+            {
+              "puesto": "Tesorero",
+              "nombre": "Juan Diego Turcios Figueroa",
+              "anio": "2do",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675451/d1ed38c7-0eb1-448b-88e8-61d2bcccdfab.png",
+              "experiencia": [
+                "Ganador de spelling bee a nivel institucional en2019",
+                "Ganador de la presidencia en las elecciones estudiantiles a nivel general de escuela 2019",
+                "Certificado en primeros auxilios otorgado por COPECO",
+                "Ganador de la presidencia en las elecciones estudiantiles a nivel general de colegio 2022",
+                "Ganador del tercer puesto en estudiante con indicices mas altos de la promocion graduando 2023",
+                "Experiencia en manejo, guía e instructor de grupos de personas.",
+                "Certificado como interprete de evangelización en zonas rurales del departamento de Yoro.",
+                "Experiencias en ventas",
+                "Experiencia en construcción",
+                "Experiencia en innovación de negocios",
+                "Voluntariado en mejoras ambientales"
+              ],
+              "propuestas": [
+                "Impulsar el desarrollo de la marca personal de los estudiantes",
+                "Fomentar oportunidades de networking entre estudiantes",
+                "Facilitar la realización de horas de vinculación",
+                "Promover el desarrollo personal de los estudiantes",
+                "Potenciar las competencias blandas y duras de los estudiantes",
+                "Organizar actividades recreativas para mejorar el ambiente estudiantil",
+                "Incentivar la colaboración y el trabajo conjunto entre distintas   carreras"
+              ],
+              "hobbies": [
+                "Jugar futbol",
+                "Pasar tiempo en familia",
+                "Escuchar audio libros o podcasts",
+                "Visualizar contenido que amplie mis conocimientos en general",
+                "Escuchar música",
+                "Viajar",
+                "Ver deportes",
+                "Ver películas y series"
+              ]
+            },
+            {
+              "puesto": "Gestor de Primer Ingreso.",
+              "nombre": "Daniel Mauricio Beltrán Canales",
+              "anio": "Segundo Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675506/d2e5f8d6-4ff3-48b2-a889-632827266928.png",
+              "experiencia": [
+                "Edecan de la Feria de Ciencias Tecnologica Del instituto tecnlogico excelencia educativa (2019).",
+                "Voluntariado en mejora de infraesrtructura de escuela (2019,TECHO).",
+                "Certificado de ALFIN (2024)",
+                "Cerficado del Club de debates (marzo, 2025).",
+                "Co-lider de la sociedad de debates (2025).",
+                "Secretario de Club de Protocolo (2025)",
+                "Asistente perteneciente al grupo de de apoyo de AFINEC. (2025).",
+                "Voluntariado como gestor de recursos para de Banco de Alimentos (2024 y 2025).",
+                "Voluntariado como Mentor para infantes (2025)",
+                "Voluntariado en Coordinacion, gestion y transporte de alimentos y materiales en Tegucigalpa (2025, Republica de china)",
+                "Asistente Guia estudiantil.",
+                "Asistente de Relaciones Estudiantiles."
+              ],
+              "propuestas": [
+                "Impulsar el desarrollo de la marca personal de los estudiantes",
+                "Fomentar oportunidades de networking entre estudiantes",
+                "Facilitar la realización de horas de vinculación",
+                "Promover el desarrollo personal de los estudiantes",
+                "Potenciar las competencias blandas y duras de los estudiantes",
+                "Organizar actividades recreativas para mejorar el ambiente estudiantil",
+                "Incentivar la colaboración y el trabajo conjunto entre distintas   carreras"
+              ],
+              "hobbies": [
+                "Tenis",
+                "Coleccionismo",
+                "Musica (Mitad Melomano)",
+                "Jugar Videojuegos",
+                "Viajar",
+                "Consumir Contenido Interesante (Historia de dicha creacion por ejemplo)"
+              ]
+            },
+            {
+              "puesto": "Gestora de Logística.",
+              "nombre": "Jorge Fernando Hernandez Pineda",
+              "anio": "2do",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675517/9b6f8ec6-74aa-414f-a9cc-4c1b3eeb5464.png",
+              "experiencia": [
+                "Reconocimiento Sensibilidad social 2023",
+                "Tesorero del Consejo estudiantil del Centro cultural Sampedrano 2022",
+                "Miembro del consejo estudiantil del Centro cultural Sampedrano 2019-2023",
+                "Certificado de INFOP Relaciones interpersonales 2023",
+                "Certificado de INFOP Liderazgo 2023",
+                "Certificado de INFOP Mercado Básico para MYPIMES 2023",
+                "Certificado de INFOP Espíritu Emprendedor 2022",
+                "Certificado de INFOP Herramientas para atención al servicio al cliente 2022",
+                "Traductor para el CODEM (comite de emergencia municipal) en la Disaster Expo USA 2024 y 2025 (ingles a español)",
+                "Participación como orador en eventos académicos",
+                "Bachillerato técnico profesional en Administración de empresas 2023",
+                "Competencia bilingüe en español e inglés"
+              ],
+              "propuestas": [
+                "Impulsar el desarrollo de la marca personal de los estudiantes",
+                "Fomentar oportunidades de networking entre estudiantes",
+                "Facilitar la realización de horas de vinculación",
+                "Promover el desarrollo personal de los estudiantes",
+                "Potenciar las competencias blandas y duras de los estudiantes",
+                "Organizar actividades recreativas para mejorar el ambiente estudiantil",
+                "Incentivar la colaboración y el trabajo conjunto entre distintas   carreras"
+              ],
+              "hobbies": [
+                "Jugar al futbol",
+                "Jugar videojuegos",
+                "Pasar tiempo con familia",
+                "Pasar tiempo con amigos",
+                "Escuchar música",
+                "Ver deportes"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "ACE (Acción, Creatividad, Estrategia)",
+          "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales",
+          "candidatos": [
+            {
+              "puesto": "Presidenta",
+              "nombre": "Karol María Borjas Ortega",
+              "anio": "Segundo años e iniciando mis clase de 3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675342/b0c0f81c-a7c4-49b9-8600-d4ad7c4ba786.png",
+              "experiencia": [
+                "Mi historial de liderazgo habla por sí mismo",
+                "Presidenta con experiencia comprobada:  Goberné con éxito mi escuela y luego mi colegio.",
+                "No solo gané una elección,  manejé presupuestos, organicé eventos y solucioné problemas reales.",
+                "Campeona de Debates:  Representó HIBS y fuí  INVICTA en competencias intercolegiales.",
+                "En el mundo de las ideas,  no me rindo, negocio y gano.",
+                "Conectada con el Mundo Real:  Miembro activa como secretaria del club de debates UNITEC e  invicta hasta a el día de hoy.",
+                "No solo hablo de la universidad,  traigo experiencias de fuera.",
+                "Fui Representante en el Congreso Juvenil, donde aprendí cómo se transforman las ideas en leyes y cómo se negocia en los más altos niveles.",
+                "Fundadora de KrolStudio en ig @bykrol.co  un por ahora pequeño negocio que con experiencia y liderazgo buscaré expandir mas adelande."
+              ],
+              "propuestas": [
+                "Deja de reinventar la rueda. Enfócate en crear, no en sufrir.Con el Banco de Proyectos, tu éxito académico tiene un  ATAJO ACADÉMICO,  donde podrás ver proyectos académicos  EXITOSOS,  de estudiantes avanzados para que vos podas  consultar  con ejemplos de calidad,  inspirarte  y  entender  el nivel de exigencia real.",
+                "Tu talento merece escenarios más grandes. Nosotros ponemos los contactos y la gestión.",
+                "Aprende de quienes ya lograron lo que tú quieres. Un stop a lo teórico.",
+                "Traeremos a egresados de empresas top para workshops donde aprenderás habilidades que buscan los reclutadores y que aprendas como manejarla para contratar.",
+                "Tu red de contactos comenzará desde la universidad."
+              ],
+              "hobbies": [
+                "Mis pasatiempos son el reflejo de mi carácter:",
+                "Los debates y la política nutren mi mente estratégica y mi capacidad para construir argumentos sólidos.",
+                "El tenis me está enseñando paciencia, disciplina y la humildad de ser principiante nuevamente.",
+                "Equitación exige conexión, liderazgo suave y confianza.",
+                "Viajar expande mi perspectiva, recordándome que siempre hay más por aprender y explorar.",
+                "No son solo hobbies; son las experiencias que forman a una líder completa, resiliente y con una visión global."
+              ]
+            },
+            {
+              "puesto": "Vice Presidente",
+              "nombre": "Emely Mariela Paz Pineda",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675354/52004a8a-a1b9-48d7-83db-5c2fda09317a.png",
+              "experiencia": [
+                "Coordinadora de Relaciones Públicas en la asociación de Asebec"
+              ],
+              "propuestas": [
+                "Fortalecer la participación estudiantil y el aprendizaje práctico de los estudiantes de Mercadotecnia a través de proyectos, talleres y actividades que promuevan la creatividad, la innovación y el liderazgo profesional."
+              ],
+              "hobbies": [
+                "repostería, fotografía, leer, escuchar música"
+              ]
+            },
+            {
+              "puesto": "Embajador de primer ingreso",
+              "nombre": "Keneth Fernando Reyes Santiago",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675374/e5c0a2a6-dffb-4edd-b47a-04dc537a54a9.png",
+              "experiencia": [
+                "Proyectos de vinculación y voluntariados que asigna la universidad"
+              ],
+              "propuestas": [
+                "Hacer alianzas con empresas para realizar actividades dentro de la universidad para motivar a los colegas, buscar oportunidades y escuchar las propuestas e ideas de cada uno."
+              ],
+              "hobbies": [
+                "Andar en rutas, escuchar música, salir o viajar"
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Daniela Beatriz Figueroa Valenzuela",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675380/bd9e4966-e19e-4625-b191-e6ea304742b9.png",
+              "experiencia": [
+                "Liderazgo en trabajos en equipo, fomentando la organización, la motivación y la resolución de conflictos."
+              ],
+              "propuestas": [
+                "Fortalecer la presencia digital de mkt a través de contenido informativo, creativo y cercano a los estudiantes."
+              ],
+              "hobbies": [
+                "Escuchar musica, ver películas y repostería"
+              ]
+            },
+            {
+              "puesto": "Tesorera",
+              "nombre": "Monica Lideny Chávez Gómez",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675391/3ab51975-1043-408e-9856-520c325d3b1a.png",
+              "experiencia": [
+                "•  Experiencia académica o de liderazgo:  Participación en Copa Jaguar (volleyball)",
+                "Aportaciones de Liderazgo en proyectos en horas de vinculación"
+              ],
+              "propuestas": [
+                "• ⁠ Principales propuestas o plan de trabajo: Dentro de la planilla ayudar a que haya mejor manejo económico y aportar ideas que ayuden a que la planilla demuestre ser la mejor."
+              ],
+              "hobbies": [
+                "Hobbies:  pintar, leer y cocinar"
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Mario David Castellón González",
+              "anio": "Segundo año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675397/c3c2e392-e257-4da4-aa17-cc05a749049e.png",
+              "experiencia": [
+                "No se especifica experiencia en un campo dedicado."
+              ],
+              "propuestas": [
+                "Realizar viajes académicos, activideades para apoyar a los emprendedores de la U, traer profesionales que nos ayuden o nos enseñen sobre diferentes áreas de trabajo en nuestra carrera"
+              ],
+              "hobbies": [
+                "Mis hobbies son ir al gimnasio, jugar tennis, jugar videojuegos, suelo ver películas y series me llama la atención la ciencia ficción y me gusta mucho salir con mis amigos"
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Maria Jose Chinchilla Santos",
+              "anio": "3 año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675409/7b9e8718-8205-4753-be45-1b839af86a37.png",
+              "experiencia": [
+                "Experiencia académica:",
+                "Practica Profesional.",
+                "Ganadora del Business Showcase Pitch",
+                "Investigaciones de mercado"
+              ],
+              "propuestas": [
+                "Propuestas:",
+                "Optimizar la comunicación interna",
+                "Transparencia y orden documental",
+                "Gestion eficiente, Apoyar a la planilla",
+                "Fortalecer la participación estudiantil"
+              ],
+              "hobbies": [
+                "Hobbies:",
+                "Leer",
+                "Aprender cosas nuevas, Viajar, Socializar"
+              ]
+            },
+            {
+              "puesto": "coordinador de deportes",
+              "nombre": "Charlton White",
+              "anio": "2 año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675415/bf0f5783-d7a0-417d-a7b5-3ff920269828.png",
+              "experiencia": [
+                "Soy preseleccionado nacional y capitan del Equipo Representante de basketball",
+                "-He ganado muchos trofeos, ligas y torneos a nivel local, regional y a nivel nacional"
+              ],
+              "propuestas": [
+                "Propuestas:",
+                "Optimizar la practica de deportes",
+                "Impulzar a nuestro colegas en la practica de deportes"
+              ],
+              "hobbies": [
+                "Hobbies: jugar basketball, practicar deportes"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "VIBE (Visión, Innovación, Bienestar, Estrategia)",
+          "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales",
+          "candidatos": []
+        },
+        {
+          "nombre": "AEFINEC",
+          "carrera": "Licenciatura en Finanzas y Economía",
+          "candidatos": [
+            {
+              "puesto": "Presidente/a",
+              "nombre": "Alexia Rosamary Lara Posas",
+              "anio": "3er año.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674983/767c0705-cbc2-4f4d-a888-218edbb21c46.png",
+              "experiencia": [
+                "Actualmente soy estudiante en la Licenciatura de Finanzas y Economía, este proceso lo empecé en el año 2023 gracias a la Beca “Alta Distinción” brindada por Fundación Nasser UNITEC.",
+                "Desde mi etapa escolar he demostrado un compromiso constante con la excelencia académica, manteniendo siempre un alto rendimiento que me permitió obtener la beca, otorgada por mi destacado desempeño en el colegio.",
+                "Ya a lo largo de mi vida universitaria, he continuado cultivando ese mismo nivel de dedicación y disciplina, reflejado en mis excelentes calificaciones.",
+                "Además, en 2024 obtuve mi  certificación de programa “Transformadores de Honduras” (TdH) , fortaleciendo mi formación técnica en el desarrollo de proyectos con incidencia social.",
+                "Actualmente formo parte de la  Asociación Despierta Honduras (ADH) , donde impulso proyectos enfocados en el desarrollo social, el liderazgo juvenil y la participación ciudadana activa."
+              ],
+              "propuestas": [
+                "Charlas Perspectivas Globales en Finanzas y Economía:  Se desarrollará un Ciclo de Charlas Trimestrales dirigido a los estudiantes de la carrera de Finanzas y Economía.",
+                "Estas charlas se llevarán a cabo en el primer, segundo y tercer trimestre del año, con la participación de profesionales altamente calificados, incluyendo a la Lic.",
+                "Katherine Lara, al Lic. Jorge Baide, al Lic. David Nataren, a la Lic.",
+                "Adriana Castellón, entre otros expertos egresados de instituciones como Harvard, MIT, Harding, Babson College, Brandeis y otras universidades reconocidas a nivel mundial."
+              ],
+              "hobbies": [
+                "Soy una persona activa, alegre y tranquila, apasionada por el arte y la creatividad.",
+                "Disfruto mucho pintar, ya que es una forma de expresar mis ideas y liberar el estrés.",
+                "Me encanta escuchar música de todo tipo excepto rock, bailar y cantar, actividades que siempre me llenan de energía y buena actitud.",
+                "Me gusta mantenerme ocupada y productiva, pues considero que cada día es una oportunidad para aprender algo nuevo.",
+                "Amo ir al gimnasio, practicar zumba, caminar y correr al aire libre.",
+                "Además, me fascina observar los amaneceres y atardeceres, momentos que me inspiran y me recuerdan la belleza de lo simple.",
+                "Sin dejar a un lado que amo pasar tiempo con mi pareja y emprender junto a él, así como pasar junto a mi familia, sonreír y recordar historias bonitas."
+              ]
+            },
+            {
+              "puesto": "Vicepresidenta/e",
+              "nombre": "Angelina Nuñez Irula",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675002/123b30c4-0058-43ed-9474-4eb7302648e2.png",
+              "experiencia": [
+                "Soy estudiante de la Licenciatura en Finanzas y Economía en UNITEC desde junio de 2023. Durante mi trayectoria universitaria he tenido la oportunidad de participar activamente en diversas iniciativas académicas y extracurriculares que han fortalecido mi formación profesional.",
+                "He colaborado en la organización de visitas académicas, como la realizada a Alimentos y Bebidas S.A. en el marco de la asignatura Administración de Costos, y he impulsado charlas formativas con invitados destacados, entre ellas la conferencia del abogado Germán Leitzelar, donde se abordó la relación entre la política y la economía nacional.",
+                "Actualmente aspiro a desempeñarme como vicepresidente de la Asociación de Estudiantes de Finanzas y Economía (AEFINEC), con el objetivo de promover espacios de aprendizaje, innovación y participación estudiantil que fortalezcan el desarrollo académico y profesional de nuestros compañeros.",
+                "Además, poseo una sólida formación multilingüe: hablo cinco idiomas, entre ellos inglés (nivel C1), francés (A1), japonés (B1) y alemán (A2).",
+                "En el ámbito laboral, me desempeño como asesora de seguros en la Correduría Union’s Brokers, donde me especializo en productos de la aseguradora internacional Pan-American Life, combinando mis estudios con experiencia práctica en el sector financiero y de seguros."
+              ],
+              "propuestas": [
+                "Propuesta #1: Competencia Universitaria de Simulación de Mercados Financieros",
+                "Impulsar la organización de la Competencia Universitaria de Simulación de Mercados Financieros, liderada por la Asociación de Estudiantes de Finanzas y Economía (AEFINEC), con el propósito de fomentar el aprendizaje práctico y la toma de decisiones estratégicas en entornos financieros reales.",
+                "Propuesta #2: Podcast “Voz Económica: Actualidad, Opinión y Perspectiva”",
+                "Proponer la creación del podcast informativo “Voz Económica”, un proyecto impulsado por AEFINEC que busca fortalecer la comunicación, el análisis y la participación estudiantil a través de un formato dinámico, educativo y moderno."
+              ],
+              "hobbies": [
+                "Aprender idiomas",
+                "Jugar tenis",
+                "Hacer ejercicio",
+                "Leer",
+                "Escuchar música",
+                "Ver series"
+              ]
+            },
+            {
+              "puesto": "Secretario",
+              "nombre": "Héctor Daniel Gómez Vásquez",
+              "anio": "2do Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675007/5d01435b-e71a-4364-a2c6-ce24d12fac02.png",
+              "experiencia": [
+                "Soy estudiante de la Licenciatura en Finanzas y Economía, formación que inicié en enero de 2024 gracias a la Beca “Creadores de Cambios” otorgada por Fundación Nasser-UNITEC.",
+                "Durante mi trayectoria universitaria he participado activamente en espacios de liderazgo y representación estudiantil.",
+                "Actualmente ejerzo el cargo de Secretario Titular de Finanzas del Comité Organizador de Modelos y Simulaciones (COMS), donde colaboro en la planificación y gestión financiera de actividades académicas y de diplomacia estudiantil, entre ellas el Modelo Interuniversitario de Naciones Unidas en Honduras (MINUH) y el Modelo del Sistema de Integración Centroamericana (MOSICA).",
+                "En 2024 obtuve el primer lugar en el Business Showcase, evento académico que promueve la innovación y el emprendimiento entre los estudiantes.",
+                "Además, soy miembro activo de la Asociación de Estudiantes de Finanzas y Economía (AEFINEC) y de la Asociación de Estudiantes Becados (ASEBEC) de UNITEC San Pedro Sula, desde donde contribuyo al fortalecimiento de la vida académica y al desarrollo estudiantil.",
+                "Ese mismo año recibí el Premio Nacional de la Juventud en la categoría Inspiración Juvenil, otorgado por el Consejo Nacional de Juventud de Honduras (CONJUVEH), y el reconocimiento Ten Outstanding Young Persons (TOYP) de JCI Honduras en la categoría de Liderazgo y Logros Académicos.",
+                "También fui seleccionado como becario del Programa Global Undergraduate Exchange (Global UGRAD) del Departamento de Estado de los Estados Unidos, considerada una de las becas más prestigiosas a nivel internacional para programas de intercambio académico a nivel de pregrado."
+              ],
+              "propuestas": [
+                "Propuesta: Programa de Vinculación en Educación Financiera",
+                "Impulsar la creación de un Programa de Vinculación en Educación Financiera, liderado por la Asociación de Estudiantes de Finanzas y Economía (AEFINEC), con el propósito de brindar a los estudiantes de la carrera la oportunidad de generar horas de vinculación académica mientras contribuyen activamente al desarrollo socioeducativo de la comunidad."
+              ],
+              "hobbies": [
+                "Cantar",
+                "Bailar (Ballet, Tap y Acrobacia)",
+                "Escuchar música",
+                "Hacer manualidades",
+                "Meditar",
+                "Leer",
+                "Ver series y películas",
+                "aprender idiomas."
+              ]
+            },
+            {
+              "puesto": "Tesorera/o",
+              "nombre": "Andrea Fernanda Ventura Calderón",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675011/343579ee-4da2-498a-96c7-46ff0d10abc5.png",
+              "experiencia": [
+                "Actualmente, estoy cursando el segundo año de la carrera de Finanzas y Economía.",
+                "Durante este tiempo he desarrollado habilidades de liderazgo en diversos grupos de trabajo, siendo seleccionada para representar a la clase en el Business Showcase.",
+                "De forma constante, he impulsado a mis equipos hacia un desempeño sobresaliente y resultados excepcionales.",
+                "Curso Dale Carnegie Juvenil  Finalización exitosa del Curso Dale Carnegie Juvenil, programa enfocado en liderazgo, comunicación y desarrollo personal.",
+                "Distinguida con el Máximo Galardón al Mérito por representar el mayor avance del grupo, según la evaluación de compañeros y mentores.",
+                "Curso Dale Carnegie Virtual – Participación como Asistente Graduado",
+                "Reconocimiento recibido por el buen desempeño durante el programa, que permitió colaborar como asistente graduado.",
+                "En este rol apoyé a diversos jóvenes en el desarrollo de sus habilidades de comunicación, liderazgo y socialización, motivándolos a salir de su zona de confort."
+              ],
+              "propuestas": [
+                "PROPUESTA-Bingo AEFINEC",
+                "Continuar con la tradición del Bingo AEFINEC como actividad recreativa abierta a todas las carreras, fomentando la integración y diversidad de los estudiantes.",
+                "PLAN DE TRABAJO-TESORERÍA AEFINEC",
+                "Como tesorera, el plan de trabajo se enfoca en administrar los recursos de manera transparente y responsable, garantizando confianza en cada decisión financiera.",
+                "Se buscará incrementar los fondos disponibles para fortalecer las actividades de la asociación y apoyar su crecimiento."
+              ],
+              "hobbies": [
+                "-Escuchar música",
+                "-Pasar tiempo con mis seres queridos"
+              ]
+            },
+            {
+              "puesto": "Fiscal",
+              "nombre": "Megan Ariadna Martell Aguilar",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675016/17c6445b-56d6-4787-91f8-37b49ff0c97f.png",
+              "experiencia": [
+                "Siempre me he caracterizado por ser una persona responsable y dedicada.",
+                "Desde el colegio he mantenido un alto rendimiento académico, graduándome con excelencia, y actualmente conservo un buen índice en la universidad.",
+                "Me considero una persona organizada, con iniciativa y con facilidad para trabajar y convivir con los demás.",
+                "También soy muy buena exponiendo y me gusta participar en presentaciones o actividades donde puedo comunicar ideas con claridad y confianza.",
+                "He formado parte de voluntariados y proyectos donde he desarrollado habilidades de liderazgo, empatía y trabajo en equipo.",
+                "Además, sé tocar el violín, lo cual me ha ayudado a ser más disciplinada y constante en todo lo que hago."
+              ],
+              "propuestas": [
+                "Creación de un boletín digital mensual con noticias económicas, análisis breves y artículos escritos por estudiantes y docentes.",
+                "Un evento tipo competencia académica entre universidades, enfocado en temas de política económica, comercio internacional y finanzas.",
+                "Evento para conocer y conectar con egresados, profesores y profesionales de empresas financieras."
+              ],
+              "hobbies": [
+                "Escuchar música",
+                "Pasar tiempo con mi familia",
+                "Pasar tiempo con mis mascotas"
+              ]
+            },
+            {
+              "puesto": "Coordinadora de Relaciones Públicas",
+              "nombre": "Ana Lucía Rodríguez Hernández",
+              "anio": "3er Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675030/363f191c-78e0-423b-bedd-f9249c51c7d6.png",
+              "experiencia": [
+                "A lo largo de mi formación académica he tenido la oportunidad de asumir diversos roles de liderazgo que fortalecieron mis habilidades de comunicación, organización y empatía.",
+                "Fui presidente de mi clase en distintos años escolares, y en mi último año lideré la organización de eventos que impulsaron la integración y el entusiasmo entre los estudiantes.",
+                "Mi participación en voluntariados en diferentes organizaciones sociales, apoyando a personas con discapacidades, me permitió desarrollar una sensibilidad especial hacia el servicio y la responsabilidad social.",
+                "Asimismo, organicé campañas de recolección de ropa para damnificados por inundaciones y me he dedicado a coordinar retiros para niños y jóvenes, experiencias que me enseñaron a combinar planificación con pasión."
+              ],
+              "propuestas": [
+                "Taller “Conecta tu Futuro”",
+                "Actividad en conjunto con empresas aliadas donde se enseñe cómo elaborar un currículum competitivo, presentarse en entrevistas o crear un perfil de LinkedIn profesional.",
+                "Escape Room Financiero",
+                "Actividad tipo sala de escape con acertijos y retos basados en finanzas, economía y lógica."
+              ],
+              "hobbies": [
+                "Hacer actividades físicas",
+                "Viajar",
+                "Visitar cafeterías nuevas",
+                "Cantar"
+              ]
+            },
+            {
+              "puesto": "Coordinadora de Redes Sociales",
+              "nombre": "Andrea Sophia Ramos Gudiel",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675057/722802c3-3833-4c3c-8d19-cc0852164bb0.png",
+              "experiencia": [
+                "Actividades escolares",
+                "Club de Arte y Dibujo",
+                "Club de Drama",
+                "Club de Poesía",
+                "Concurso de Oratoria",
+                "Cargos laborales",
+                "Melissa Gudiel Studio: Recepción, Atención al cliente y cobros",
+                "Agencia de viajes Transmundo: Contabilidad y mercadeo, Ingresar, revisar, archivar y ordenar facturas, Edición de fotografías y videos, SEO y SEM (Google Ads, Google Analytics), Marketing en redes sociales (Meta Business, Hootsuite), Copywriting y redacción publicitaria, Creación y gestión de campañas digitales.",
+                "Participación en simposio internacional de genética en Honduras.",
+                "Global Homes (Inmobiliaria): Mercadeo y atención al cliente.",
+                "Manejar páginas de alojamientos Airbnb y capacitar a clientes.",
+                "Participación en IPW Chicago 2025 (la feria comercial más grande e importante de turismo que impulsa las visitas internacionales a Estados Unidos."
+              ],
+              "propuestas": [
+                "Generación de Ingresos Estudiantiles",
+                "“EcoMarket”:  feria de emprendimientos de estudiantes de Economía y Finanzas (venta de comida, merch, artículos,, etc.).",
+                "“Finanzas Fest”:  evento tipo tarde financiera con charlas + venta de comida y rifas patrocinadas.",
+                "Rifas patrocinadas o colaboraciones con marcas locales",
+                "Competencias de simulación financiera o trivia con inscripción simbólica y premios.",
+                "Fortalecimiento Digital y Redes Sociales",
+                "convertir las redes en la principal herramienta de visibilidad, comunidad y captación de ingresos.",
+                "Línea gráfica profesional.",
+                "Contenido semanal educativo:  tips financieros, frases motivacionales, curiosidades económicas, cápsulas en video con docentes y alumnos.",
+                "Campañas temáticas mensuales:  “Mes del ahorro”, “Mes del emprendimiento”, “Semana de la bolsa”, etc.",
+                "Formación y Valor Académico",
+                "Fortalecer la preparación profesional del estudiante.",
+                "Charlas y talleres con egresados o expertos del sector financiero.",
+                "Simulaciones de bolsa o gestión de portafolios con apps gratuitas.",
+                "Certificaciones internas (gratuitas o con bajo costo)  en Excel financiero, contabilidad básica, o marketing digital para economistas.",
+                "Mentorías entre estudiantes de último año y nuevos ingresos.",
+                "Vinculación y Networking",
+                "Objetivo: conectar a los estudiantes con empresas, instituciones y egresados.",
+                "“Finance Connect”:  evento anual de networking con empresas del sector financiero, contable y de emprendimiento.",
+                "Bolsa de oportunidades estudiantiles:  pasantías, empleos y proyectos compartidos en redes."
+              ],
+              "hobbies": [
+                "Dibujar",
+                "leer",
+                "pintar",
+                "ir al gimnasio",
+                "tomar fotos."
+              ]
+            },
+            {
+              "puesto": "Coordinador de Primer Ingreso",
+              "nombre": "Mario David Mejia Coto",
+              "anio": "4to año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675063/cd68b4b6-e4b3-4e97-8025-3ee9f5211e3f.png",
+              "experiencia": [
+                "Tengo experiencia como coordinador de deportes de la actual asociación de Administración Industrial en la que colaboré en distintas actividades como el “SheEmpower” en conjunto con la organización “Cipotes” igualmente colaboró con distintas actividades de la asociación como charlas, foros y visitas académicas a distintas instituciones como Nestlé, INVEMA.",
+                "Además, junto a mi equipo se hicieron actividades financieras y recreativas como el torneo de fútbol relámpago de STRIVE en el que los alumnos de distintas carreras pudieron jugar y competir."
+              ],
+              "propuestas": [
+                "Programa de Bienvenida:",
+                "Organizar una jornada interactiva de bienvenida con dinámicas, recorridos guiados y charlas informativas para que los nuevos estudiantes se familiaricen con el campus y los servicios universitarios.",
+                "Mentorías:",
+                "Implementar un sistema de acompañamiento donde estudiantes de años superiores orienten a los de primer ingreso durante su adaptación académica y social.",
+                "Encuentro de Integración:",
+                "Realizar reuniones informales donde los nuevos estudiantes puedan compartir experiencias, resolver dudas y crear lazos con otros compañeros y representantes de la asociación."
+              ],
+              "hobbies": [
+                "escuchar música",
+                "platicar con mis amigos",
+                "conocer lugares nuevos."
+              ]
+            },
+            {
+              "puesto": "Coordinador de Deportes",
+              "nombre": "André Hiram Flores Baide",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675068/26560936-6033-4df4-9609-824e9e6251da.png",
+              "experiencia": [
+                "Certificación en idioma alemán – Nivel B1 (Goethe-Institut) Examen oficial aprobado del Goethe-Institut, que acredita dominio intermedio del idioma alemán conforme al Marco Común Europeo de Referencia para las Lenguas (MCER).",
+                "Curso actual de idioma alemán – Nivel B2 (Instituto Humboldt) En proceso de formación en el nivel B2 en el Instituto Humboldt, fortaleciendo las competencias comunicativas en comprensión, conversación y redacción en alemán.",
+                "Emprendimiento propio: DetailHaus"
+              ],
+              "propuestas": [
+                "Torneo Universitario de Pádel",
+                "El evento se realizará en una cancha de pádel en San Pedro Sula y estará abierto a estudiantes de todas las carreras.",
+                "Torneo AEFINEC",
+                "Es una actividad pensada para fomentar el compañerismo y la recreación entre estudiantes."
+              ],
+              "hobbies": [
+                "Gimnasio",
+                "Detallado de carro"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "INNOVA",
+          "carrera": "Administración Industrial e Inteligencia de Negocios / Admon. Industrial y Emprendimiento / Admon. Industrial y Operaciones",
+          "candidatos": [
+            {
+              "puesto": "Presidente(a)",
+              "nombre": "Nathaly Sofia Perez Rodríguez",
+              "anio": "2 año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674839/62acdf72-5361-4c05-88e7-5bff4465fccf.png",
+              "experiencia": [
+                "Ganadora del Hackathon",
+                "Presidenta de planilla en 10mo grado",
+                "Emprendedora actual"
+              ],
+              "propuestas": [
+                "Crear un espacio seguro para estudiantes a mi alrededor",
+                "impulsar emprendedores."
+              ],
+              "hobbies": [
+                "Cocinar y Hornear"
+              ]
+            },
+            {
+              "puesto": "Vicepresidente",
+              "nombre": "Luis André Torres Garcia",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674849/ea2bec68-1636-43b9-a849-f3ac2f866dc1.png",
+              "experiencia": [
+                "Tesorero de la junta directiva de 11mo grado"
+              ],
+              "propuestas": [
+                "Crear una red de apoyo entre estudiantes y planilla, y proveer experiencias de crecimiento y entretenimiento"
+              ],
+              "hobbies": [
+                "Ver películas y leer"
+              ]
+            },
+            {
+              "puesto": "Secretaria",
+              "nombre": "Scarleth Daniela Madrid Mejía",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674853/abb029fb-464b-409c-90c1-dbdb74dbd9c8.png",
+              "experiencia": [
+                "Secretaria en 10mo grado",
+                "Tesorera en 11vo grado"
+              ],
+              "propuestas": [
+                "Apoyar a los estudiantes en lo posible, llevar un control y organización apropiada de las actividades académicas que se llevarán a cabo."
+              ],
+              "hobbies": [
+                "Pintar, escuchar música y ver películas."
+              ]
+            },
+            {
+              "puesto": "Tesorera",
+              "nombre": "Suanny Valeria Tamayo Peña",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674858/7132f455-391d-4c76-af7c-fc8b45738546.png",
+              "experiencia": [
+                "Tesorera 11mo grado",
+                "Club de edecanes."
+              ],
+              "propuestas": [
+                "Realizar constantes visitas académicas, tener invitados especiales de distintas empresas y rubros para poder obtener un alto conocimiento."
+              ],
+              "hobbies": [
+                "Pintar, atletismo y cocinar."
+              ]
+            },
+            {
+              "puesto": "Gestora de Redes",
+              "nombre": "Eunice Nicole Laureano",
+              "anio": "Segundo año de la carrera",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674868/aa32049e-71f6-4fbf-b980-c4cadcee8ef8.png",
+              "experiencia": [
+                "STUCO Board en 10mo y 11vo",
+                "Banda de Vientos",
+                "Sociedad de Debates",
+                "Club AGORA."
+              ],
+              "propuestas": [
+                "Buscar que los estudiantes sean participativos y crear experiencias afuera de las aulas de clases."
+              ],
+              "hobbies": [
+                "Correr, leer, jugar tenis y modelar."
+              ]
+            },
+            {
+              "puesto": "Gestora de Primer Ingreso",
+              "nombre": "Nayac Alejandra Speer Perdomo",
+              "anio": "1er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674881/3e7fb910-2ce8-4203-afcc-bf0ac8b89483.png",
+              "experiencia": [
+                "Tesorera 11vo grado",
+                "gerente de marketing en una microempresa."
+              ],
+              "propuestas": [
+                "impulsar y motivar a los estudiantes en probar cosas nuevas y que salgan de su zona de confort."
+              ],
+              "hobbies": [
+                "Danza folclórica, tocar instrumentos y armar rubik’s."
+              ]
+            },
+            {
+              "puesto": "Gestora de Deportes",
+              "nombre": "Tiffany Yessenia Borrero Juárez",
+              "anio": "2do Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674891/16a80f1a-3653-48b7-bb83-2efcc705884a.png",
+              "experiencia": [
+                "Tesorera de la junta directiva de 11mo grado",
+                "Fiscal Junta directiva 10mo grado",
+                "12vo grado Gerente de recursos Humanos en Microempresa del colegio",
+                "Club Coro y Orquesta UNITEC."
+              ],
+              "propuestas": [
+                "crear una red de apoyo entre estudiantes y planilla, y proveer experiencias de crecimiento y entretenimiento, también fomentando el trabajo de equipo y tener actividades recreativas en los estudiantes, difundir la motivación."
+              ],
+              "hobbies": [
+                "Voleibol, básquetbol, cantar y bailar."
+              ]
+            },
+            {
+              "puesto": "Gestora de Logística",
+              "nombre": "Luz de María Pineda Hernández",
+              "anio": "1er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674900/2035befd-3896-4ad6-8835-f90322fed705.png",
+              "experiencia": [
+                "Participación en el Hackathon",
+                "participación de junta directiva en 11mo grado."
+              ],
+              "propuestas": [
+                "Mi objetivo es que cada actividad se realice con buena organización, aprovechando al máximo los recursos y aplicando la innovación en cada paso."
+              ],
+              "hobbies": [
+                "viajar y escuchar música."
+              ]
+            },
+            {
+              "puesto": "Gestora de Eventos",
+              "nombre": "Graciela Duarte",
+              "anio": "2 año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674909/0fd13a39-a017-4d5e-a3bb-013f3d79fec3.png",
+              "experiencia": [
+                "Experiencias académicas: club de debate en 11vo grado",
+                "club de edecanes en 12vo grado",
+                "banda 12vo grado",
+                "club de voluntariado",
+                "participante y ganadora de las obras teatrales 2024 Unitec",
+                "participación en el hackathon."
+              ],
+              "propuestas": [
+                "ayudar a los estudiantes a conectar de manera más profunda con la vida universitaria y con otros estudiantes por medio de alianzas con otras carreras",
+                "y que se sientan seguros en sus alrededores."
+              ],
+              "hobbies": [
+                "Correr maratones, cantar, componer, viajar, trabajar."
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "DE IURE",
+          "carrera": "Licenciatura en Derecho",
+          "candidatos": []
+        },
+        {
+          "nombre": "ARKANA H&T 2026",
+          "carrera": "Licenciatura en Administración de la Hospitalidad y el Turismo",
+          "candidatos": [
+            {
+              "puesto": "Presidente",
+              "nombre": "Mónica Li Kuan Pang Herrera.",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674428/f9b79a75-7708-4c82-88b3-b40bc7039a3c.png",
+              "experiencia": [
+                "Voluntariado en COCAL y COPAPROSE 2025.",
+                "Vice- presidente de la asociación Nexus Hospitalis",
+                "Pasantías en el Hotel Hyatt y en el Hotel Real Continental, San Pedro Sula: apoyo en el área de housekeeping, front desk, recursos humanos y apoyo como waitress."
+              ],
+              "propuestas": [
+                "Diseñar material promocional (folletos, videos, stands informativos) para ferias vocacionales y visitas a colegios.",
+                "Realizar horas de voluntariado con jornadas de limpieza y conservación en parques o sitios turísticos.",
+                "Promover actividades que resalten el patrimonio cultural y turístico del país.",
+                "Rally Turístico o Concurso de Cultura General: en equipos, con pruebas sobre destinos y cultura hondureña.",
+                "Participar en ferias y exposiciones de turismo.",
+                "Organización de eventos y actividades sociales."
+              ],
+              "hobbies": [
+                "Viajar y explorar nuevos destinos.",
+                "Rescate y cuidado de perros en situación de calle.",
+                "Degustación de platos típicos de diversas culturas"
+              ]
+            },
+            {
+              "puesto": "Vice- presidente",
+              "nombre": "Scarleth Juliette Acosta Arita",
+              "anio": "Tercer año (2025)",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674436/3e8f9d6b-e433-4e73-a971-88f7e797a4d7.png",
+              "experiencia": [
+                "Fui parte de una asociación estudiantil en el año 2024.",
+                "Participante en congresos"
+              ],
+              "propuestas": [
+                "Promover más espacios de participación estudiantil y desarrollo personal.",
+                "Gestionar talleres virtuales",
+                "Impulsar actividades de integración entre estudiantes de modalidad virtual y presencial."
+              ],
+              "hobbies": [
+                "Motociclismo.",
+                "Viajar.",
+                "Escuchar música."
+              ]
+            },
+            {
+              "puesto": "Secretaria",
+              "nombre": "Ángela María Erazo Chávez",
+              "anio": "tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674449/bccde2bf-229f-4864-b533-22fb0fd60817.png",
+              "experiencia": [
+                "Pasantía en el Hotel Hyatt y el Hotel Real Intercontinental, San Pedro Sula: Apoyo en el área de hospedaje, atención al cliente y operaciones hoteleras (100 horas).",
+                "Voluntariado en COPAPROSE y COCAL 2025"
+              ],
+              "propuestas": [
+                "Visitas técnicas guiadas: A hoteles, agencias de viajes, aeropuertos.",
+                "Intercambios virtuales con asociaciones estudiantiles de otros países."
+              ],
+              "hobbies": [
+                "Explorar nuevos lugares",
+                "Probar comidas.",
+                "Leer novelas.",
+                "Ver series o películas."
+              ]
+            },
+            {
+              "puesto": "Tesorero",
+              "nombre": "Marlon Ariel Mejia Avila.",
+              "anio": "tercero año.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674454/acad7ee9-ff1a-48b4-9ce8-4ee27f7b3b33.png",
+              "experiencia": [
+                "Secretario de la asociación Nexus Hospitalis (2025)."
+              ],
+              "propuestas": [
+                "Organización de maratones académicos o retos de conocimiento por áreas.",
+                "Intercambio académico interno :  estudiantes de diferentes carreras imparten microtalleres interdisciplinarios."
+              ],
+              "hobbies": [
+                "Bailar.",
+                "Cantar.",
+                "Lectura.",
+                "Ver series."
+              ]
+            },
+            {
+              "puesto": "Coordinador de primer ingreso",
+              "nombre": "Juan David Cerrato Ortiz",
+              "anio": "2 año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674462/0379f7e5-f0c3-4b97-bd94-a4921bf97409.png",
+              "experiencia": [
+                "Voluntariado en COCAL."
+              ],
+              "propuestas": [
+                "Implementar más horas de vinculación.",
+                "Charlas de egresados exitosos: testimonios de antiguos estudiantes que hoy trabajan en hoteles, aerolíneas o agencias turísticas"
+              ],
+              "hobbies": [
+                "Tocar la batería."
+              ]
+            },
+            {
+              "puesto": "Coordinadora de redes sociales",
+              "nombre": "Daniela Alejandra Solórzano Dubón.",
+              "anio": "primer año.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674471/2c424154-8b3c-4999-8304-b7d430a9b237.png",
+              "experiencia": [
+                "N/A"
+              ],
+              "propuestas": [
+                "Programas de intercambio académico nacional o internacional.",
+                "Semanas temáticas por carrera: (Semana de la Ingeniería, Semana del Derecho, Semana del Arte, etc.) con charlas, exposiciones y actividades prácticas."
+              ],
+              "hobbies": [
+                "Dibujar.",
+                "Escuchar música."
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "VIA",
+          "carrera": "Licenciatura en Relaciones Internacionales",
+          "candidatos": [
+            {
               "puesto": "Presidente",
               "nombre": "Marcela Alejandra Moreno Sánchez",
               "anio": "Tercer año",
@@ -98,43 +1010,703 @@
                 "Pasar tiempo con familia y amigos."
               ]
             }
-        ] }
+          ]
+        }
       ]
     },
     {
       "id": "artes",
       "nombre": "Facultad de Escuela de Arte & Diseño",
       "planillas": [
-        { "nombre": "MUSE", "carrera": "Licenciatura en Diseño Gráfico", "candidatos": [] },
-        { "nombre": "OFF THE LENS", "carrera": "Comunicación Estratégica y Audiovisual", "candidatos": [] },
-        { "nombre": "SCALA", "carrera": "Arquitectura", "candidatos": [] },
-        { "nombre": "QUADDI", "carrera": "Licenciatura en Animación Digital y Diseño Interactivo", "candidatos": [] }
+        {
+          "nombre": "MUSE",
+          "carrera": "Licenciatura en Diseño Gráfico",
+          "candidatos": []
+        },
+        {
+          "nombre": "OFF THE LENS",
+          "carrera": "Comunicación Estratégica y Audiovisual",
+          "candidatos": []
+        },
+        {
+          "nombre": "SCALA",
+          "carrera": "Arquitectura",
+          "candidatos": [
+            {
+              "puesto": "Presidenta",
+              "nombre": "Valerie Amanda Reyes Melara",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675665/7a246db6-afc2-41e8-9894-98515e078a1c.png",
+              "experiencia": [
+                "Organizadora de eventos artísticos de mi emprendimiento ArtVal",
+                "presidenta de grado en sexto, séptimo, noveno y onceavo grado."
+              ],
+              "propuestas": [
+                "Gestionar recursos y apoyos para los estudiantes.",
+                "Ser la voz del estudiantado ante las autoridades.",
+                "Conseguir beneficios y descuentos académicos.",
+                "Apoyar en recursos visuales y materiales de trabajo.",
+                "Fomentar la unión y participación estudiantil.",
+                "Promover espacios de diálogo y propuestas."
+              ],
+              "hobbies": [
+                "Pintar",
+                "escuchar música",
+                "gym."
+              ]
+            },
+            {
+              "puesto": "Vicepresidenta",
+              "nombre": "Sherlin Elizabeth Orellana Rivera",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675677/7ac76e39-20fc-4ed2-b7f1-f96253ed1dee.png",
+              "experiencia": [
+                "Miembro activo asociación LiderArq 2024",
+                "Vicepresidente asociación Young Leaders ASEBEC 2024"
+              ],
+              "propuestas": [
+                "Supervisar el cumplimiento de los proyectos de cada coordinación.",
+                "Implementar un calendario anual de actividades académicas y recreativas."
+              ],
+              "hobbies": [
+                "lectura",
+                "dibujo",
+                "hacer ejercicio"
+              ]
+            },
+            {
+              "puesto": "Secretaria",
+              "nombre": "María del Pilar Bueso Siwady",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761676843/c213a1b5-cc11-46d8-8539-85c8b997fc61.png",
+              "experiencia": [
+                "Coorganizadora de campamentos para niñas en Club",
+                "vicepresidente de grado en secundaria."
+              ],
+              "propuestas": [
+                "Crear un archivo histórico de proyectos y actividades del estudiantado.",
+                "Desarrollar un boletín informativo mensual con novedades académicas y eventos.",
+                "Coordinar la agenda del equipo y asegurar la difusión de convocatorias oficiales."
+              ],
+              "hobbies": [
+                "dibujar",
+                "escuchar música",
+                "gym",
+                "cocinar."
+              ]
+            },
+            {
+              "puesto": "Tesorera",
+              "nombre": "Vivian María Jerez Pierrot",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761676861/d75cc6f5-d86a-49c6-a5ae-91f8d954fce3.png",
+              "experiencia": [
+                "Coorganizadora de campamento para niñas en Club",
+                "presidente del grado en secundaria"
+              ],
+              "propuestas": [
+                "Crear un informe financiero trimestral.",
+                "Organizar actividades (rifas, noche benéficas, etc.) para financiar eventos.",
+                "Gestionar patrocinios y donaciones con empresas del sector arquitectónico."
+              ],
+              "hobbies": [
+                "Pintura",
+                "cocinar",
+                "costurar."
+              ]
+            },
+            {
+              "puesto": "Coordinadora de Redes Sociales",
+              "nombre": "Angélica Celeste Nolasco Caballero",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761676870/e386296e-9dc5-4384-9d3d-299e50625558.png",
+              "experiencia": [
+                "Ninguna"
+              ],
+              "propuestas": [
+                "Diseñar una identidad visual unificada para la planilla (colores, tipografía, logo).",
+                "Crear un calendario de publicaciones con contenido académico, cultural y recreativo.",
+                "Implementar campañas de visibilización de proyectos estudiantiles.",
+                "Generar contenido audiovisual (videos, reels, entrevistas, tips de arquitectura)."
+              ],
+              "hobbies": [
+                "Pintar",
+                "hacer ejercicio",
+                "nadar."
+              ]
+            },
+            {
+              "puesto": "Gestora de Redes Sociales",
+              "nombre": "Eyli Karleny Gutierrez Argueta",
+              "anio": "2do año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761699713/8a474421-6ab5-4326-afae-d16b6bfdc48a.png",
+              "experiencia": [
+                "Ninguna"
+              ],
+              "propuestas": [
+                "Mantener actualizadas las redes sociales.",
+                "Interactuar activamente con la comunidad (encuestas, preguntas, historias).",
+                "Apoyar la difusión de eventos y logros estudiantiles.",
+                "Monitorear estadísticas y mejorar el alcance de las publicaciones."
+              ],
+              "hobbies": [
+                "Bailar",
+                "leer",
+                "viajar."
+              ]
+            },
+            {
+              "puesto": "Coordinadora de Logística",
+              "nombre": "Mónica Michelle Turcios Eufragio",
+              "anio": "4to año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761699726/4b994759-a97d-4e17-8f71-485fed0970fe.png",
+              "experiencia": [
+                "Ninguna"
+              ],
+              "propuestas": [
+                "Diseñar un manual de logística para eventos académicos y recreativos.",
+                "Gestionar espacios y materiales para exposiciones y talleres.",
+                "Coordinar voluntariados estudiantiles para montaje y apoyo en eventos."
+              ],
+              "hobbies": [
+                "Leer",
+                "escuchar música."
+              ]
+            },
+            {
+              "puesto": "Coordinadora de Primer Ingreso",
+              "nombre": "Angie Nicole Flores Callejas",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761699740/c9ed5aa9-5ecc-4630-ac12-db4583f437cb.png",
+              "experiencia": [
+                "Ninguna"
+              ],
+              "propuestas": [
+                "Crear un programa de mentorías donde estudiantes avanzados acompañen a los de primer año.",
+                "Organizar una semana de bienvenida con recorridos, dinámicas y talleres.",
+                "Realizar encuestas de adaptación para mejorar la experiencia del primer ingreso."
+              ],
+              "hobbies": [
+                "voleibol",
+                "pintar",
+                "gym."
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "QUADDI",
+          "carrera": "Licenciatura en Animación Digital y Diseño Interactivo",
+          "candidatos": []
+        }
       ]
     },
     {
       "id": "salud",
       "nombre": "Facultad de Ciencias de la Salud",
       "planillas": [
-        { "nombre": "PSYCHE", "carrera": "Licenciatura en Psicología", "candidatos": [] }
+        {
+          "nombre": "PSYCHE",
+          "carrera": "Licenciatura en Psicología",
+          "candidatos": [
+            {
+              "puesto": "Presidente",
+              "nombre": "Valeria Cruz",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674001/5c047474-9d37-4e25-b2f0-e026c41135d6.png",
+              "experiencia": [
+                "Cargo de vicepresidente en la Asociación Estudiantil de Psicología 2025",
+                "Charlas a personas en la Liga Contra el Cáncer sobre la resiliencia.",
+                "Coordinación y participación en limpieza de playas con Cipotes Honduras.",
+                "Donaciones y visitas anuales a centros de nutrición en El Progreso y San Pedro Sula.",
+                "Planeación, coordinación y anfitriona de la actividad “Tarde de Chalupa 2025” organizada por Asociación Estudiantil de Psicología “MenteNova”",
+                "Participación activa en brigadas médicas como organizadora y traductora.",
+                "Aplicación de pruebas de desarrollo a niños con problemáticas escolares en Jardín de Niños Rosinda Mondragón.",
+                "Charlas sobre valores y desempeño laboral a empleados de Fundación Ruth Paz."
+              ],
+              "propuestas": [
+                "Coordinar con las autoridades correspondientes para diseñar y lanzar una camisa polo oficial de la carrera de Psicología.",
+                "Crear pines representativos de la carrera que fortalezcan el sentido de pertenencia entre los estudiantes.",
+                "Implementar un Bootcamp de Psicología al inicio de cada trimestre, enfocado en el desarrollo personal, académico y profesional.",
+                "Convertir la “Tarde de Chalupa” en una actividad anual distintiva de la carrera, fomentando la integración y la comunidad estudiantil.",
+                "Promover una relación más cercana con el estudiantado, incentivando la participación activa en actividades que fortalezcan el orgullo y sentido de pertenencia hacia la carrera."
+              ],
+              "hobbies": [
+                "Leer como mi principal fuente de entretenimiento, escuchar música, pintar, tener mi emprendimiento de repostería y experimentar nuevas recetas."
+              ]
+            },
+            {
+              "puesto": "Vicepresidente",
+              "nombre": "Digna Abigail Maradiaga",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674016/77b6019f-6659-4aaf-a69d-6bb029fad530.png",
+              "experiencia": [
+                "He participado activamente en diversas actividades organizadas por la universidad, entre ellas la impartición de charlas a estudiantes de último año de educación secundaria.",
+                "También he realizado una charla y donaciones para un albergue de niñas, además de brindar atención y charlas en un hogar de ancianos.",
+                "Asimismo, apliqué pruebas de desarrollo en el Instituto Municipal de Educación Especial y realizamos donaciones para el Centro de Rehabilitación IHSS Orquídea Blanca.",
+                "Finalmente, formé parte de un proyecto universitario de dos días en Avícola Río Amarillo, Copán, a finales de febrero, donde contribuí en la creación y actualización de descripciones de puestos y en la evaluación de necesidades de capacitación mediante encuestas aplicadas a los empleados."
+              ],
+              "propuestas": [
+                "Talleres para la redacción de informes, redacción y normas APA",
+                "Talleres de primeros auxilios psicológicos⁠",
+                "Charlas sobre emprendimiento en psicología y tener un propio consultorio"
+              ],
+              "hobbies": [
+                "Ver series y películas, así como escuchar música en mis momentos libres, actividades que me permiten relajarme y desconectarme del estudio."
+              ]
+            },
+            {
+              "puesto": "Secretaria",
+              "nombre": "Indhira López",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674023/facbb4c6-db2d-4e9f-a91c-b728b1489eaa.png",
+              "experiencia": [
+                "Organización y desarrollo de una charla acompañada de donaciones para un albergue de niñas.",
+                "Atención y realización de actividades formativas en un hogar de adultos mayores.",
+                "Aplicación de pruebas de desarrollo en el Instituto Municipal de Educación Especial.",
+                "Colaboración en un proyecto universitario en Avícola Río Amarillo, Copán, que incluyó elaboración y actualización de descripciones de puestos."
+              ],
+              "propuestas": [
+                "Red de tutorías entre estudiantes (estudiantes avanzando que apoyen a los nuevos estudiantes de la carrera)",
+                "Charlas de autocuidado para los futuros psicólogos."
+              ],
+              "hobbies": [
+                "Ver películas, escuchar música, y cocinar."
+              ]
+            },
+            {
+              "puesto": "Tesorera",
+              "nombre": "Fadia Nadra",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674032/b0ea81dd-361e-4293-a3e8-07b210ded8f2.png",
+              "experiencia": [
+                "• Charlas a estudiantes de último año en colaboración con USAID.",
+                "• Charla sobre educación sexual y donaciones a albergue de niñas.",
+                "•Aplicación de pruebas a estudiantes de desarrollo en el Instituto Municipal de Educación Especial.",
+                "• Donaciones al Centro de Rehabilitación IHSS Orquídea Blanca.",
+                "• Participación en un proyecto universitario de dos días en Avícola Río Amarillo, en donde aplicamos encuestas para evaluar las necesidades y capacitaciones de puesto."
+              ],
+              "propuestas": [
+                "- Visitas a organizaciones o fundaciones para aplicar talleres psicoeducativos u otras dinámicas con similitud.",
+                "- Simulaciones de entrevistas, role-playing y observaciones de caso con retroalimentación de licenciados o egresados.",
+                "- Talleres prácticos: pintura terapéutica, fotografía expresiva, escritura…"
+              ],
+              "hobbies": [
+                "Leer, escuchar música, practicar repostería y mejorar mis habilidades de lectura en alemán."
+              ]
+            },
+            {
+              "puesto": "Coord. Redes Sociales",
+              "nombre": "Sofía Alvarenga",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674041/32072f88-abe7-42b3-9463-3f587088ef08.png",
+              "experiencia": [
+                "He participado en proyectos universitarios orientados al bienestar psicológico y comunitario, así como en actividades de voluntariado visitando asilos y hospitales, fortaleciendo mis habilidades de empatía, comunicación y acompañamiento humano."
+              ],
+              "propuestas": [
+                "Colaboraciones con otras universidades en proyectos psicosociales.",
+                "Feria para exponer proyectos y prácticas estudiantiles.",
+                "Trabajar de manera creativa y que llame la atención en las redes sociales, involucrando a los estudiantes así como a los docentes."
+              ],
+              "hobbies": [
+                "Me gusta tocar instrumentos musicales, leer, cantar y cocinar en mi tiempo libre."
+              ]
+            },
+            {
+              "puesto": "Coord. Primer Ingreso",
+              "nombre": "José Fernando Murillo",
+              "anio": "2ndo año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674044/c8b6c96d-2565-47ed-95f0-e043b27c5660.png",
+              "experiencia": [
+                "Participación en simposios sobre, cursos y actividades que fomentan el cuidado del medio ambiente",
+                "Visita y donación a centro de nutrición Nutre Hogar"
+              ],
+              "propuestas": [
+                "Padrinos Académicos (acompañamiento de estudiantes) Estudiantes de semestres altos ayudan a 2–3 de semestres bajos con tips, horarios y dudas",
+                "Actividades bimestrales para los estudiantes de la carrera",
+                "Crear espacios de recreación para que los estudiantes puedan relajarse durante los trimestres."
+              ],
+              "hobbies": [
+                " Escuchar música, socializar, hacer videos y jugar videojuegos."
+              ]
+            },
+            {
+              "puesto": "Coord. Académico",
+              "nombre": "Adriana Matta",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761674048/e0dc36f5-d9e9-4f20-94b9-7dc6f097a170.png",
+              "experiencia": [
+                "Como experiencias académicas , he participado en brigadas , en actividades de clases como ir a casas hogares , el año pasado estuve en la planilla y estuve en el puesto de gestora de primer ingreso y dentro de ahí hemos realizado varias actividades , como picnics , una lotería , les llevamos comida a los niños de nutre hogar , aparte también hemos hecho charlas de capacitación en la liga contra el cáncer."
+              ],
+              "propuestas": [
+                "Semana de la Psicología: una semana con actividades temáticas desde trivias y concursos hasta charlas y retos diarios que celebran la carrera.",
+                "“Psycho Challenge”: retos creativos entre trimestres (memes psicológicos, trivias, o experimentos sociales divertidos) con premios simbólicos.",
+                "Mural de mensajes positivos: espacio para que los estudiantes dejen frases motivacionales o reflexiones, cambiando el tema cada mes"
+              ],
+              "hobbies": [
+                "Jugar Clash , ver películas y series y escuchar música."
+              ]
+            }
+          ]
+        }
       ]
     },
     {
       "id": "ingenieria",
       "nombre": "Facultad de Ingeniería",
       "planillas": [
-        { "nombre": "KERNEL", "carrera": "Ingeniería en Sistemas / Ciencias de Datos e Inteligencia Artificial", "candidatos": [] },
-        { "nombre": "AEE 2026", "carrera": "Ingeniería en Energía", "candidatos": [] },
-        { "nombre": "BIONOVA", "carrera": "Ingeniería Biomédica", "candidatos": [] },
-        { "nombre": "LEAN LEADERS 2026", "carrera": "Ingeniería Industrial y de Sistemas", "candidatos": [] },
-        { "nombre": "VEF 2026", "carrera": "Ingeniería Mecatrónica", "candidatos": [] },
-        { "nombre": "AECI", "carrera": "Ingeniería Civil", "candidatos": [] }
+        {
+          "nombre": "KERNEL",
+          "carrera": "Ingeniería en Sistemas / Ciencias de Datos e Inteligencia Artificial",
+          "candidatos": []
+        },
+        {
+          "nombre": "AEE 2026",
+          "carrera": "Ingeniería en Energía",
+          "candidatos": []
+        },
+        {
+          "nombre": "BIONOVA",
+          "carrera": "Ingeniería Biomédica",
+          "candidatos": []
+        },
+        {
+          "nombre": "LEAN LEADERS 2026",
+          "carrera": "Ingeniería Industrial y de Sistemas",
+          "candidatos": [
+            {
+              "puesto": "Presidenta.",
+              "nombre": "Angie Michelle Altamirano Aguilar",
+              "anio": "IV Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673656/dc23bb10-3835-428d-9188-6f6b50ff85e8.png",
+              "experiencia": [
+                "Miembro actual de la asociación INDUTEC de la carrera como Gestor Académico, participación activa en actividades administrativas en el área de Postgrado y soy instructora de laboratorios de física I. He formado parte de actividades universitarias de integración estudiantil, mostrando trabajo en equipo."
+              ],
+              "propuestas": [
+                "Fomentar la integración estudiantil mediante actividades recreativas, académicas y de desarrollo personal.",
+                "Impulsar espacios de aprendizaje e integración.",
+                "Promover el crecimiento espiritual y la motivación personal dentro del entorno universitario."
+              ],
+              "hobbies": [
+                "Leer, jugar ping pong, tocar la guitarra, realizar devocionales, iniciar proyectos de crecimiento personal."
+              ]
+            },
+            {
+              "puesto": "Vicepresidenta.",
+              "nombre": "Lizzy Nahomy Caseres Albarenga",
+              "anio": "II Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673668/e3539732-7b08-4e88-8985-1b4108568923.png",
+              "experiencia": [
+                "Mis cargos han sido Presidenta durante mi Bachillerato, Coordinadora de Graduación de mi último año de colegio."
+              ],
+              "propuestas": [
+                "Una de mis principales propuestas seria implementar un curso de educación sexual."
+              ],
+              "hobbies": [
+                "Maquillaje y hacer senderismo."
+              ]
+            },
+            {
+              "puesto": "Secretaría.",
+              "nombre": "Ana Valeria Flores Galindo",
+              "anio": "III Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673678/5cc83f6c-a759-4f0f-ae54-9faa23d241ff.png",
+              "experiencia": [
+                "Miembro del Club de Debate como Gestora de Redes, Co - líder del Club Guía Jaguar, Miembro de la Asociación de Estudiantes Becados (ASEBEC), Young Leaders 2024 como Secretaría, participación en el área administrativa de Acompañamiento Estudiantil en el Programa de Tutorías, participación activa en el evento \"Hilando Oportunidades\" en conjunto con USAID en los años 2023 y 2024, parte del comité de logística de los Juegos de la Juventud 2024 realizado en el campus UNITEC Sps."
+              ],
+              "propuestas": [
+                "Realizar actividades que combinen lo recreativo con la formación académica desde los compañeros de primer ingreso hasta para los que estén por egresar, realizar más visitas académicas que nos ayuden a expandir nuestros horizontes acerca de la oferta laboral que podemos tener al egresar."
+              ],
+              "hobbies": [
+                "Tomar fotografías, ver kdramas, dibujar, hacer manualidades, escuchar música y cocinar."
+              ]
+            },
+            {
+              "puesto": "Tesorero.",
+              "nombre": "Brayan Emanuel Antúnez Izaguirre",
+              "anio": "III Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673687/a3189d1a-f626-4d88-b72a-a2710e7deba6.png",
+              "experiencia": [
+                "Miembro del Club de Debate, Club Guía Jaguar, y Tesorero del Club de Voluntariado de la universidad en el 2024, además de participación en el área administrativa de la carrera."
+              ],
+              "propuestas": [
+                "Se implementará un registro digital para llevar un control claro y actualizado de los ingresos y egresos de la asociación.",
+                "Además, se presentarán informes financieros periódicos y se publicarán resúmenes trimestrales, con el fin de garantizar la transparencia, fortalecer la confianza entre los miembros y asegurar un uso responsable de los recursos. Se promoverán actividades de recaudación como rifas, ventas y patrocinios con empresas o egresados, con el objetivo de aumentar los fondos disponibles para apoyar eventos y proyectos estudiantiles.",
+                "También se creará un fondo de ahorro destinado a emergencias y futuras actividades, asegurando la sostenibilidad económica de la asociación."
+              ],
+              "hobbies": [
+                "Leer, ver películas y series, cocinar."
+              ]
+            },
+            {
+              "puesto": "Gestora de Redes Sociales.",
+              "nombre": "Andrea Lizzeth Díaz Deras",
+              "anio": "III Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673710/caafd5a3-3929-481f-8875-2449e680e4b6.png",
+              "experiencia": [
+                "Líder y coordinadora de varios trabajos y proyectos de clase."
+              ],
+              "propuestas": [
+                "Aumentar la participación en eventos de la asociación, crear sentido de pertenencia y comunidad entre los estudiantes e incrementar la visibilidad y reputación de la carrera."
+              ],
+              "hobbies": [
+                "Viajar, leer, dibujar y escribir."
+              ]
+            },
+            {
+              "puesto": "Gestor de Primer Ingreso.",
+              "nombre": "Yiny Ramón Orellana Santos",
+              "anio": "III Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673719/4f598ce1-5f47-4afc-a382-cdf75bb0e13a.png",
+              "experiencia": [
+                "He desarrollado habilidades en gestión de proyecto en el transcurso de mi carrera universitaria y por medio de JCI San Pedro Sula, complemento esto con experiencia práctica en actividades administrativas en el área de Admisiones."
+              ],
+              "propuestas": [
+                "Ofrecer talleres introductorios que ayudarán a los nuevos estudiantes a profundizar qué es la Ingeniería Industrial, con el objetivo de impulsarlos a crecer como profesionales."
+              ],
+              "hobbies": [
+                "Jugar fútbol, senderismo, comenzar actividades para crecimiento personal."
+              ]
+            },
+            {
+              "puesto": "Gestora de Logística.",
+              "nombre": "Katherine Lizbeth Gallegos García",
+              "anio": "III Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673732/97ee6fd4-e460-45b0-aaf5-478e581c6063.png",
+              "experiencia": [
+                "Durante mi formación universitaria he participado en diversos proyectos y trabajos grupales que me han permitido fortalecer mis habilidades de liderazgo, organización y comunicación.",
+                "He colaborado en actividades enfocadas en el análisis de procesos y la aplicación de herramientas de mejora continua.",
+                "Me considero una persona responsable, proactiva y con facilidad para trabajar en equipo y asumir retos con compromiso."
+              ],
+              "propuestas": [
+                "Mi propuesta se enfoca en fortalecer la comunicación y el sentido de colaboración entre los estudiantes.",
+                "Quiero promover proyectos que integren los conocimientos teóricos con la práctica, creando espacios donde se fomente la creatividad, la participación activa y el aprendizaje conjunto.",
+                "Además, desep impulsar el liderazgo positivo y el desarrollo de habilidades que nos preparen mejor para el entorno profesional."
+              ],
+              "hobbies": [
+                "Me apasionan las manualidades, especialmente aquellas que combinen creatividad, precisión y diseño.",
+                "Disfruto crear detalles decorativos, personalizar objetos y explorar nuevas técnicas que me permitan expresar ideas de forma original."
+              ]
+            },
+            {
+              "puesto": "Gestora Académica.",
+              "nombre": "Dayana Yoselin Fernández Amaya",
+              "anio": "III Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673742/85d577dd-c4df-410e-83d8-ab15890a9e98.png",
+              "experiencia": [
+                "He participado activamente en proyectos académicos dentro de la facultad, destacando por mi responsabilidad y disposición para colaborar.",
+                "Asistí a la Feria del Libro realizada en San Pedro Sula, donde tuve la oportunidad de apoyar en diferentes actividades y brindar ayuda en todo lo posible, fortaleciendo mis habilidades de organización y trabajo en equipo."
+              ],
+              "propuestas": [
+                "Promover talleres y capacitaciones en herramientas tecnológicas y de gestión industrial.",
+                "Fomentar la integración y el trabajo en equipo entre los estudiantes de Ingeniería Industrial y de Sistemas"
+              ],
+              "hobbies": [
+                "Jugar videojuegos, escuchar música y hacer pulseras y collares artesanales."
+              ]
+            },
+            {
+              "puesto": "Gestora de Talleres y Capacitación.",
+              "nombre": "Susan Deyanira Cantarero Meza",
+              "anio": "III Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673751/99d4b60f-3803-4ff8-84c2-40025468e46f.png",
+              "experiencia": [
+                "He puesto en práctica el trabajo en equipo en diversas actividades dentro de la carrera de Ingeniería Industrial, destacando mi participación como líder en varias ocasiones.",
+                "Asumo este rol cuando es necesario y procuro motivar a mis compañeros a desarrollar también sus habilidades de liderazgo.",
+                "Me caracterizo por mantener una actitud positiva y comprometida en todos los proyectos, tanto individuales como grupales, ya que disfruto fortalecer mis habilidades interpersonales y perfeccionar cada tarea que realizo."
+              ],
+              "propuestas": [
+                "Promover actividades recreativas dirigidas a los estudiantes de la carrera, con el objetivo de fomentar la participación, comunicación y el compañerismo.",
+                "Estas actividades incluirán competencias, juegos y dinámicas que ayuden a los estudiantes a perder el temor de interactuar con los demás, fortaleciendo así su sentido de pertenencia y motivarlos a continuar sus estudios con propósito y vocación."
+              ],
+              "hobbies": [
+                "Practicar deportes, especialmente fútbol femenino, ver series y películas, crear y disfrutar nuevas experiencias."
+              ]
+            },
+            {
+              "puesto": "Gestor de Deporte.",
+              "nombre": "Jonathan Josué Contreras Rodríguez",
+              "anio": "III Año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761673759/34c6ba9a-d181-483f-a99f-74a77c47c2e1.png",
+              "experiencia": [
+                "Realicé servicio de voluntariado en la organización \"Cipotes\", además de mi constante participación en actividades y proyectos académicos de la facultad mostrando mi compromiso."
+              ],
+              "propuestas": [
+                "Organizar actividades recreativas enfocadas en el deporte y entrenamiento físico para todos mis compañeros de carrera."
+              ],
+              "hobbies": [
+                "Escuchar música, ir al gym, ver series y leer."
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "VEF 2026",
+          "carrera": "Ingeniería Mecatrónica",
+          "candidatos": []
+        },
+        {
+          "nombre": "AECI",
+          "carrera": "Ingeniería Civil",
+          "candidatos": []
+        }
       ]
     },
     {
       "id": "becados",
       "nombre": "Asociación de Estudiantes Becados",
       "planillas": [
-        { "nombre": "ASEBEC", "carrera": "Asociación de Estudiantes Becados", "candidatos": [] }
+        {
+          "nombre": "ASEBEC",
+          "carrera": "Asociación de Estudiantes Becados",
+          "candidatos": [
+            {
+              "puesto": "Presidente",
+              "nombre": "Rebeca Nicole Turcios Romero",
+              "anio": "tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675522/77497693-ba6f-47b6-8dad-a55548eb5fb4.png",
+              "experiencia": [
+                "Cuento con experiencia académica en la participación de congresos de investigación, específicamente orientados al nacionalismo y la búsqueda de la identidad hondureña.",
+                "He ejercido liderazgo como miembro de la Secretaría de Relaciones Públicas de MUN Honduras y coordinadora del proyecto EduArte, gestionando comunicación institucional, equipos y proyectos sociales enfocados en bienestar y desarrollo comunitario."
+              ],
+              "propuestas": [
+                "Visualizar la voz de los estudiantes becados, las experiencias vividas en las áreas de pasantía y la convivencia en la universidad a través de eventos transformadores y redes sociales."
+              ],
+              "hobbies": [
+                "Leer, hacer repostería, dibujar, cantar y escuchar música."
+              ]
+            },
+            {
+              "puesto": "Vicepresidente",
+              "nombre": "David Arturo Mejía Gonzales",
+              "anio": "Empezando segundo año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675528/7d3bacf1-7259-4b2a-96e3-6fd58e57ab4a.png",
+              "experiencia": [
+                ""
+              ],
+              "propuestas": [
+                "Crear un ambiente ameno y agradable para cada becado, sea nuevo o viejo.",
+                "Realizar actividades recreativas y talleres que enriquezcan la mente de nuestra población estudiantil y fomentar la integración y el trabajo en equipo entre los becados mediante espacios de diálogo y apoyo mutuo, que promuevan la empatía, el respeto y el sentido de pertenencia dentro de la comunidad estudiantil."
+              ],
+              "hobbies": [
+                "Jugar futbol y videojuegos, ver series y películas, ir al gimnasio."
+              ]
+            },
+            {
+              "puesto": "Secretario",
+              "nombre": "Fernando Josué Portillo",
+              "anio": "2do Año.",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675540/a69603d0-7186-45fb-bf04-60a18d07361d.png",
+              "experiencia": [
+                "Reconocimiento al mejor proyecto en la categoría Beginners A en el Mecatón.",
+                "Además, formo parte de la actual asociación de becados (ASEBEC).",
+                "Imparto tutorías en las que apoyo a estudiantes en sus clases."
+              ],
+              "propuestas": [
+                "Hacer que la comunidad de becados se sienta bien representada, servirles a través de nuestros conocimientos y realzar el talento y que cada becado se sienta orgulloso de ser parte de esta comunidad."
+              ],
+              "hobbies": [
+                "Ver películas, jugar fútbol, leer y escribir."
+              ]
+            },
+            {
+              "puesto": "Tesorera",
+              "nombre": "Andrea Elizabeth Delgado Madrid",
+              "anio": "1er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675547/73996793-39aa-44c0-857d-9442c7754234.png",
+              "experiencia": [
+                "dentro de la universidad, co-líder en el club MJU y actualmente postulante como Tesorera de Asebec.",
+                "En la iglesia soy parte de la directiva de jóvenes."
+              ],
+              "propuestas": [
+                "hacer sentir a cada becado una experiencia de familia donde sepan que son escuchados y tomados en cuenta, que nos identifiquen como estudiantes visionarios y activos más que solo por las buenas notas."
+              ],
+              "hobbies": [
+                "leer y ver Netflix"
+              ]
+            },
+            {
+              "puesto": "Coordinadora de Redes Sociales",
+              "nombre": "Andrea Jael Mora Pérez",
+              "anio": "Tercer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675559/0d07cf9c-7781-4149-9fc2-80c343cc85ea.png",
+              "experiencia": [
+                "Actualmente realizo pasantía de beca como asistente en el área de EFL.",
+                "Ha participado en la creación de murales y en la organización de eventos dentro de la universidad."
+              ],
+              "propuestas": [
+                "Escuchar las necesidades de los demás becados y apoyar en lo que sea posible.",
+                "Promover un ambiente participativo, colaborativo y creativo, el cual pueda motivar a los estudiantes a involucrarse más en las actividades de ASEBEC."
+              ],
+              "hobbies": [
+                ""
+              ]
+            },
+            {
+              "puesto": "Coordinador de Logística",
+              "nombre": "Walter Daniel Vargas Trejo",
+              "anio": "segundo año de la carrera",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675565/2e5b8fcb-62e7-4ced-8855-c8ee2117d6cd.png",
+              "experiencia": [
+                "Proyecto de aplicación de 5S en el Instituto Técnico Alemán"
+              ],
+              "propuestas": [
+                "Mejorar las planificaciones, los horarios y mantener calendarizadas las fechas importantes y las actividades a realizar."
+              ],
+              "hobbies": [
+                "jugar futbol o volleyball"
+              ]
+            },
+            {
+              "puesto": "Coordinadora de primer ingreso",
+              "nombre": "Lizzy Ivette Flores Aguilar",
+              "anio": "tercer año de la carrera",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675577/be8ddf94-703c-4605-863b-8dd1aef924d7.png",
+              "experiencia": [
+                "Entre mis experiencias de liderazgo podría destacar mi actual presidencia en la Asociación de Estudiantes Becados, en donde he llevado a cabo diversas actividades, tanto académicas y recreativas.",
+                "En el área académica, he participado en los modelos/simulaciones que realiza la carrera, he participado como delegada, miembro de la Secretaría de Relaciones Públicas y actualmente formo parte de la Secretaría de Logística y Protocolo."
+              ],
+              "propuestas": [
+                "Entre mis propuestas estarían impulsar a la comunidad de becados y que logren sentir escuchados."
+              ],
+              "hobbies": [
+                "ver películas de acción, como la trilogía de Taken, también las películas de romance y ver la serie de Criminal Minds.",
+                "Otro de mis pasatiempos es pasar con mis amigos y familia."
+              ]
+            },
+            {
+              "puesto": "Coordinadora de Relaciones Públicas",
+              "nombre": "Valeria Alejandra Vélez Guardado",
+              "anio": "2do año de carrera",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675583/8eb99442-9dd6-4eb4-a2a0-1c4dc724c199.png",
+              "experiencia": [
+                "Coordinadora de un proyecto para Introducción a Biomédica que luego fue presentado en Expomed 2024. Y parte del Grupo ganador en la clase de Administración I en el Business Showcase del Q3-2025"
+              ],
+              "propuestas": [
+                "Como coordinadora de Relaciones Públicas, propongo fortalecer la comunicación y el sentido de comunidad entre los becados.",
+                "Promoveremos actividades de integración, campañas informativas y alianzas que hagan de ASEBEC una asociación más unida, activa y visible en la universidad."
+              ],
+              "hobbies": [
+                "⁠Disfruto mucho leer novelas, escuchar música, pasar tiempos con mis seres queridos y jugar volleyball."
+              ]
+            },
+            {
+              "puesto": "Coordinador de Deportes",
+              "nombre": "Alejandro Enrique Bustillo Ramos",
+              "anio": "Primer año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675625/90f4c8f7-3bf2-4f92-9611-62ddd08c7203.png",
+              "experiencia": [
+                "En el ámbito del voluntariado, he liderado y colaborado en programas del Club de Leones y el CRIC orientados al servicio comunitario, desarrollando habilidades de gestión, empatía y compromiso social."
+              ],
+              "propuestas": [
+                "Apoyar el desarrollo personal y académico de mediante la organización de talleres de crecimiento o de salud mental, manejo del tiempo…, etc."
+              ],
+              "hobbies": [
+                "Ir al gimnasio, natación, leer y cocinar"
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
