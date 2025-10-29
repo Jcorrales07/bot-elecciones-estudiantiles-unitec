@@ -164,7 +164,7 @@ bot.action(/planilla:(.+):(.+)/, async (ctx) => {
             { caption: safeCaption, parse_mode: 'MarkdownV2' }
           );
         } else {
-          await ctx.replyWithMarkdown(mensaje);
+          await ctx.replyWithMarkdownV2(mensaje);
         }
       } catch (err) {
         console.error(`❌ Error enviando candidato ${cand.nombre}:`, err);
