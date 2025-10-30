@@ -27,7 +27,7 @@
           "carrera": "Licenciatura en Mercadotecnia y Negocios Internacionales",
           "candidatos": [
             {
-              "puesto": "Presidenta",
+              "puesto": "",
               "nombre": "Ana Valeria Amaya Martinez",
               "anio": "2do",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675421/159c2bfd-a80e-4e81-9c35-1b177f30c824.png",
@@ -59,7 +59,7 @@
               ]
             },
             {
-              "puesto": "Vice Presidente",
+              "puesto": "",
               "nombre": "Linda Cristina Colindres Orellana",
               "anio": "2do",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675432/cb659c6c-c4d6-4d37-bb9f-fa697842d0f1.png",
@@ -90,7 +90,7 @@
               ]
             },
             {
-              "puesto": "Secretario",
+              "puesto": "",
               "nombre": "Diego Armando Diaz Portillo",
               "anio": "2do",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675445/4531ac39-6db3-4d86-a74e-b764082cfd29.png",
@@ -122,7 +122,7 @@
               ]
             },
             {
-              "puesto": "Tesorero",
+              "puesto": "",
               "nombre": "Juan Diego Turcios Figueroa",
               "anio": "2do",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675451/d1ed38c7-0eb1-448b-88e8-61d2bcccdfab.png",
@@ -160,7 +160,7 @@
               ]
             },
             {
-              "puesto": "Gestor de Primer Ingreso.",
+              "puesto": "",
               "nombre": "Daniel Mauricio Beltrán Canales",
               "anio": "Segundo Año",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675506/d2e5f8d6-4ff3-48b2-a889-632827266928.png",
@@ -197,7 +197,7 @@
               ]
             },
             {
-              "puesto": "Gestora de Logística.",
+              "puesto": "",
               "nombre": "Jorge Fernando Hernandez Pineda",
               "anio": "2do",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1761675517/9b6f8ec6-74aa-414f-a9cc-4c1b3eeb5464.png",
