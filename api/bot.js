@@ -135,39 +135,49 @@ bot.action(/planilla:(.+):(.+)/, async (ctx) => {
   await ctx.replyWithMarkdown(encabezado);
 
   // Mostrar cada candidato individualmente
+  // Mostrar cada candidato individualmente
   if (planilla.candidatos && planilla.candidatos.length > 0) {
     for (const cand of planilla.candidatos) {
-      let mensaje = `👤 *${cand.puesto}:* ${cand.nombre}\n`;
-      mensaje += `📘 *Año académico:* ${cand.anio}\n`;
+      const encabezado = `👤 *${cand.puesto}:* ${cand.nombre}\n📘 *Año académico:* ${cand.anio}\n`;
+
+      let detalles = "";
 
       if (cand.experiencia?.length) {
-        mensaje += `\n🎓 *Experiencia académica:*\n`;
-        for (const exp of cand.experiencia) mensaje += `• ${exp}\n`;
+        detalles += `\n🎓 *Experiencia académica:*\n`;
+        for (const exp of cand.experiencia) detalles += `• ${exp}\n`;
       }
 
       if (cand.propuestas?.length) {
-        mensaje += `\n💡 *Principales propuestas:*\n`;
-        for (const prop of cand.propuestas) mensaje += `• ${prop}\n`;
+        detalles += `\n💡 *Principales propuestas:*\n`;
+        for (const prop of cand.propuestas) detalles += `• ${prop}\n`;
       }
 
       if (cand.hobbies?.length) {
-        mensaje += `\n🎨 *Hobbies:*\n${cand.hobbies.join(', ')}\n`;
+        detalles += `\n🎨 *Hobbies:*\n${cand.hobbies.join(', ')}\n`;
       }
 
-      const safeCaption = escapeMarkdownV2(mensaje);
-
-      // Enviar con o sin foto
       try {
         if (cand.foto) {
+          // Enviar la foto con un caption corto (máximo 1024 caracteres)
           await ctx.replyWithPhoto(
             { url: cand.foto },
-            { caption: safeCaption, parse_mode: 'MarkdownV2' }
+            { caption: encabezado, parse_mode: 'Markdown' }
           );
+
+          // Enviar el resto del texto en un mensaje separado
+          if (detalles.trim().length > 0) {
+            await ctx.replyWithMarkdown(detalles);
+          }
         } else {
-          await ctx.replyWithMarkdownV2(mensaje);
+          // Si no hay foto, envía todo en un solo mensaje
+          await ctx.replyWithMarkdown(encabezado + detalles);
         }
+
+        // Pequeña pausa para evitar límite de velocidad de Telegram
+        await new Promise(res => setTimeout(res, 400));
+
       } catch (err) {
-        console.error(`❌ Error enviando candidato ${cand.nombre}:`, err);
+        console.error(`❌ Error enviando candidato ${cand.nombre}:`, err.response?.description || err.message);
         await ctx.replyWithMarkdown(`⚠️ No se pudo mostrar la foto de *${cand.nombre}*`);
       }
     }
