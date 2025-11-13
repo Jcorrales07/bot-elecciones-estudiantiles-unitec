@@ -102,8 +102,6 @@ bot.hears(/^(ℹ️|Desarrollador del Chatbot)/i, async (ctx) => {
         `_Gracias por ayudarnos a mejorar el proceso electoral._\n` +
         `*Versión:* 1.0.0`;
 
-    filas.push([Markup.button.callback('⬅️ Volver al menú principal', 'volver:menu')]);
-
     // 3. Envío de la foto con el mensaje como caption
     try {
         await ctx.replyWithPhoto(
