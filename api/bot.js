@@ -18,7 +18,7 @@ function escapeMarkdownV2(text) {
 const MENU_PRINCIPAL = Markup.keyboard([
   ['1️⃣ Ver planillas por carrera'],
   ['2️⃣ Fechas del proceso'],
-  ['3️⃣ Reglas para votar']
+  ['3️⃣ Reglas para votar'],
   ['ℹ️ Desarrollador del Chatbot']
 ]).resize();
 
