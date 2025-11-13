@@ -95,12 +95,14 @@ bot.hears(/^(ℹ️|Desarrollador del Chatbot)/i, async (ctx) => {
 
     // 2. Definición del mensaje (Caption de la foto)
     const infoDesarrollador = `🤖 *Desarrollado y Mantenido por:*\n\n` +
-        `*Equipo:* Joe Corrales\n\n` +
+        `*Joe Corrales*\n\n` +
         `📞 *Contacto para Soporte y Retroalimentación:*\n` +
         `Si encuentras algún error (bug), tienes sugerencias de mejora o necesitas reportar información incorrecta, por favor escríbe directamente.\n\n` +
-        `➡️ *Telegram:* @jcorrales07\n` + 
+        `➡️ *Telegram:* @jcorrales07\n\n` + 
         `_Gracias por ayudarnos a mejorar el proceso electoral._\n` +
         `*Versión:* 1.0.0`;
+
+    filas.push([Markup.button.callback('⬅️ Volver al menú principal', 'volver:menu')]);
 
     // 3. Envío de la foto con el mensaje como caption
     try {
