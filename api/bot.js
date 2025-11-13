@@ -96,7 +96,7 @@ bot.hears(/^(ℹ️|Desarrollador del Chatbot)/i, async (ctx) => {
     // 2. Definición del mensaje (Caption de la foto)
     const infoDesarrollador = `🤖 *Desarrollado y Mantenido por:*\n\n` +
         `*Joe Corrales*\n\n` +
-        `📞 *Contacto para Soporte y Retroalimentación:*\n` +
+        `📞 *Contacto para Soporte y Retroalimentación:*\n\n` +
         `Si encuentras algún error (bug), tienes sugerencias de mejora o necesitas reportar información incorrecta, por favor escríbe directamente.\n\n` +
         `➡️ *Telegram:* @jcorrales07\n\n` + 
         `_Gracias por ayudarnos a mejorar el proceso electoral._\n` +
