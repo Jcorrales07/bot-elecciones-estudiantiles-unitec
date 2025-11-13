@@ -19,6 +19,7 @@ const MENU_PRINCIPAL = Markup.keyboard([
   ['1️⃣ Ver planillas por carrera'],
   ['2️⃣ Fechas del proceso'],
   ['3️⃣ Reglas para votar']
+  ['ℹ️ Desarrollador del Chatbot']
 ]).resize();
 
 // === MENÚ DE FACULTADES (en filas de 2 para mejor vista) ===
@@ -84,6 +85,37 @@ bot.hears(/^(3|3️⃣|Reglas)/i, async (ctx) => {
     `🚫 *Pierde el derecho a votar si:*\n${pierdeDerecho || 'No especificado'}`;
 
   await ctx.replyWithMarkdown(mensaje);
+});
+
+// === NUEVA OPCIÓN: DESARROLLADOR DEL CHATBOT CON IMAGEN ===
+bot.hears(/^(ℹ️|Desarrollador del Chatbot)/i, async (ctx) => {
+    // 1. URL de la imagen que quieres usar
+    const URL_IMAGEN_INFO = 'https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763006049/Imagen_de_WhatsApp_2025-11-12_a_las_21.53.37_7b811375_iygwyv.jpg'; 
+    // Asegúrate de que esta URL sea pública y accesible para Telegram.
+
+    // 2. Definición del mensaje (Caption de la foto)
+    const infoDesarrollador = `🤖 *Desarrollado y Mantenido por:*\n\n` +
+        `*Equipo:* Joe Corrales\n\n` +
+        `📞 *Contacto para Soporte y Retroalimentación:*\n` +
+        `Si encuentras algún error (bug), tienes sugerencias de mejora o necesitas reportar información incorrecta, por favor escríbe directamente.\n\n` +
+        `➡️ *Telegram:* @jcorrales07\n` + 
+        `_Gracias por ayudarnos a mejorar el proceso electoral._\n` +
+        `*Versión:* 1.0.0`;
+
+    // 3. Envío de la foto con el mensaje como caption
+    try {
+        await ctx.replyWithPhoto(
+            { url: URL_IMAGEN_INFO },
+            { 
+                caption: infoDesarrollador, 
+                parse_mode: 'Markdown' 
+            }
+        );
+    } catch (error) {
+        // En caso de que la URL de la imagen falle, se envía solo el texto como respaldo.
+        console.error('Error al enviar la foto del desarrollador:', error);
+        await ctx.replyWithMarkdown(`⚠️ No se pudo cargar la imagen.\n\n${infoDesarrollador}`);
+    }
 });
 
 // === FACULTAD SELECCIONADA ===
