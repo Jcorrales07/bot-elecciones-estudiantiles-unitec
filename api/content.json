@@ -248,7 +248,7 @@
                 "Mi historial de liderazgo habla por sí mismo",
                 "Presidenta con experiencia comprobada:  Goberné con éxito mi escuela y luego mi colegio.",
                 "No solo gané una elección,  manejé presupuestos, organicé eventos y solucioné problemas reales.",
-                "Campeona de Debates:  Representó HIBS y fuí  INVICTA en competencias intercolegiales.",
+                "Campeona de Debates:  Representó HIBS y fuí INVICTA en competencias intercolegiales.",
                 "En el mundo de las ideas,  no me rindo, negocio y gano.",
                 "Conectada con el Mundo Real:  Miembro activa como secretaria del club de debates UNITEC e  invicta hasta a el día de hoy.",
                 "No solo hablo de la universidad,  traigo experiencias de fuera.",
@@ -2088,7 +2088,129 @@
         {
           "nombre": "QUADDI",
           "carrera": "Licenciatura en Animación Digital y Diseño Interactivo",
-          "candidatos": []
+          "candidatos": [
+            {
+              "puesto": "",
+              "nombre": "VALERIA KATTÁN CANAHUATI",
+              "anio": "2ndo año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763004942/Captura_de_pantalla_2025-11-12_212605_ikguf6.png",
+              "experiencia": [
+                "Actualmente, soy parte de la Asociación QUADDI 2025, actuando como Gestor de Artes y Gestor de Redes."
+              ],
+              "propuestas": [
+                "Promover la carrera de Animación Digital y Diseño Interactivo y todos los beneficios que presenta estudiar la carrera."
+              ],
+              "hobbies": [
+                "Leer",
+                "escribir",
+                "dibujar",
+                "jugar Honkai: Star Rail",
+                "tocar el ukelele y hacer brownies."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "OWEN YAIR ARAQUE VELASQUEZ",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763004941/Captura_de_pantalla_2025-11-12_212726_lw3ueg.png",
+              "experiencia": [
+                "Proyectos dentro de la carrera y lider en colegio, nominado a premios por guión."
+              ],
+              "propuestas": [
+                "Mas oportunidades de clases y eventos en base a la carrera."
+              ],
+              "hobbies": [
+                "Pasar tiempo con mis amigos, y aprender nuevas técnicas para aplicar a mis trabajos."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "EMYL ALEJANDRO POUBLANC OVIEDO",
+              "anio": "2ndo año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763004941/Captura_de_pantalla_2025-11-12_212748_onzckh.png",
+              "experiencia": [
+                "Ninguna experiencia."
+              ],
+              "propuestas": [
+                "Incentivar e impulsar la apertura de las clases de la carrera."
+              ],
+              "hobbies": [
+                "Leer",
+                "dibujar",
+                "ver tanto películas como series."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "ANGEL GABRIEL CRUZ CASTAÑEDA",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763004946/Captura_de_pantalla_2025-11-12_212815_sny5kg.png",
+              "experiencia": [
+                "Ninguna experiencia."
+              ],
+              "propuestas": [
+                "Impulsar la apertura de clases requeridas, fortalecer la integración estudiantil y promover actividades artísticas como concursos, galerías y presentaciones en el auditorio que resalten el talento de la carrera."
+              ],
+              "hobbies": [
+                "Jugar videojuegos y ver películas."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "ADRIANA ELIZABETH FLORES MUÑOZ",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763004941/Captura_de_pantalla_2025-11-12_212831_hcnqxl.png",
+              "experiencia": [
+                "Ninguna experiencia."
+              ],
+              "propuestas": [
+                "Crear actividades que fomenten el arte dentro de la carrera, permitiendo que cada estudiante experimente y muestre su estilo a los demas, como concursos o galerías"
+              ],
+              "hobbies": [
+                "Ver películas y series",
+                "leer",
+                "dibujar",
+                "manualidades",
+                "jugar Mario Kart."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "MARLEN YARIELA BUSTILLO MOLINA",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763004943/Captura_de_pantalla_2025-11-12_212905_zghpev.png",
+              "experiencia": [
+                "Ninguna experiencia."
+              ],
+              "propuestas": [
+                "Transmitir confianza a los estudiantes de la carrera, ayudando a incluirlos desde su primer trimestre, que quieran destacar y disfrutar de su experiencia universitaria."
+              ],
+              "hobbies": [
+                "Dibujar",
+                "jugar videojuegos",
+                "leer",
+                "ver películas y series."
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "VALERIA YULIANA LEIVA AGUILAR",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763004943/Captura_de_pantalla_2025-11-12_212924_yoidbj.png",
+              "experiencia": [
+                "Fui animadora 2D en el cortometraje \"La semilla de la vida\" en colaboración con IHCINE."
+              ],
+              "propuestas": [
+                "Garantizar la apertura de clases requeridas",
+                "fomentar la importancia de presentaciones de proyectos en el auditorio y actividades que fomenten la carrera."
+              ],
+              "hobbies": [
+                "Dibujar",
+                "jugar videojuegos",
+                "ver películas y series."
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2276,7 +2398,7 @@
                 "Realizar visitas técnicas a empresas y organizaciones del sector, con el objetivo de acercar a los estudiantes al entorno laboral y brindar una visión más práctica de su futuro profesional. "
               ],
               "hobbies": [
-                "Danza folclórica ",
+                "Danza folclórica",
                 "Leer ",
                 "Nadar ",
                 "Bailar ",
@@ -2658,17 +2780,21 @@
               "anio": "Finalizando 3er año de la carrera",
               "foto": "",
               "experiencia": [
-                "En mis experiencias de liderazgo se encuentran: 4 años como presidente de grado en el colegio, 1 año como presidente de gobierno de estudiantil en el colegio, 1 año como coordinador de redes sociales en la asociación de ingeniería en mecatrónica (actual).",
-                "En mis experiencias académicas: Mejor graduado de la promoción del BTP en Mecatrónica y el segundo mejor graduado del colegio."
+                "4 años como presidente de grado en el colegio",
+                "1 año como presidente de gobierno de estudiantil en el colegio",
+                "1 año como coordinador de redes sociales en la asociación de ingeniería en mecatrónica (actual)",
+                "Mejor graduado de la promoción del BTP en Mecatrónica",
+                "El segundo mejor graduado del colegio"
               ],
               "propuestas": [
-                "1. Crear un ambiente de aprendizaje con talleres, charlas y visitas técnicas;",
-                "2. Fomentar la unión estudiantil con actividades recreativas."
+                "Crear un ambiente de aprendizaje con talleres, charlas y visitas técnicas",
+                "Fomentar la unión estudiantil con actividades recreativas"
               ],
               "hobbies": [
                 "Tocar el piano",
-                "jugar Brawl Stars",
-                "ver series y escuchar música."
+                "Jugar Brawl Stars",
+                "Ver series",
+                "Escuchar música"
               ]
             },
             {
@@ -2677,36 +2803,147 @@
               "anio": "3er año de la carrera",
               "foto": "",
               "experiencia": [
-                "En mi experiencia académica es el segundo mejor promedio de mi generación en Bachillerato en Humanidades y actualmente ser becado por excelencia académica en UNITEC,",
-                "en mis experiencias de Liderazgo: Diversos cargos en gobiernos estudiantiles desde la primaria hasta secundaria, un curso sobre liderazgo Juvenil en DALE Carnegie, 1 año como coordinador de logística en la actual asociación de ingeniera en mecatrónica."
+                "El segundo mejor promedio de mi generación en Bachillerato en Humanidades",
+                "Actualmente ser becado por excelencia académica en UNITEC",
+                "Diversos cargos en gobiernos estudiantiles desde la primaria hasta secundaria",
+                "Un curso sobre liderazgo Juvenil en DALE Carnegie",
+                "1 año como coordinador de logística en la actual asociación de ingeniera en mecatrónica"
               ],
               "propuestas": [
-                "1. Fomentar el apoyo estudiantil en la carrera de mecatrónica,",
-                "2. Generar más oportunidades de aprendizaje y liderazgo para la comunidad estudiantil."
+                "Fomentar el apoyo estudiantil en la carrera de mecatrónica",
+                "Generar más oportunidades de aprendizaje y liderazgo para la comunidad estudiantil",
+                "Brindar talleres especializados para generar estudiantes competitivos, trabajando principalmente habilidades blandas y duras"
               ],
               "hobbies": [
-                "Jugar fútbol",
                 "Jugar videojuegos",
+                "Leer",
                 "Ver series",
-                "Escuchar música."
+                "Escuchar música"
+              ]
+            },
+            {
+              "puesto": "Secretario",
+              "nombre": "Diego Andrés Rivera Valle",
+              "anio": "4rto año de la carrera",
+              "foto": "",
+              "experiencia": [
+                "He formado parte de la actual asociación de mecatrónica VEF25 como miembro activo del grupo de apoyo, pudiendo experimentar y visualizar muchas actividades de gran valor para mi carrera personal y profesional",
+                "También formo parte del equipo de tutores de unitec por más de un año y medio actualmente, especializado en el área de las ciencias y matemáticas",
+                "Formo parte del equipo de instructores de física con la universidad, por tres trimestres que son aproximadamente entre 6 a 9 meses",
+                "Poseo un diploma del curso de relaciones humanas y liderazgo en dale Carnegie, así como el curso juvenil de la misma institución",
+                "Poseo diversos cursos técnicos en el ITEE de electrónica y circuitos aplicados, así como refrigeración y computadoras/celulares"
+              ],
+              "propuestas": [
+                "Mi objetivo es lograr que los estudiantes de mecatrónica no vean la asociación como algo más, sino que el grupo y sus miembros como una inspiración, logrando esto por medio de cambiar el enfoque de asociaciones antiguas volviéndonos más activos positivamente para la comunidad estudiantil, y efectuando cambios de mayor valor para los mismos."
+              ],
+              "hobbies": [
+                "Leer libros",
+                "Ver series y películas",
+                "Jugar videojuegos",
+                "Ir al gimnasio"
               ]
             },
             {
               "puesto": "Tesorero",
-              "nombre": "David Josue Melara García",
-              "anio": "2do año",
+              "nombre": "José Alejandro Rodas Godoy",
+              "anio": "3er año de la carrera",
               "foto": "",
               "experiencia": [
-                "Participación de juez en una feria de ciencias en una escuela aquí en SPS,",
-                "participación en varios proyectos de universidad y buen trabajo en equipo."
+                "1 año como tesorero en la asociación de ingeniera en mecatrónica (2025)"
+              ],
+              "propuestas": [
+                "Demostrar responsabilidad, transparencia y compromiso por medio de una buena gestión financiera."
+              ],
+              "hobbies": [
+                "Restaurar y dar mantenimiento a equipos",
+                "Videojuegos"
+              ]
+            },
+            {
+              "puesto": "Coord. De Redes Sociales",
+              "nombre": "David Eduardo Martínez Maldonado",
+              "anio": "3er año de la carrera",
+              "foto": "",
+              "experiencia": [
+                "Expresidente de club juvenil Rotario",
+                "Gestor de ciberseguridad e inventario en empresa (Agencia Eduardo Martínez)",
+                "Representante colegial del equipo de matemáticas y de ajedrez"
+              ],
+              "propuestas": [
+                "Fomentar las actividades académicas"
+              ],
+              "hobbies": [
+                "Viajar",
+                "Salir con amigos",
+                "Jugar videojuegos",
+                "Hornear y cocinar"
+              ]
+            },
+            {
+              "puesto": "Coord. De Primer Ingreso",
+              "nombre": "César Valdez López",
+              "anio": "3er Año",
+              "foto": "",
+              "experiencia": [
+                "Agente del Cambio MecaAwards 2025",
+                "Líder del Club de Negocios Emprende+ UNITEC SPS 2025",
+                "Primer Lugar MECATON Begginers A 2024Q3",
+                "Representante Distrital de Interact (RDI) 4250 2023-24",
+                "Past President Club Interact La Ceiba 2022-23",
+                "Asistente de RDI de Honduras 2022-23",
+                "Vicepresidente Club Interact La Ceiba 2021-22"
+              ],
+              "propuestas": [
+                "Asistencia a Primer Ingreso mediante guías propios de la carrera como consejeros en proyectos, clases, etc.",
+                "Mejorar la retención de estudiantes de Ingeniería en Mecatrónica en los primeros dos años.",
+                "Transformar positivamente la dinámica de los bootcamps e involucrar a más estudiantes cultivándoles un espíritu de compañerismo y liderazgo."
+              ],
+              "hobbies": [
+                "Jugar ajedrez",
+                "Hacer sudokus",
+                "Ver películas",
+                "Hacer deporte/ir al gimnasio"
+              ]
+            },
+            {
+              "puesto": "Coord. De logística",
+              "nombre": "Rafael Alejandro Zerón Cárdenas",
+              "anio": "3er año",
+              "foto": "",
+              "experiencia": [
+                "Miembro de consejo estudiantil en primaria",
+                "Vicepresidente de curso en el colegio",
+                "Miembro de VEF 25",
+                "2do índice más alto de generación BTP"
+              ],
+              "propuestas": [
+                "Fomentar actividades que desarrollen académicamente y personalmente a los estudiantes durante el año"
+              ],
+              "hobbies": [
+                "Resolver cubos de Rubik",
+                "Jugar baloncesto",
+                "Jugar futbol",
+                "Escuchar música",
+                "Entrenar en el gimnasio",
+                "Jugar videojuegos"
+              ]
+            },
+            {
+              "puesto": "Coord. De Deportes",
+              "nombre": "José Manuel Alfaro Contreras",
+              "anio": "3er año",
+              "foto": "",
+              "experiencia": [
+                "Participación de juez en una feria de ciencias en una escuela aquí en SPS",
+                "Participación en varios proyectos de universidad y buen trabajo en equipo"
               ],
               "propuestas": [
                 "Mejorar la coordinación del mecatón cada trimestre y tener más comunicación a la hora de organizarlo."
               ],
               "hobbies": [
                 "Jugar videojuegos",
-                "tocar batería",
-                "escuchar música."
+                "Tocar batería",
+                "Escuchar música"
               ]
             },
             {
@@ -2722,7 +2959,8 @@
               ],
               "hobbies": [
                 "Me gusta la tecnología",
-                "los carros y visitar lugares nuevos tal como pueblitos, países o culturas."
+                "Los carros",
+                "Visitar lugares nuevos tal como pueblitos, países o culturas"
               ]
             },
             {
@@ -2732,19 +2970,23 @@
               "foto": "",
               "experiencia": [
                 "Primer lugar BeginnersA mecaton Q1-2023",
-                "miembro activo del club guias jaguares desde el año 2023",
-                "miembro activo de organización de jóvenes",
-                "representante en olimpiadas de matemáticas 2018-2019",
-                "miembro de VEF2025."
+                "Miembro activo del club guias jaguares desde el año 2023",
+                "Miembro activo de organización de jóvenes",
+                "Representante en olimpiadas de matemáticas 2018-2019",
+                "Miembro de VEF2025"
               ],
               "propuestas": [
                 "Mejorar la comunicación y convivencia entre otros programas educativos",
-                "incentivar a la participación en actividades académicas",
-                "trabajo en equipo."
+                "Incentivar a la participación en actividades académicas",
+                "Trabajo en equipo"
               ],
               "hobbies": [
-                "Me gusta leer, cocinar, ver series, escuchar música, platicar y conocer personas (aunque al inicio no soy muy extrovertida).",
-                "También me gusta escribir y aprender un poco de todo."
+                "Me gusta leer",
+                "Cocinar",
+                "Ver series",
+                "Escuchar música",
+                "Platicar y conocer personas (aunque al inicio no soy muy extrovertida)",
+                "También me gusta escribir y aprender un poco de todo"
               ]
             }
           ]
