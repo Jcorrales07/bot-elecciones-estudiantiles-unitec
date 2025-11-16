@@ -2996,7 +2996,7 @@
           "carrera": "Ingeniería Civil",
           "candidatos": [
             {
-              "puesto": "",
+              "puesto": "Presidente",
               "nombre": "Juan Carlos Zaldivar Melgar",
               "anio": "3ero",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261162/299f4eb7-58d5-4917-b2b5-8d791b504590.png",
@@ -3025,7 +3025,7 @@
               ]
             },
             {
-              "puesto": "",
+              "puesto": "Vice Presidente",
               "nombre": "Elias Andres Espinal Urbina",
               "anio": "3ero",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261183/2731bab2-e4d3-4209-b6ba-e2fdf8304986.png",
@@ -3050,7 +3050,7 @@
               ]
             },
             {
-              "puesto": "",
+              "puesto": "Secretaria",
               "nombre": "Kassandra María Figueroa Puerto",
               "anio": "Tercer año de carrera",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261198/8f58fa90-9ee6-461c-8026-9918287ba3f1.png",
@@ -3073,7 +3073,7 @@
               ]
             },
             {
-              "puesto": "",
+              "puesto": "Tesorero",
               "nombre": "Jose Antonio Lopez Cervantes",
               "anio": "3er año",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261212/1db447d2-58ce-44f8-9ba0-efb71004fe20.png",
@@ -3094,7 +3094,7 @@
               ]
             },
             {
-              "puesto": "",
+              "puesto": "Coord. Primer Ingreso",
               "nombre": "Dylan Javier Pineda Johnson",
               "anio": "3ero",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261236/ce3c27a7-7629-4e7f-8168-15bf7a10e851.png",
@@ -3120,7 +3120,7 @@
               ]
             },
             {
-              "puesto": "",
+              "puesto": "Coord. Redes Sociales",
               "nombre": "Tristan David Aguirre López",
               "anio": "3ero",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261251/60d45131-63da-43f3-8dd8-30486a0fa5d5.png",
@@ -3150,7 +3150,7 @@
               ]
             },
             {
-              "puesto": "",
+              "puesto": "Coord. De Deportes",
               "nombre": "Rosa Victoria Garay Flores",
               "anio": "3er año",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261267/b1d0848d-1d33-41aa-9875-2e6f126906a9.png",
@@ -3174,7 +3174,7 @@
               ]
             },
             {
-              "puesto": "",
+              "puesto": "Coord. De Logística",
               "nombre": "Mia Daniela Symns Amaya",
               "anio": "3ero",
               "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261292/541d11b3-62c1-4f80-b31f-2de66ffe3092.png",
