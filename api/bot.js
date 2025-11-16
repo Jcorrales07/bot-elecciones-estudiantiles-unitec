@@ -15,12 +15,27 @@ import axios from "axios";
 const SHEETDB_USERS = "https://sheetdb.io/api/v1/hf1bioefj9483";  // <= CAMBIA ESTO
 const SHEETDB_EVENTS = "https://sheetdb.io/api/v1/1vg3wy8gzp0nh"; // <= CAMBIA ESTO
 
+function formatTimestamp() {
+  const d = new Date();
+  const pad = (n) => (n < 10 ? "0" + n : n);
+
+  const day = pad(d.getDate());
+  const month = pad(d.getMonth() + 1);
+  const year = d.getFullYear();
+
+  const hours = pad(d.getHours());
+  const minutes = pad(d.getMinutes());
+  const seconds = pad(d.getSeconds());
+
+  return `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`;
+}
+
 // 💾 Guardar o actualizar usuario
 async function upsertUser(ctx) {
   if (!ctx.from || !ctx.chat) return;
 
   const u = ctx.from;
-  const ts = Math.floor(Date.now() / 1000);
+  const ts = formatTimestamp();
 
   try {
     // Intentar actualizar si existe
