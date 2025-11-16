@@ -2778,7 +2778,7 @@
               "puesto": "Presidente",
               "nombre": "Carlos Alfredo Rubi Reyes",
               "anio": "Finalizando 3er año de la carrera",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261532/thumbnail_CARLOS_RUBI_qqiy2k.jpg",
               "experiencia": [
                 "4 años como presidente de grado en el colegio",
                 "1 año como presidente de gobierno de estudiantil en el colegio",
@@ -2801,7 +2801,7 @@
               "puesto": "Vicepresidente",
               "nombre": "Carlos Marcelo Alvarado Rivas",
               "anio": "3er año de la carrera",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261581/thumbnail_MARCELO_ALVARADO_l0xbo0.jpg",
               "experiencia": [
                 "El segundo mejor promedio de mi generación en Bachillerato en Humanidades",
                 "Actualmente ser becado por excelencia académica en UNITEC",
@@ -2825,7 +2825,7 @@
               "puesto": "Secretario",
               "nombre": "Diego Andrés Rivera Valle",
               "anio": "4rto año de la carrera",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261563/thumbnail_DIEGO_RIVERA_sizvv7.jpg",
               "experiencia": [
                 "He formado parte de la actual asociación de mecatrónica VEF25 como miembro activo del grupo de apoyo, pudiendo experimentar y visualizar muchas actividades de gran valor para mi carrera personal y profesional",
                 "También formo parte del equipo de tutores de unitec por más de un año y medio actualmente, especializado en el área de las ciencias y matemáticas",
@@ -2847,7 +2847,7 @@
               "puesto": "Tesorero",
               "nombre": "José Alejandro Rodas Godoy",
               "anio": "3er año de la carrera",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261575/thumbnail_JOS%C3%89_RODAS_rvieht.jpg",
               "experiencia": [
                 "1 año como tesorero en la asociación de ingeniera en mecatrónica (2025)"
               ],
@@ -2863,7 +2863,7 @@
               "puesto": "Coord. De Redes Sociales",
               "nombre": "David Eduardo Martínez Maldonado",
               "anio": "3er año de la carrera",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261541/thumbnail_DAVID_MART%C3%8DNEZ_rdrcy8.jpg",
               "experiencia": [
                 "Expresidente de club juvenil Rotario",
                 "Gestor de ciberseguridad e inventario en empresa (Agencia Eduardo Martínez)",
@@ -2883,7 +2883,7 @@
               "puesto": "Coord. De Primer Ingreso",
               "nombre": "César Valdez López",
               "anio": "3er Año",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261539/thumbnail_C%C3%89SAR_VALDEZ_qnrlej.jpg",
               "experiencia": [
                 "Agente del Cambio MecaAwards 2025",
                 "Líder del Club de Negocios Emprende+ UNITEC SPS 2025",
@@ -2909,7 +2909,7 @@
               "puesto": "Coord. De logística",
               "nombre": "Rafael Alejandro Zerón Cárdenas",
               "anio": "3er año",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261603/thumbnail_RAFAEL_ZER%C3%93N_fti8ox.jpg",
               "experiencia": [
                 "Miembro de consejo estudiantil en primaria",
                 "Vicepresidente de curso en el colegio",
@@ -2932,7 +2932,7 @@
               "puesto": "Coord. De Deportes",
               "nombre": "José Manuel Alfaro Contreras",
               "anio": "3er año",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261569/thumbnail_JOS%C3%89_ALFARO_gdu2vh.jpg",
               "experiencia": [
                 "Participación de juez en una feria de ciencias en una escuela aquí en SPS",
                 "Participación en varios proyectos de universidad y buen trabajo en equipo"
@@ -2950,7 +2950,7 @@
               "puesto": "Coord. Académico",
               "nombre": "Dennis Hernán Valladares Sánchez",
               "anio": "3er año",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261556/thumbnail_DENNIS_VALLADARES_hkmcvf.jpg",
               "experiencia": [
                 "Participación en varios proyectos y trabajo en equipo."
               ],
@@ -2967,7 +2967,7 @@
               "puesto": "Coord. De Relaciones Publicas",
               "nombre": "Adi Maricela Oyuela Ramirez",
               "anio": "3er año",
-              "foto": "",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261520/thumbnail_ADI_OYUELA_s1czat.jpg",
               "experiencia": [
                 "Primer lugar BeginnersA mecaton Q1-2023",
                 "Miembro activo del club guias jaguares desde el año 2023",
@@ -2994,7 +2994,211 @@
         {
           "nombre": "AECI",
           "carrera": "Ingeniería Civil",
-          "candidatos": []
+          "candidatos": [
+            {
+              "puesto": "",
+              "nombre": "Juan Carlos Zaldivar Melgar",
+              "anio": "3ero",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261162/299f4eb7-58d5-4917-b2b5-8d791b504590.png",
+              "experiencia": [
+                "Tercer Lugar Nivel Demostración Experimental I Expo Ingeniería Civil Q1 2023 ",
+                "Segundo Lugar Nivel Demostración Experimental I Expo Ingeniería Civil Q4 2024 ",
+                "Coordinador de Primer ingreso  2025 ",
+                "Instructor de laboratorio  2025 ",
+                "Coordinador de horas de vinculación "
+              ],
+              "propuestas": [
+                "Capacitaciones y Charlas Informativas ",
+                "Busco brindar a los estudiantes oportunidades para fortalecer sus conocimientos prácticos y técnicos a través de talleres y cursos complementarios. ",
+                "La idea es ofrecer capacitaciones gratuitas o de bajo costo en software y temas clave de la carrera, como AutoCAD, Civil 3D, Revit. ",
+                "Actividades Extracurriculares ",
+                "Como objetivo fortalecer la unidad, el espíritu civil y el desarrollo personal de todos los estudiantes. ",
+                "Se promoverán eventos y actividades fuera del aula, como concursos técnicos, convivios, visitas a obras, jornadas de voluntariado y charlas motivacionales o de liderazgo. ",
+                "Apoyo en Talleres ",
+                "El propósito de esta iniciativa es mejorar la experiencia práctica en los laboratorios y talleres de la carrera. ",
+                "Se busca implementar un sistema de apoyo y acompañamiento entre estudiantes, donde alumnos con más experiencia colaboren en la preparación y ejecución de prácticas, ayudando a los que recién inician. "
+              ],
+              "hobbies": [
+                "Disfruto de jugar videojuegos ",
+                "salir con amigos ",
+                "la fiesta "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Elias Andres Espinal Urbina",
+              "anio": "3ero",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261183/2731bab2-e4d3-4209-b6ba-e2fdf8304986.png",
+              "experiencia": [
+                "Tercer Lugar Nivel Demostración Experimental I Expo Ingeniería Civil Q1 2023 ",
+                "Primer Lugar Nivel Demostración Experimental II Expo ingeniería Civil Q2 2024 "
+              ],
+              "propuestas": [
+                "Red de apoyo entre compañeros ",
+                "Crear espacios donde los alumnos puedan ayudarse entre sí y compartir experiencias. ",
+                "Promoción de la participación estudiantil ",
+                "Motivar a los nuevos alumnos a integrarse en clubes, talleres o grupos estudiantiles. ",
+                "Escucha activa y empatía ",
+                "Estar disponible para escuchar y brindar apoyo emocional cuando se necesite. "
+              ],
+              "hobbies": [
+                "Disfruto salir con amigos ",
+                "pasar tiempo en familia ",
+                "ver series y películas ",
+                "viajar ",
+                "jugar videojuegos "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Kassandra María Figueroa Puerto",
+              "anio": "Tercer año de carrera",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261198/8f58fa90-9ee6-461c-8026-9918287ba3f1.png",
+              "experiencia": [
+                "En el transcurso de mi formación universitaria he participado en varios proyectos de vinculación ",
+                "estas experiencias han sido muy significativas para mí ",
+                "Gracias a ellas aprendí a liberar con responsabilidad ",
+                "organizar actividades ",
+                "coordinarme con personas para alcanzar metas en común "
+              ],
+              "propuestas": [
+                "Propongo conformar un equipo organizado que garantice la correcta coordinación de los laboratorios. ",
+                "Evitando retrasos o confusiones en las fechas ",
+                "asegurando que cada estudiante conozca con claridad sus responsabilidades y el momento oportuno para cumplirlas "
+              ],
+              "hobbies": [
+                "disfruto mucho de leer libros ",
+                "me encanta ver películas ",
+                "en mis tiempos libres juego voleibol "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Jose Antonio Lopez Cervantes",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261212/1db447d2-58ce-44f8-9ba0-efb71004fe20.png",
+              "experiencia": [
+                "Coordinador de Actividades de la planilla de ASEBEC 2024 ",
+                "Integrante del equipo representativo de voleibol UNITEC "
+              ],
+              "propuestas": [
+                "Apoyo en la adaptación y bienestar estudiantil ",
+                "Fomento del trabajo en equipo y la integración ",
+                "Comunicación cercana y constante "
+              ],
+              "hobbies": [
+                "Voleibol ",
+                "Ver anime ",
+                "Cocinar ",
+                "Ver películas "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Dylan Javier Pineda Johnson",
+              "anio": "3ero",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261236/ce3c27a7-7629-4e7f-8168-15bf7a10e851.png",
+              "experiencia": [
+                "Tesorero  Año 2025 ",
+                "Primer Lugar Nivel Demostración Experimental II Expo Ingeniería Civil Q4 2024 "
+              ],
+              "propuestas": [
+                "Apoyo en la adaptación y bienestar estudiantil ",
+                "Brindar acompañamiento a los estudiantes de primer ingreso para que se sientan cómodos en su nueva etapa, ofreciéndoles orientación y apoyo en lo académico y personal. ",
+                "Fomento del trabajo en equipo y la integración ",
+                "Organizar actividades y dinámicas que promuevan la convivencia, el compañerismo y la colaboración entre los nuevos estudiantes, fortaleciendo el sentido de comunidad y pertenencia desde el inicio. ",
+                "Comunicación cercana y constante ",
+                "Mantener un contacto directo y accesible con los estudiantes para informar, escuchar y atender sus necesidades de forma oportuna. "
+              ],
+              "hobbies": [
+                "Disfruto de jugar videojuegos ",
+                "ver series y películas ",
+                "realizar actividades físicas ",
+                "viajar ",
+                "conducir ",
+                "pasar tiempo en familia "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Tristan David Aguirre López",
+              "anio": "3ero",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261251/60d45131-63da-43f3-8dd8-30486a0fa5d5.png",
+              "experiencia": [
+                "Primer Lugar Nivel Demostración Experimental I Expo Ingeniería Civil Q2 2024 ",
+                "Segundo Lugar Nivel Demostración Experimental II Expo Ingeniería Civil Q4 2024 ",
+                "Premiación por alto índice general 2023 ",
+                "Premiación por alto índice en  año 2024 y 2025 "
+              ],
+              "propuestas": [
+                "Comunicación Clara ",
+                "Mantener las redes sociales siempre actualizadas con información importante y confiable. ",
+                "De esta manera, estudiantes, docentes y la comunidad en general podrán estar al tanto de actividades, eventos y avisos, fortaleciendo así la comunicación interna y externa de la carrera. ",
+                "Imagen sólida y atractiva ",
+                "Crear una línea visual bien definida para que las redes tengan un estilo propio, organizado y representativo. ",
+                "Esto permitirá proyectar una imagen más profesional, captar mejor la atención y dar mayor valor a cada publicación que se realice. ",
+                "Comunidad conectada ",
+                "Fomentar la participación de estudiantes y docentes mediante actividades interactivas, historias y reconocimientos. ",
+                "Esto ayudará a que las redes no solo informen, sino que también se conviertan en un espacio dinámico, cercano y representativo de todos. "
+              ],
+              "hobbies": [
+                "Disfruto de jugar videojuegos ",
+                "dibujar ",
+                "asistir al gimnasio ",
+                "ver series o películas ",
+                "viajar "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Rosa Victoria Garay Flores",
+              "anio": "3er año",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261267/b1d0848d-1d33-41aa-9875-2e6f126906a9.png",
+              "experiencia": [
+                "Coordinadora de deportes  Año 2024 ",
+                "Primer lugar poster Expo ingeniería Q2 2025 "
+              ],
+              "propuestas": [
+                "Una de las principales propuestas es el diseño e implementación de un plan anual de actividades deportivas, que contemple un calendario organizado con torneos internos, exhibiciones, convivencias y actividades recreativas. ",
+                "También se crearán ligas recreativas enfocadas en la integración y la diversión, permitiendo que más personas se involucren sin centrarse exclusivamente en el rendimiento competitivo. ",
+                "Se organizarán entrenamientos regulares dirigidos por entrenadores capacitados, y se brindará apoyo con uniformes, materiales deportivos y traslados a competencias, garantizando condiciones adecuadas para el desarrollo deportivo de los participantes. "
+              ],
+              "hobbies": [
+                "Escuchar música ",
+                "leer ",
+                "cocinar ",
+                "ver películas ",
+                "hacer deportes ",
+                "jugar videojuegos ",
+                "ver anime "
+              ]
+            },
+            {
+              "puesto": "",
+              "nombre": "Mia Daniela Symns Amaya",
+              "anio": "3ero",
+              "foto": "https://res.cloudinary.com/dt6rtc4ve/image/upload/v1763261292/541d11b3-62c1-4f80-b31f-2de66ffe3092.png",
+              "experiencia": [
+                "Segundo Lugar Nivel Poster Session - Expo Ingeniería Civil Q2 2025 ",
+                "Segundo lugar Copa Unitec Q2 2024 "
+              ],
+              "propuestas": [
+                "Apoyo logístico en proyectos académicos ",
+                "Ayudar a gestionar espacios, materiales o recursos cuando los estudiantes lo necesiten. ",
+                "Apoyo en eventos estudiantiles ",
+                "Brindar acompañamiento logístico antes, durante y después de cada evento, asegurando una buena organización, puntualidad y coordinación entre las distintas áreas involucradas. ",
+                "Mantener Apoyo logístico en proyectos académicos ",
+                "Ofrecer asistencia en la gestión de materiales, equipos o espacios requeridos para trabajos, exposiciones y actividades prácticas de los estudiantes. "
+              ],
+              "hobbies": [
+                "Disfruto de ver series y películas ",
+                "jugar voleibol ",
+                "viajar ",
+                "escuchar música ",
+                "tocar instrumentos "
+              ]
+            }
+          ]
         }
       ]
     },
