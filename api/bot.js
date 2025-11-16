@@ -69,7 +69,7 @@ async function upsertUser(ctx) {
 async function logEvent(ctx) {
   const u = ctx.from;
   const chat = ctx.chat;
-  const ts = Math.floor(Date.now() / 1000);
+  const ts = formatDateLocal(new Date())
 
   if (!u || !chat) return;
 
