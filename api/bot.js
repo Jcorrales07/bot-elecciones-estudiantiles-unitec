@@ -15,12 +15,25 @@ import axios from "axios";
 const SHEETDB_USERS = "https://sheetdb.io/api/v1/hf1bioefj9483";  // <= CAMBIA ESTO
 const SHEETDB_EVENTS = "https://sheetdb.io/api/v1/1vg3wy8gzp0nh"; // <= CAMBIA ESTO
 
+function formatDateLocal(date) {
+  return date.toLocaleString("es-HN", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false
+  });
+}
+
+
 // 💾 Guardar o actualizar usuario
 async function upsertUser(ctx) {
   if (!ctx.from || !ctx.chat) return;
 
   const u = ctx.from;
-  const ts = new Date()
+  const ts = formatDateLocal(new Date())
 
   try {
     // Intentar actualizar si existe
