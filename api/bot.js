@@ -20,7 +20,7 @@ async function upsertUser(ctx) {
   if (!ctx.from || !ctx.chat) return;
 
   const u = ctx.from;
-  const ts = Date.now()
+  const ts = new Date()
 
   try {
     // Intentar actualizar si existe
