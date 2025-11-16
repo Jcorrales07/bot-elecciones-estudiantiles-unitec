@@ -9,6 +9,87 @@ if (!BOT_TOKEN) console.error('⚠️ Falta BOT_TOKEN');
 
 const bot = new Telegraf(BOT_TOKEN);
 
+// tracking de usuarios para sacar estadisticas
+import axios from "axios";
+
+const SHEETDB_USERS = "https://sheetdb.io/api/v1/hf1bioefj9483";  // <= CAMBIA ESTO
+const SHEETDB_EVENTS = "https://sheetdb.io/api/v1/1vg3wy8gzp0nh"; // <= CAMBIA ESTO
+
+// 💾 Guardar o actualizar usuario
+async function upsertUser(ctx) {
+  if (!ctx.from || !ctx.chat) return;
+
+  const u = ctx.from;
+  const ts = Math.floor(Date.now() / 1000);
+
+  try {
+    // Intentar actualizar si existe
+    await axios.patch(`${SHEETDB_USERS}/user_id/${u.id}`, {
+      data: {
+        username: u.username || "",
+        first_name: u.first_name || "",
+        chat_id: ctx.chat.id,
+        last_seen: ts
+      }
+    });
+  } catch (err) {
+    // Si no existe, insertar nuevo
+    if (err.response && err.response.status === 404) {
+      await axios.post(SHEETDB_USERS, {
+        data: [
+          {
+            user_id: u.id,
+            username: u.username || "",
+            first_name: u.first_name || "",
+            chat_id: ctx.chat.id,
+            last_seen: ts
+          }
+        ]
+      });
+    } else {
+      console.error("Error upsertUser:", err.message);
+    }
+  }
+}
+
+// 💾 Guardar evento
+async function logEvent(ctx) {
+  const u = ctx.from;
+  const chat = ctx.chat;
+  const ts = Math.floor(Date.now() / 1000);
+
+  if (!u || !chat) return;
+
+  const text =
+    (ctx.message && ctx.message.text) ||
+    (ctx.callbackQuery && ctx.callbackQuery.data) ||
+    "";
+
+  await axios.post(SHEETDB_EVENTS, {
+    data: [
+      {
+        user_id: u.id,
+        update_type: ctx.updateType,
+        text,
+        chat_id: chat.id,
+        ts
+      }
+    ]
+  });
+}
+
+// === MIDDLEWARE GLOBAL ===
+bot.use(async (ctx, next) => {
+  try {
+    await upsertUser(ctx);
+    await logEvent(ctx);
+  } catch (err) {
+    console.error("Error logging:", err.message);
+  }
+  return next();
+});
+
+
 function escapeMarkdownV2(text) {
   return text
     .replace(/[_*[\]()~`>#+\-=|{}.!]/g, '\\$&'); // escapado de caracteres especiales
